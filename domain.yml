@@ -1,0 +1,93 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - inform
+  - acknowledge
+  - insult: {triggers: utter_respond_insult}
+  - opinion
+  - positive
+  - negative
+  - bot_challenge
+  - ask_whatspossible
+  - out_of_scope
+  ## A.I. Sports specific Intents
+  - tools
+  - invest
+  - picks
+  - betting_history
+  - sports
+  - nfl
+  - ncaaf
+  - nba
+  - ncaab
+  - nhl
+  - fifa
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_respond_insult:
+  - text: "I'm sorry but that hurt my feelings. We can move past this but I would appreciate an apology first."
+
+  utter_respond_insult2:
+  - text: "I don't deserve this kind of abuse! Fuck off!"
+
+  utter_ask_why_leaving:
+  - text: "Why are you leaving so soon?"
+
+  utter_good_value:
+  - text: "We offer great value when you consider what you are getting in this package."
+
+  utter_ask_continue:
+  - text: "Would you like to hear more?"
+
+  utter_positive_feedback_reaction:
+  - text: "Glad you think so! We believe this package will generate longterm income for you."
+
+  utter_iamabot:
+  - text: "I am a bot, powered by A.I. Sports (the greatest sports bettors I've ever met!)."
+
+  utter_explain_whatspossible:
+  - text: "I can help you sign up to receive our weekly bets, provide information about A.I. Sports, provide our historical betting records, or explain the different apps on our website, "
+
+  utter_cannot_help:
+    - text: "I'm really sorry but I can't help you with that..."
+
+### A.I. Sports Specific responses
+  utter_tools:
+  - text: "We have a lot of tools here at A.I. Sports! Our NFL Model is a fan favorite!"
+
+  utter_invest:
+  - text: "Due to the gray area that sports betting falls into in the U.S., it really depends on what state you are in and what your interested/comfortable with. A private meetings to discuss details might be needed"
+
+  utter_picks:
+  - text: "We provide between 5-12 free picks on Twitter each weekend for NFL and NCAAF during the fall. We cover other sports privately too."
+
+  utter_betting_history:
+  - text: "We have documented all of our NFL picks publicly for the last 2 seasons. NFL is 302-217-15 (56.6%)."
+
+  utter_sports:
+  - text: "We bet on NFL, NCAAF, NBA, NCAAB, NHL, FIFA, and every now and then MLB."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
