@@ -60,16 +60,19 @@
 - got it
 - understood
 - k
+- that makes sense
 
 ## intent:opinion+positive
 - nice!
 - excellent
 - that's awesome
+- very nice!
 
 ## intent:opinion+negative
 - ugh
 - that sucks
 - woah! that's [expensive](price)
+- damn man that's rough
 
 
 ## intent:inform
@@ -87,6 +90,7 @@
 - what do you use?
 - is there anything free to use?
 - Can I do this on my own?
+- How do you guys do what you do?
 
 ## intent:invest
 - How can I invest with you guys?
@@ -104,6 +108,9 @@
 - i am interested in your betting advice?
 - i am interested in your picks?
 - can i get some picks?
+- I'm looking for what teams to bet on this week.
+- who should i bet on?
+- who is the best team to bet?
 
 ## intent:betting_history
 - What is your betting history?
