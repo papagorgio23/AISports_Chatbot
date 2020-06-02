@@ -140,6 +140,9 @@
 - Can I get some help with modeling the [NFL](Sport)?
 - Can I get some help with modeling [pro football](Sport)?
 - Can I get some help with modeling [professional football](Sport)?
+- What do you think about the [National Football League](Sport)
+- do you bet the [nfl](Sport)?
+- [Pro football](Sport) is my favorite sport
 
 ## intent:ncaaf
 - Do you bet on [college football](Sport)?
