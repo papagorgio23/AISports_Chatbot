@@ -5,6 +5,10 @@
 - good morning
 - good evening
 - hey there
+- Hey man
+- well hello there
+- what up
+- Howdy!
 
 ## intent:goodbye
 - bye
@@ -48,6 +52,8 @@
 - not very good
 - extremely sad
 - so sad
+- i'm sad
+- Terrible.  My life is in shambles.
 
 ## intent:bot_challenge
 - are you a bot?
@@ -67,6 +73,7 @@
 - excellent
 - that's awesome
 - very nice!
+- Actually, it did!  Thank you!
 
 ## intent:opinion+negative
 - ugh
@@ -99,6 +106,8 @@
 - How do I invest?
 - Can I just give you money?
 - What type of investment opportunities are there?
+- I need to make money
+- i'm fine... I need help making some money
 
 ## intent:picks
 - do you give out free picks?
@@ -116,6 +125,8 @@
 - What's your record?
 - What's your ROI?
 - How many units have you guys won?
+- Why should I trust you for betting advice?
+- how is your betting record?
 
 ## intent:sports
 - What sports do you guys bet on?
@@ -124,6 +135,7 @@
 - Which sports are best?
 - What type of investments do you make?
 - Is there a particular sport you focus on?
+- what does A.I. Sports actually do?
 
 ## intent:nfl
 - Do you bet on [pro football](Sport)?
@@ -143,6 +155,7 @@
 - What do you think about the [National Football League](Sport)
 - do you bet the [nfl](Sport)?
 - [Pro football](Sport) is my favorite sport
+- Do you bet on football?
 
 ## intent:ncaaf
 - Do you bet on [college football](Sport)?
@@ -221,3 +234,15 @@
 - How's it going?
 - you doing alright?
 - you doing ight?
+- I'm doing great! How are you?
+- how are you?
+
+## intent:apology
+- I'm sorry...
+- I'm sorry
+
+## intent:how_to_help
+- uhh... you didn't help me
+
+## intent:out_of_scope
+- You're going to send me a package of tiger cubs? Isn't that illegal?
