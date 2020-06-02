@@ -74,7 +74,6 @@
 - woah! that's [expensive](price)
 - damn man that's rough
 
-
 ## intent:inform
 - [Ian](name)
 - [Pat](name)
@@ -83,7 +82,6 @@
 - my names is [Amanda](name)
 - it is on [Sunday](date)
 - The game is [Saturday](date)
-
 
 ## intent:tools
 - what tools do you have?
@@ -101,7 +99,6 @@
 - How do I invest?
 - Can I just give you money?
 - What type of investment opportunities are there?
-
 
 ## intent:picks
 - do you give out free picks?
@@ -127,7 +124,6 @@
 - Which sports are best?
 - What type of investments do you make?
 - Is there a particular sport you focus on?
-
 
 ## intent:nfl
 - Do you bet on pro football?
@@ -213,3 +209,6 @@
 - Can I get some help with modeling futbol?
 - Can I get some help with modeling soccer?
 - Do you do any soccer betting?
+
+## intent:well_being_ask
+- I'm doing well. How are you?

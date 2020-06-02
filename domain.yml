@@ -31,6 +31,8 @@ intents:
 - fifa
 - opinion+negative
 - opinion+positive
+- return_greet
+- well_being_ask
 entities:
 - price
 - name
@@ -85,6 +87,12 @@ responses:
       NFL is 302-217-15 (56.6%).
   utter_sports:
   - text: We bet on NFL, NCAAF, NBA, NCAAB, NHL, FIFA, and every now and then MLB.
+  utter_pleasant_greet:
+  - text: It's a great day to be alive!
+  utter_well_being:
+  - text: It's a great day to be alive!
+  utter_help_you:
+  - text: How can I help you today?
 actions:
 - utter_greet
 - utter_cheer_up
@@ -105,3 +113,6 @@ actions:
 - utter_picks
 - utter_betting_history
 - utter_sports
+- utter_pleasant_greet
+- utter_well_being
+- utter_help_you
