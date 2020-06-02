@@ -10,6 +10,7 @@
 - what up
 - Howdy!
 - what's good
+- Hey hey!
 
 ## intent:goodbye
 - bye
@@ -122,6 +123,7 @@
 - I'm looking for what teams to bet on this week.
 - who should i bet on?
 - who is the best team to bet?
+- I am looking to get some help on who to bet on this weekend
 
 ## intent:betting_history
 - What is your betting history?
@@ -141,6 +143,7 @@
 - What type of investments do you make?
 - Is there a particular sport you focus on?
 - what does A.I. Sports actually do?
+- Oh that's great! What sports do you guys bet on?
 
 ## intent:nfl
 - Do you bet on [pro football](Sport)?
