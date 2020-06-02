@@ -11,6 +11,7 @@
 - Howdy!
 - what's good
 - Hey hey!
+- hey hey my man!
 
 ## intent:goodbye
 - bye
@@ -18,6 +19,7 @@
 - see you around
 - see you later
 - nope. That's it!
+- peace out son
 
 ## intent:affirm
 - yes
@@ -45,6 +47,7 @@
 - I'm good
 - I'm doing pretty alright
 - Can't complain
+- I'm doing great today! No complaints!
 
 ## intent:mood_unhappy
 - sad
@@ -102,6 +105,8 @@
 - is there anything free to use?
 - Can I do this on my own?
 - How do you guys do what you do?
+- Do you use any specialized tools or anything like that?
+- well I'm wanting to make some more money. I'm currently betting alot of sports but not winning as much as I would like... Do you have anything to help improve my process?
 
 ## intent:invest
 - How can I invest with you guys?
@@ -254,3 +259,7 @@
 
 ## intent:out_of_scope
 - You're going to send me a package of tiger cubs? Isn't that illegal?
+
+## intent:sign_up
+- of course! How can I sign up
+- I want to sign up

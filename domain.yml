@@ -12,9 +12,6 @@ intents:
 - acknowledge
 - insult:
     triggers: utter_respond_insult
-- opinion
-- positive
-- negative
 - bot_challenge
 - ask_whatspossible
 - out_of_scope
@@ -31,10 +28,10 @@ intents:
 - fifa
 - opinion+negative
 - opinion+positive
-- return_greet
 - well_being_ask
 - apology
 - how_to_help
+- sign_up
 entities:
 - price
 - name
