@@ -61,10 +61,19 @@
   - utter_respond_insult2
   - utter_goodbye
 
-## New Story
+## Start Help
 
 * greet
     - utter_greet
 * well_being_ask
     - utter_well_being
+    - utter_help_you
+
+## Pleasant Intro
+
+* greet
+    - utter_pleasant_greet
+    - utter_how_are_you
+* mood_great
+    - utter_good
     - utter_help_you

@@ -9,6 +9,7 @@
 - well hello there
 - what up
 - Howdy!
+- what's good
 
 ## intent:goodbye
 - bye
@@ -40,6 +41,7 @@
 - I am feeling very good
 - I am great
 - I'm good
+- I'm doing pretty alright
 
 ## intent:mood_unhappy
 - sad

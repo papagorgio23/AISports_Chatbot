@@ -33,10 +33,13 @@ intents:
 - opinion+positive
 - return_greet
 - well_being_ask
+- apology
+- how_to_help
 entities:
 - price
 - name
 - date
+- Sport
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -54,7 +57,7 @@ responses:
   - text: I'm sorry but that hurt my feelings. We can move past this but I would appreciate
       an apology first.
   utter_respond_insult2:
-  - text: I don't deserve this kind of abuse! Fuck off!
+  - text: I don't deserve this kind of abuse!
   utter_ask_why_leaving:
   - text: Why are you leaving so soon?
   utter_good_value:
@@ -93,6 +96,11 @@ responses:
   - text: It's a great day to be alive!
   utter_help_you:
   - text: How can I help you today?
+  utter_how_are_you:
+  - text: How are you doing?
+  utter_good:
+  - text: That's good to hear
+  - text: ''
 actions:
 - utter_greet
 - utter_cheer_up
@@ -116,3 +124,5 @@ actions:
 - utter_pleasant_greet
 - utter_well_being
 - utter_help_you
+- utter_how_are_you
+- utter_good
