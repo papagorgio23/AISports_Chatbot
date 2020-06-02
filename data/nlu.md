@@ -126,89 +126,95 @@
 - Is there a particular sport you focus on?
 
 ## intent:nfl
-- Do you bet on pro football?
-- Do you bet on professional football?
-- Do you bet on the NFL?
-- What do you think about the NFL?
-- What do you think about pro football?
-- What do you think about professional football?
-- Is pro football a big part of your investments?
-- Is professional football a big part of your investments?
-- Is the NFL a big part of your investments?
-- Is pro football a big part of your betting strategy?
-- Is the NFL a big part of your betting strategy?
-- Can I get some help with modeling the NFL?
-- Can I get some help with modeling pro football?
-- Can I get some help with modeling professional football?
+- Do you bet on [pro football](Sport)?
+- Do you bet on [professional football](Sport)?
+- Do you bet on the [NFL](Sport)?
+- What do you think about the [NFL](Sport)?
+- What do you think about [pro football](Sport)?
+- What do you think about [professional football](Sport)?
+- Is [pro football](Sport) a big part of your investments?
+- Is [professional football](Sport) a big part of your investments?
+- Is the [NFL](Sport) a big part of your investments?
+- Is [pro football](Sport) a big part of your betting strategy?
+- Is the [NFL](Sport) a big part of your betting strategy?
+- Can I get some help with modeling the [NFL](Sport)?
+- Can I get some help with modeling [pro football](Sport)?
+- Can I get some help with modeling [professional football](Sport)?
 
 ## intent:ncaaf
-- Do you bet on college football?
-- Do you bet on NCAA football?
-- What do you think about NCAA football?
-- What do you think about college football?
-- Is college football a big part of your investments?
-- Is NCAA football a big part of your investments?
-- Is college football a big part of your betting strategy?
-- Is NCAA football a big part of your betting strategy?
-- Can I get some help with modeling NCAA football?
-- Can I get some help with modeling college football?
+- Do you bet on [college football](Sport)?
+- Do you bet on [NCAA football](Sport)?
+- What do you think about [NCAA football](Sport)?
+- What do you think about [college football](Sport)?
+- Is [college football](Sport) a big part of your investments?
+- Is [NCAA football](Sport) a big part of your investments?
+- Is [college football](Sport) a big part of your betting strategy?
+- Is [NCAA football](Sport) a big part of your betting strategy?
+- Can I get some help with modeling [NCAA football](Sport)?
+- Can I get some help with modeling [college football](Sport)?
 
 ## intent:nba
-- Do you bet on pro basketball?
-- Do you bet on professional basketball?
-- Do you bet on the NBA?
-- What do you think about the NBA?
-- What do you think about pro basketball?
-- What do you think about professional basketball?
-- Is pro basketball a big part of your investments?
-- Is professional basketball a big part of your investments?
-- Is the NBA a big part of your investments?
-- Is pro basketball a big part of your betting strategy?
-- Is the NBA a big part of your betting strategy?
-- Can I get some help with modeling the NBA?
-- Can I get some help with modeling pro basketball?
-- Can I get some help with modeling professional basketball?
+- Do you bet on [pro basketball](Sport)?
+- Do you bet on [professional basketball](Sport)?
+- Do you bet on the [NBA](Sport)?
+- What do you think about the [NBA](Sport)?
+- What do you think about [pro basketball](Sport)?
+- What do you think about [professional basketball](Sport)?
+- Is [pro basketball](Sport) a big part of your investments?
+- Is [professional basketball](Sport) a big part of your investments?
+- Is the [NBA](Sport) a big part of your investments?
+- Is [pro basketball](Sport) a big part of your betting strategy?
+- Is the [NBA](Sport) a big part of your betting strategy?
+- Can I get some help with modeling the [NBA](Sport)?
+- Can I get some help with modeling [pro basketball](Sport)?
+- Can I get some help with modeling [professional basketball](Sport)?
 
 ## intent:ncaab
-- Do you bet on college basketball?
-- Do you bet on NCAA basketball?
-- What do you think about NCAA basketball?
-- What do you think about college basketball?
-- Is college basketball a big part of your investments?
-- Is NCAA basketball a big part of your investments?
-- Is college basketball a big part of your betting strategy?
-- Is NCAA basketball a big part of your betting strategy?
-- Can I get some help with modeling NCAA basketball?
-- Can I get some help with modeling college basketball?
+- Do you bet on [college basketball](Sport)?
+- Do you bet on [NCAA basketball](Sport)?
+- What do you think about [NCAA basketball](Sport)?
+- What do you think about [college basketball](Sport)?
+- Is [college basketball](Sport) a big part of your investments?
+- Is [NCAA basketball](Sport) a big part of your investments?
+- Is [college basketball](Sport) a big part of your betting strategy?
+- Is [NCAA basketball](Sport) a big part of your betting strategy?
+- Can I get some help with modeling [NCAA basketball](Sport)?
+- Can I get some help with modeling [college basketball](Sport)?
 
 ## intent:nhl
-- Do you bet on pro hockey?
-- Do you bet on professional hockey?
-- Do you bet on the NHL?
-- What do you think about the NHL?
-- What do you think about pro hockey?
-- What do you think about professional hockey?
-- Is pro hockey a big part of your investments?
-- Is professional hockey a big part of your investments?
-- Is the NHL a big part of your investments?
-- Is pro hockey a big part of your betting strategy?
-- Is the NHL a big part of your betting strategy?
-- Can I get some help with modeling the NHL?
-- Can I get some help with modeling pro hockey?
-- Can I get some help with modeling professional hockey?
+- Do you bet on [pro hockey](Sport)?
+- Do you bet on [professional hockey](Sport)?
+- Do you bet on the [NHL](Sport)?
+- What do you think about the [NHL](Sport)?
+- What do you think about [pro hockey](Sport)?
+- What do you think about [professional hockey](Sport)?
+- Is [pro hockey](Sport) a big part of your investments?
+- Is [professional hockey](Sport) a big part of your investments?
+- Is the [NHL](Sport) a big part of your investments?
+- Is [pro hockey](Sport) a big part of your betting strategy?
+- Is the [NHL](Sport) a big part of your betting strategy?
+- Can I get some help with modeling the [NHL](Sport)?
+- Can I get some help with modeling [pro hockey](Sport)?
+- Can I get some help with modeling [professional hockey](Sport)?
 
 ## intent:fifa
-- Do you bet on soccer?
-- Do you bet on futbol?
-- What do you think about soccer?
-- What do you think about futbol?
-- Is soccer a big part of your investments?
-- Is futbol a big part of your investments?
-- Is soccer a big part of your betting strategy?
-- Is futbol a big part of your betting strategy?
-- Can I get some help with modeling futbol?
-- Can I get some help with modeling soccer?
-- Do you do any soccer betting?
+- Do you bet on [soccer](Sport)?
+- Do you bet on [futbol](Sport)?
+- What do you think about [soccer](Sport)?
+- What do you think about [futbol](Sport)?
+- Is [soccer](Sport) a big part of your investments?
+- Is [futbol](Sport) a big part of your investments?
+- Is [soccer](Sport) a big part of your betting strategy?
+- Is [futbol](Sport) a big part of your betting strategy?
+- Can I get some help with modeling [futbol](Sport)?
+- Can I get some help with modeling [soccer](Sport)?
+- Do you do any [soccer](Sport) betting?
+- I have an interest in [soccer](Sport)
+- [Soccer](Sport) is my favorite sport
 
 ## intent:well_being_ask
 - I'm doing well. How are you?
+- How are you?
+- How's it going?
+- you doing alright?
+- you doing ight?
