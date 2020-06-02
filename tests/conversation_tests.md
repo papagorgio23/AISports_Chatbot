@@ -1,5 +1,6 @@
-#### This file contains tests to evaluate that your bot behaves as expected.
-#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/user-guide/testing-your-assistant/
+## ## This file contains tests to evaluate that your bot behaves as expected.
+
+## ## If you want to learn more, please see the docs: https://rasa.com/docs/rasa/user-guide/testing-your-assistant/
 
 ## happy path 1
 * greet: hello there!
@@ -49,3 +50,22 @@
 ## bot challenge
 * bot_challenge: are you a bot?
   - utter_iamabot
+
+## New Story
+
+* greet: Hey hey!
+    - utter_greet
+* mood_great: Can't complain
+    - utter_good
+    - utter_help_you
+* picks: I am looking to get some help on who to bet on this weekend
+    - utter_picks
+* sports: Oh that's great! What sports do you guys bet on?
+    - utter_sports
+* betting_history: How good are you guys?
+    - utter_betting_history
+* opinion+positive: That's impressive!
+    - utter_thanks
+    - utter_anything_else
+* goodbye: nope. That's it!
+    - utter_goodbye

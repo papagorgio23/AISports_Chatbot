@@ -16,6 +16,7 @@
 - goodbye
 - see you around
 - see you later
+- nope. That's it!
 
 ## intent:affirm
 - yes
@@ -42,6 +43,7 @@
 - I am great
 - I'm good
 - I'm doing pretty alright
+- Can't complain
 
 ## intent:mood_unhappy
 - sad
@@ -76,6 +78,7 @@
 - that's awesome
 - very nice!
 - Actually, it did!  Thank you!
+- That's impressive!
 
 ## intent:opinion+negative
 - ugh

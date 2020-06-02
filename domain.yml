@@ -50,6 +50,8 @@ responses:
     text: 'Here is something to cheer you up:'
   utter_did_that_help:
   - text: Did that help you?
+  - text: Was that helpful at all?
+  - text: Did that help?
   utter_happy:
   - text: Great, carry on!
   utter_goodbye:
@@ -113,6 +115,8 @@ responses:
   - text: It's a great day to be alive!
   utter_well_being:
   - text: It's a great day to be alive!
+  - text: I can't complain
+  - text: Life is good!
   utter_help_you:
   - text: How can I help you today?
   - text: How could I be of service?
@@ -122,8 +126,20 @@ responses:
   utter_how_are_you:
   - text: How are you doing?
   - text: How's it going?
+  - text: What's good?
   utter_good:
   - text: That's good to hear
+  - text: That's awesome!
+  - text: Very nice!
+  utter_thanks:
+  - text: Thank you!
+  - text: Thanks!
+  utter_anything_else:
+  - text: Is there anything else I could help you with?
+  - text: Anything else I can do for you today?
+  - text: Anything else I could do for you?
+  - text: Anything else I can do for you?
+  - text: Anything else I could do for you today?
 actions:
 - utter_greet
 - utter_cheer_up
@@ -149,3 +165,5 @@ actions:
 - utter_help_you
 - utter_how_are_you
 - utter_good
+- utter_thanks
+- utter_anything_else

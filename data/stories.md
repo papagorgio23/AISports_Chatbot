@@ -77,3 +77,22 @@
 * mood_great
     - utter_good
     - utter_help_you
+
+## Full Convo 1
+
+* greet
+    - utter_greet
+* mood_great
+    - utter_good
+    - utter_help_you
+* picks
+    - utter_picks
+* sports
+    - utter_sports
+* betting_history
+    - utter_betting_history
+* opinion+positive
+    - utter_thanks
+    - utter_anything_else
+* goodbye
+    - utter_goodbye
