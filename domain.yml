@@ -43,6 +43,8 @@ entities:
 responses:
   utter_greet:
   - text: Hey! How are you?
+  - text: Howdy! How are you?
+  - text: Hello! How are you doing today?
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'
@@ -53,6 +55,8 @@ responses:
   utter_goodbye:
   - text: Bye
   - text: Peace out!
+  - text: See ya later!
+  - text: Good luck! See ya!
   utter_respond_insult:
   - text: I'm sorry but that hurt my feelings. We can move past this but I would appreciate
       an apology first.
@@ -60,10 +64,14 @@ responses:
   - text: I don't deserve this kind of abuse!
   utter_ask_why_leaving:
   - text: Why are you leaving so soon?
+  - text: Did I say something wrong?
   utter_good_value:
   - text: We offer great value when you consider what you are getting in this package.
+  - text: When you consider the risk/reward tradeoff, A.I. Sports offers great value!
   utter_ask_continue:
   - text: Would you like to hear more?
+  - text: Does this interest you at all?
+  - text: Want to know more?
   utter_positive_feedback_reaction:
   - text: Glad you think so! We believe this package will generate longterm income
       for you.
@@ -76,18 +84,29 @@ responses:
       apps on our website, '
   utter_cannot_help:
   - text: I'm really sorry but I can't help you with that...
+  - text: Damn... I wish I was able to help with that but I can't...
+  - text: I'm so sorry but I can't help with that
   utter_tools:
   - text: We have a lot of tools here at A.I. Sports! Our NFL Model is a fan favorite!
   utter_invest:
   - text: Due to the gray area that sports betting falls into in the U.S., it really
       depends on what state you are in and what your interested/comfortable with.
       A private meetings to discuss details might be needed
+  - text: I know a guy that could help you out! Investing is our game!
   utter_picks:
   - text: We provide between 5-12 free picks on Twitter each weekend for NFL and NCAAF
       during the fall. We cover other sports privately too.
+  - text: We do give out some free picks. Typically 3-5 NFL games or 5-7 NCAA football
+      games.
+  - text: We do give out picks with our predicted probability of success on Twitter.
+      You can follow us at @theFirmAISports
+  - text: Best way to get our free picks is to follow us on Twitter @theFirmAISports
   utter_betting_history:
   - text: We have documented all of our NFL picks publicly for the last 2 seasons.
       NFL is 302-217-15 (56.6%).
+  - text: We have years and years worth of winning bets. Only the last 2 years are
+      public and we are around 60% win rate for our public picks.
+  - text: We have years of experience betting and winning.
   utter_sports:
   - text: We bet on NFL, NCAAF, NBA, NCAAB, NHL, FIFA, and every now and then MLB.
   utter_pleasant_greet:
@@ -96,11 +115,15 @@ responses:
   - text: It's a great day to be alive!
   utter_help_you:
   - text: How can I help you today?
+  - text: How could I be of service?
+  - text: What can I do for you?
+  - text: Your wish is my command! What can I do for you?
+  - text: How can I serve you today?
   utter_how_are_you:
   - text: How are you doing?
+  - text: How's it going?
   utter_good:
   - text: That's good to hear
-  - text: ''
 actions:
 - utter_greet
 - utter_cheer_up
