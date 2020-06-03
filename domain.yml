@@ -37,6 +37,16 @@ entities:
 - name
 - date
 - Sport
+- location
+slots:
+  Sport:
+    type: unfeaturized
+  date:
+    type: unfeaturized
+  location:
+    type: unfeaturized
+  name:
+    type: unfeaturized
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -87,6 +97,7 @@ responses:
   - text: I'm so sorry but I can't help with that
   utter_tools:
   - text: We have a lot of tools here at A.I. Sports! Our NFL Model is a fan favorite!
+      Visit https://aisportsfirm.com/apps/ to view our free tools.
   utter_invest:
   - text: Due to the gray area that sports betting falls into in the U.S., it really
       depends on what state you are in and what your interested/comfortable with.
@@ -137,6 +148,16 @@ responses:
   - text: Anything else I could do for you?
   - text: Anything else I can do for you?
   - text: Anything else I could do for you today?
+  utter_fifa:
+  - text: You're in luck! A.I. Sports has been betting on soccer for a few years now.
+      We currently have 2 live soccer models ready to go.
+  utter_sign_up:
+  - text: Would you like to sign up?
+  - text: Do you want to sign up?
+  - text: Let's make it official! Should we sign you up?
+  utter_form:
+  - text: Alright sweet! I just need to collect some information first and then we
+      will be set!
 actions:
 - utter_greet
 - utter_cheer_up
@@ -164,3 +185,6 @@ actions:
 - utter_good
 - utter_thanks
 - utter_anything_else
+- utter_fifa
+- utter_sign_up
+- utter_form

@@ -12,6 +12,7 @@
 - what's good
 - Hey hey!
 - hey hey my man!
+- yo
 
 ## intent:goodbye
 - bye
@@ -98,6 +99,9 @@
 - my names is [Amanda](name)
 - it is on [Sunday](date)
 - The game is [Saturday](date)
+- I live in [California](location)
+- I reside in [Florida](location)
+- I live in [Utah](location)
 
 ## intent:tools
 - what tools do you have?
@@ -240,6 +244,7 @@
 - Do you do any [soccer](Sport) betting?
 - I have an interest in [soccer](Sport)
 - [Soccer](Sport) is my favorite sport
+- I want to start betting some [FIFA](Sport)
 
 ## intent:well_being_ask
 - I'm doing well. How are you?
@@ -249,6 +254,7 @@
 - you doing ight?
 - I'm doing great! How are you?
 - how are you?
+- I'm doing pretty good. How are you?
 
 ## intent:apology
 - I'm sorry...

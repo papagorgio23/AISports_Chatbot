@@ -96,3 +96,16 @@
     - utter_anything_else
 * goodbye
     - utter_goodbye
+
+## Fifa 1
+
+* greet
+    - utter_greet
+* well_being_ask
+    - utter_well_being
+    - utter_help_you
+* fifa
+    - utter_fifa
+    - utter_sign_up
+* affirm
+    - utter_form
