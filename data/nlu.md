@@ -264,6 +264,9 @@
 
 ## intent:how_to_help
 - uhh... you didn't help me
+- That wasn't helpful
+- Man that didn't really help me.
+- That wasn't very helpful
 
 ## intent:out_of_scope
 - You're going to send me a package of tiger cubs? Isn't that illegal?
@@ -274,3 +277,4 @@
 
 ## intent:greet_name
 - Hello! My name is [Jason](name)[Jason](name)
+- Hey! My name is Amanda
