@@ -256,6 +256,7 @@
 - I'm doing great! How are you?
 - how are you?
 - I'm doing pretty good. How are you?
+- I'm doing well, thank you. How are you?
 
 ## intent:apology
 - I'm sorry...
@@ -270,3 +271,6 @@
 ## intent:sign_up
 - of course! How can I sign up
 - I want to sign up
+
+## intent:greet_name
+- Hello! My name is [Jason](name)[Jason](name)

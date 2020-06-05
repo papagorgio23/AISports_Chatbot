@@ -158,6 +158,8 @@ responses:
   utter_form:
   - text: Alright sweet! I just need to collect some information first and then we
       will be set!
+  utter_greet_name:
+  - text: Hey {name}! My name is LeBron. How are you doing?
 actions:
 - utter_greet
 - utter_cheer_up
@@ -188,3 +190,4 @@ actions:
 - utter_fifa
 - utter_sign_up
 - utter_form
+- utter_greet_name

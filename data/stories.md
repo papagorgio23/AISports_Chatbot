@@ -109,3 +109,12 @@
     - utter_sign_up
 * affirm
     - utter_form
+
+## Greet with Name
+
+* inform{"name":"Jason"}
+    - slot{"name":"Jason"}
+    - utter_greet_name
+* well_being_ask
+    - utter_well_being
+    - utter_help_you
