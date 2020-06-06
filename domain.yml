@@ -189,6 +189,7 @@ responses:
       title: No
     text: Are you over 21 years old?
 actions:
+- action_chitchat
 - utter_greet
 - utter_cheer_up
 - utter_did_that_help
