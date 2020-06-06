@@ -13,6 +13,21 @@
 - Hey hey!
 - hey hey my man!
 - yo
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- hey robot
 
 ## intent:goodbye
 - bye
