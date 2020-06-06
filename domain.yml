@@ -107,6 +107,8 @@ responses:
              - Bet Size: {betsize}\n
              - Years Betting: {betlength}\n
              - Over 21: {age}"
+  utter_submit:
+    - text: "All done!"
   utter_greet:
   - text: Hey! How are you?
   - text: Howdy! How are you?
