@@ -3,7 +3,8 @@
     - picks_form
     - form{"name": "picks_form"}
     - form{"name": null}
-* affirm
+    - utter_slots_values
+* thankyou
     - utter_help_you
 
 ## happy path
@@ -107,16 +108,16 @@
 
 ## Fifa 1
 
-* greet
-    - utter_greet
-* well_being_ask
-    - utter_well_being
-    - utter_help_you
 * fifa
     - utter_fifa
     - utter_sign_up
 * affirm
-    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
 
 ## Greet with Name
 
@@ -147,3 +148,6 @@
     - picks_form
     - form{"name": "picks_form"}
     - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
