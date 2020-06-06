@@ -222,3 +222,16 @@ actions:
 - utter_greet_name
 - utter_ask_email
 - utter_ask_age
+- utter_continue
+- utter_ask_weather
+- utter_ask_builder
+- utter_ask_howdoing
+- utter_ask_howold
+- utter_ask_restaurant
+- utter_ask_time
+- utter_ask_wherefrom
+- utter_ask_whoami
+- utter_handleinsult
+- utter_telljoke
+- utter_ask_whatismyname
+- utter_ask_languagesbot
