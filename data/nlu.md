@@ -74,6 +74,27 @@
 - see you later
 - nope. That's it!
 - peace out son
+- Bye
+- Bye!
+- Goodbye
+- Bye bot
+- Goodbye friend
+- bye
+- bye for now
+- catch you later
+- gotta go
+- See you
+- goodnight
+- have a nice day
+- i'm off
+- see you later alligator
+- we'll speak soon
+- goodbye bot
+- i'm done
+- quit
+- stop
+- see ya
+- buh bye
 
 ## intent:affirm
 - yes
