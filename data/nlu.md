@@ -30,6 +30,7 @@
 - hello robot
 - hey robot
 - Hey! What's up
+- Yo Yo what's up
 
 ## intent:greet_name
 - Hello! My name is [Jason](name)
@@ -67,6 +68,7 @@
 - hello robot! I'm [Oskar](name)!
 - hey robot! My name is [Dave](name)
 - Yo Yo! I'm PapaG
+- Hey LeBron! My name is [Jason](name)[Jason](name)
 
 ## intent:goodbye
 - bye
@@ -135,6 +137,8 @@
 - noope
 - do you have something else
 - no this does not work for me
+- nah man
+- or nah?
 
 ## intent:mood_great
 - perfect
@@ -150,6 +154,7 @@
 - I'm doing great today! No complaints!
 - I'm doing well
 - it's all good in the hood
+- It's a pretty good day
 
 ## intent:mood_unhappy
 - sad
@@ -172,6 +177,7 @@
 - am I talking to a human?
 - you are a bot right
 - aren't you a bot
+- are you a robot or something?
 
 ## intent:acknowledge
 - ok
@@ -179,6 +185,8 @@
 - understood
 - k
 - that makes sense
+- Delayed reaction but ok...
+- It's all good my man
 
 ## intent:opinion+positive
 - nice!
@@ -261,6 +269,7 @@
 - I need some help
 - help me
 - can you please help me
+- I'm starting to feel like you don't actually know that much...
 
 ## intent:tools
 - what tools do you have?
@@ -292,6 +301,7 @@
 - who should i bet on?
 - who is the best team to bet?
 - I am looking to get some help on who to bet on this weekend
+- I want to bet on some games tonight
 
 ## intent:betting_history
 - What is your betting history?
@@ -312,6 +322,7 @@
 - Is there a particular sport you focus on?
 - what does A.I. Sports actually do?
 - Oh that's great! What sports do you guys bet on?
+- Do you bet on any games?
 
 ## intent:nfl
 - Do you bet on [pro football](Sport)?
@@ -332,6 +343,7 @@
 - do you bet the [nfl](Sport)?
 - [Pro football](Sport) is my favorite sport
 - Do you bet on football?
+- Do you know how is going to win the [football](Sport) game?
 
 ## intent:ncaaf
 - Do you bet on [college football](Sport)?
@@ -521,6 +533,7 @@
 - I would like to sign up for A.I. Sports!
 - sign up
 - Sign up for your service
+- I'd like to sign up
 
 ## intent:ask_weather
 - How is the weather today?
@@ -595,6 +608,9 @@
 - whats the temperature
 - hows the weather today in berlin?
 - what's the weather like
+- Is it going to rain today?
+- Do you know what the weather is like?
+- What's the weather like today?
 
 ## intent:ask_builder
 - can you share your boss with me?
