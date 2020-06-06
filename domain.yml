@@ -32,15 +32,22 @@ intents:
 - apology
 - how_to_help
 - sign_up
+- greet_name
 entities:
 - price
 - name
 - date
 - Sport
 - location
+- age
 slots:
   Sport:
     type: unfeaturized
+  age:
+    type: categorical
+    values:
+    - yes
+    - no
   date:
     type: unfeaturized
   location:
@@ -159,7 +166,17 @@ responses:
   - text: Alright sweet! I just need to collect some information first and then we
       will be set!
   utter_greet_name:
-  - text: Hey {name}! My name is LeBron. How are you doing?
+  - text: Hey {name}! My name is LeBron. It's a pleasure to meet you!
+  - text: Hey {name}! I'm LeBron! It's nice to meet you!
+  utter_ask_email:
+  - text: What is your email address?
+  utter_ask_age:
+  - buttons:
+    - payload: '/choose{"age": "yes"}'
+      title: Yes
+    - payload: '/choose{"age": "no"}'
+      title: No
+    text: Are you over 21 years old?
 actions:
 - utter_greet
 - utter_cheer_up
@@ -191,3 +208,5 @@ actions:
 - utter_sign_up
 - utter_form
 - utter_greet_name
+- utter_ask_email
+- utter_ask_age
