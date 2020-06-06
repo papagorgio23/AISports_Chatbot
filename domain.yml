@@ -3,18 +3,19 @@ session_config:
   carry_over_slots_to_new_session: true
 intents:
 - greet
+- greet_name
 - goodbye
 - affirm
 - deny
 - mood_great
 - mood_unhappy
-- inform
-- acknowledge
-- insult:
-    triggers: utter_respond_insult
 - bot_challenge
-- ask_whatspossible
-- out_of_scope
+- acknowledge
+- opinion+positive
+- opinion+negative
+- thankyou
+- inform
+- help
 - tools
 - invest
 - picks
@@ -26,13 +27,23 @@ intents:
 - ncaab
 - nhl
 - fifa
-- opinion+negative
-- opinion+positive
-- well_being_ask
+- ask_howdoing
 - apology
-- how_to_help
+- didnt_help
+- out_of_scope
 - sign_up
-- greet_name
+- ask_weather
+- ask_builder
+- ask_restaurant
+- handleinsult
+- telljoke
+- ask_wherefrom
+- ask_time
+- ask_howold
+- ask_whoami
+- ask_languagesbot
+- ask_whatismyname
+- ask_whatspossible
 entities:
 - price
 - name
