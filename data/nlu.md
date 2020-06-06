@@ -29,6 +29,7 @@
 - hello is anybody there
 - hello robot
 - hey robot
+- Hey! What's up
 
 ## intent:greet_name
 - Hello! My name is [Jason](name)
@@ -65,6 +66,7 @@
 - hello is anybody there! My name is [Drea](name)
 - hello robot! I'm [Oskar](name)!
 - hey robot! My name is [Dave](name)
+- Yo Yo! I'm PapaG
 
 ## intent:goodbye
 - bye
@@ -146,6 +148,8 @@
 - I'm doing pretty alright
 - Can't complain
 - I'm doing great today! No complaints!
+- I'm doing well
+- it's all good in the hood
 
 ## intent:mood_unhappy
 - sad
@@ -514,6 +518,9 @@
 ## intent:sign_up
 - of course! How can I sign up
 - I want to sign up
+- I would like to sign up for A.I. Sports!
+- sign up
+- Sign up for your service
 
 ## intent:ask_weather
 - How is the weather today?
