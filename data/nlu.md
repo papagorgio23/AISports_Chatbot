@@ -29,6 +29,23 @@
 - that sounds good
 - correct
 - Yes I do!
+- YES!
+- yes sure
+- absolutely
+- for sure
+- yes yes yes
+- definitely
+- yeah
+- si
+- ok
+- okay
+- indeed
+- correct
+- that sounds good
+- of course
+- yup
+- yes please
+- yes plz
 
 ## intent:deny
 - no
@@ -288,6 +305,20 @@
 - I want to sign up
 
 ## intent:greet_name
-- Hello! My name is [Jason](name)[Jason](name)
+- Hello! My name is [Jason](name)
 - Hey! My name is [Amanda](name)
 - Howdy! I'm [Jared](name)!
+- hey! I'm [Jessica](name)!
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- Hey man
+- well hello there
+- what up
+- Howdy!
+- what's good
+- Hey hey!
+- hey hey my man!
+- yo
