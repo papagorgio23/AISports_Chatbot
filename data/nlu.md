@@ -30,7 +30,6 @@
 - hello robot
 - hey robot
 
-
 ## intent:greet_name
 - Hello! My name is [Jason](name)
 - Hey! My name is [Amanda](name)
@@ -79,7 +78,6 @@
 - Goodbye
 - Bye bot
 - Goodbye friend
-- bye
 - bye for now
 - catch you later
 - gotta go
@@ -113,14 +111,9 @@
 - si
 - ok
 - okay
-- indeed
-- correct
-- that sounds good
-- of course
 - yup
 - yes please
 - yes plz
-
 
 ## intent:deny
 - no
@@ -453,11 +446,9 @@
 - how are you doing today my sweet friend
 - how are you doing?
 - how are u
-- How are you?
 - nah, I'm good - how are you doing?
 - how are yuo
 - How are you
-- how are you
 - how you doing
 - are you ok
 - How are you today?
@@ -478,14 +469,12 @@
 - what's up
 - wassup>
 - hi how u doing
-- hi how u doing
 - Hi Sara! How are you?
 - how are you ?
 - how are you'
 - how are you doing today?
 - how you doing?
 - How are You?
-- what doing
 - what doing
 - how are xou
 - ¿Qué pasa?
@@ -495,12 +484,10 @@
 - come stai?
 - How you doing?
 - I'm doing well. How are you?
-- How are you?
 - How's it going?
 - you doing alright?
 - you doing ight?
 - I'm doing great! How are you?
-- how are you?
 - I'm doing pretty good. How are you?
 - I'm doing well, thank you. How are you?
 
@@ -513,6 +500,7 @@
 - That wasn't helpful
 - Man that didn't really help me.
 - That wasn't very helpful
+- you didn't even help me
 
 ## intent:out_of_scope
 - You're going to send me a package of tiger cubs? Isn't that illegal?
@@ -523,12 +511,9 @@
 - my washing machine isn't working
 - what year is it
 
-
 ## intent:sign_up
 - of course! How can I sign up
 - I want to sign up
-
-
 
 ## intent:ask_weather
 - How is the weather today?
@@ -566,7 +551,6 @@
 - whats the weather in berlin?
 - how's the weather in berlin
 - excellent - is it hot in Berlin?
-- How is the weather today?
 - how is the weather?
 - weather
 - weather?
@@ -671,33 +655,25 @@
 - you are working for which company?
 - who is your employer?
 - what is the name of the smart engineer who creted you ?
-- what is the name of the smart engineer who creted you ?
 - who is your father ?
-- who create you ?
 - who create you ?
 - who's builder
 - who is your mom
 - who is your daddy
-- Who created you?
 - Do you know who built you?
-- Who made you?
 - Who is the name of your builder?
 - Who is the name of your creator?
 - Who is the person that invented you?
 - Do you know who made you?
 - Who were you built by?
 - Who were you created by?
-- Who created you?
 - By whom were you built?
-- Who made you?
 - Who developed you?
-- Who were you created by?
 - Who created and built you?
 - Who is the person responsible for building you?
 - Who is it that built you?
 - Who is responsible for making you?
 - Who developed and created you?
-- Who created you?
 - Who was the person that made you?
 - Who put you together?
 - Who was the person that created you?
@@ -706,26 +682,17 @@
 - Who was the person who put you together?
 - Who was the one who made you?
 - Who was the one that built you?
-- Do you know who built you?
 - Who is the person who built you?
 - Tell me who built you.
-- Who is your creator?
-- Who created you?
 - Who is the builder of you?
-- Who were you built by?
 - Tell me the name of your creator.
 - What is the name of your builder?
 - Name the person who built you.
-- Who made you?
-- Who created you?
-- Who were you created by?
-- Who designed you?
 - Tell me the name of the person who built you.
 - Who were you made by?
 - Tell me the name of the individual who created you.
 - Can I ask the name of the people who designed you?
 - What person built you?
-- Who were you built by?
 - who is your creator
 
 ## intent:ask_restaurant
@@ -776,7 +743,6 @@
 - Do you find me a restaurant?
 - Is there any restaurant?
 - IS there any near by restaurant?
-- Could you find me a restaurant?
 - can you find me a restaurant?
 - Would you find any restaurant?
 - Do you seek me a restaurant?
@@ -786,7 +752,6 @@
 - order a pizza
 - I want to order a pizza
 - I want a pizza
-
 
 ## intent:handleinsult
 - you're a loser lmao
@@ -814,7 +779,6 @@
 - You're a dunce.
 - You have no brains.
 - You have no intelligence.
-- You are dumb.
 - You are an idiot.
 - You lack intelligence.
 - You are unknowing.
@@ -845,19 +809,16 @@
 - shut up asshole
 - you asshole
 - are u dump?
-- are u dump?
 - fuck off
 - fuck
 - Fuck
 - Fuck you
 - fuck you machine learning bot
 - Fuck u
-- fuck you
 - what fuck
 - fucking stupid
 - you are fucking stupid guy！
 - go fuck yourself
-- Fuck off
 - Fuck off
 - fuck rasa
 - fuck you!
@@ -866,8 +827,6 @@
 - FUCK
 - fucking work
 - ok shut up
-
-
 
 ## intent:telljoke
 - tell me a joke
@@ -881,7 +840,6 @@
 - Tell me the best joke you know.
 - Tell joke.
 - Tell me something funny.
-- Tell me something funny.
 - Share a joke with me!
 - Tell me something humorous!
 - Will you tell me a joke.
@@ -892,7 +850,6 @@
 - Would you share a joke with me.
 - Could you please share a joke with me.
 - Make me laugh.
-- Tell me something funny.
 - Entertain me with a joke.
 - Tell me something that you think will make me laugh.
 - I want to hear something funny.
@@ -935,13 +892,11 @@
 - where are your parents from?
 - where did you spend your youth?
 - where did you come from?
-- Where were you born?
 - Where do you consider home?
 - What city do you claim to for your birth?
 - What citizenship do you lay claim to?
 - What is your heritage?
 - What is your birthplace?
-- Where did you grow up?
 - You were conceived in what city?
 - What is your root?
 - What is your origin?
@@ -955,7 +910,6 @@
 - What's the name of the place you came from?
 - What is your original city?
 - Where might you be from?
-- Where do you come from?
 - Where do you live?
 - What city are you in?
 - What country are you from?
@@ -985,34 +939,26 @@
 - Do you know what time it is?
 - Could you tell me the time?
 - Could you tell me the time, please?
-- What is the time?
-- Do you know the time?
 - Would you tell me what time it is?
 - Time, please!
 - Pardon me, but do you know the time?
-- Time?
 - What's the time?
-- Do you know what time it is?
 - What's the current time?
 - What time is it right now?
 - Do you have the time?
 - Can you tell me what time it is?
 - Hi, I need the time.
 - I need to know what time it is.
-- Tell me the time.
-- What is the time?
 - What's the time right now?
 - What is the current time?
 - Can you tell me the time?
 - What might the time be?
 - What is the hour and minute right now?
 - What time have we got?
-- What time is it right now?
 - What time do we have?
 - What is the exact time?
 - what is the time?
 - do you know the current time?
-- what is the current time?
 - what time do you have?
 - do you have the time?
 - tell me the current time.
@@ -1051,7 +997,6 @@
 - how old were you on your last birthday?
 - what age are you
 - how old will you be this year?
-- What is your age?
 - What year were you born?
 - How long have you been around?
 - How long have you been alive?
@@ -1067,10 +1012,8 @@
 - tell me how old you are?
 - give me your age?
 - tell me your age number?
-- how old were you on your last birthday?
 - can you tell me exactly how old you are?
 - can you tell me what number represents your age?
-- how many years old are you?
 - how old are you
 - How old are you?
 - how old are u
@@ -1114,7 +1057,6 @@
 - What languages can you converse in?
 - What languages do you know how to use?
 - Which languages are you familiar with?
-- What languages can you use?
 - what languages are you familiar with?
 - what languages you know?
 - In what languages are you fluent enough?
@@ -1127,7 +1069,6 @@
 - what languages you can handle well?
 - Do you know any other languages?
 - Do you speak any other languages?
-- What languages do you know?
 - What languages do you speak?
 - What do you speak?
 - Speak any other languages?
@@ -1144,9 +1085,7 @@
 - what foreign languages are you fluent in?
 - how many languages are you fluent in?
 - how many languages do you know?
-- How many languages do you know?
 - How many languages can you speak?
-- What languages are you fluent in?
 - How many different languages are you fluent in?
 - How many languages do you have knowledge of?
 - What are all of the different languages you can speak?
@@ -1170,7 +1109,6 @@
 - What name should I recognize for myself?
 - what's my name?
 - can you tell me my name?
-- What is my name?
 - Do I have a name?
 - Do I have a name? What is it?
 - What was I named?
@@ -1195,5 +1133,4 @@
 - Do you know what my name is?
 - What is my first name?
 - What is my full name?
-- What do people call me?
 - What exactly is my name?
