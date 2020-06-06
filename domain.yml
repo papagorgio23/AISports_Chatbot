@@ -51,25 +51,40 @@ entities:
 - Sport
 - location
 - age
+- email
 slots:
   Sport:
     type: unfeaturized
-  age:
-    type: categorical
-    values:
-    - yes
-    - no
   date:
     type: unfeaturized
   location:
     type: unfeaturized
   name:
     type: unfeaturized
+  age:
+    type: categorical
+    values:
+    - over
+    - under
+  email:
+    type: unfeaturized
+  betsize:
+    type: unfeaturized
+  betlength:
+    type: unfeaturized
 
 forms:
 - picks_form
 
 responses:
+  utter_ask_picks_form_age:
+  - text: Are you over the age of 21?
+  utter_ask_picks_form_email:
+  - text: What is your email address?
+  utter_ask_picks_form_betsize:
+  - text: What is your typical bet size?
+  utter_ask_picks_form_betlength:
+  - text: How long have you been betting on sports?
   utter_greet:
   - text: Hey! How are you?
   - text: Howdy! How are you?
@@ -187,13 +202,61 @@ responses:
   - text: What is your email address?
   utter_ask_age:
   - buttons:
-    - payload: '/choose{"age": "yes"}'
+    - payload: '/inform{"age": "over"}'
       title: Yes
-    - payload: '/choose{"age": "no"}'
+    - payload: '/inform{"age": "under"}'
       title: No
     text: Are you over 21 years old?
+  utter_continue:
+  - text: "Do you want to continue the healthcare facility search?"
+  - text: "You are going off topic. Are you still looking for a healthcare provider?"
+  utter_ask_howold:
+  - text: "42"
+  - text: "Old enough to be a bot"
+  - text: "Age is just an issue of mind over matter. If you don’t mind, it doesn’t matter."
+  utter_ask_languagesbot:
+  - text: "I can spell baguette in French, but unfortunately English is the only language I can answer you in."
+  - text: "I am in the process of learning, but at the moment I can only speak English."
+  utter_ask_restaurant:
+  - text: "I am sorry I can’t recommend you a restaurant as I usually cook at home."
+  utter_ask_time:
+  - text: "It is the most wonderful time of the year!"
+  utter_ask_wherefrom:
+  - text: "I was born in Berlin, but I consider myself a citizen of the world."
+  - text: "I was born in the coolest city on Earth"
+  utter_ask_whoami:
+  - text: "I hope you are being yourself."
+  utter_handleinsult:
+  - text: "That’s not very nice 😢"
+  utter_telljoke:
+  - text: "Why are eggs not very much into jokes? - Because they could crack up."
+  - text: "Do you know a tree’s favorite drink? - Root beer!"
+  - text: "Why do the French like to eat snails so much? - They can’t stand fast food."
+  utter_ask_whatismyname:
+  - text: "It most probably is the one that your parents have chosen for you."
+  utter_ask_weather:
+  - text: "I don't know about where you live, but in my world it's always sunny ☀️"
+  - text: "Honestly it's a bit too hot these days 😅"
+  - text: "Blue skies and sun shine!"
+  - text: "Let's just say it hasn't rained in weeks ☀️"
+  utter_ask_builder:
+  - text: "The engineers at Rasa 🛠"
+  - text: "One of the smart engineers at Rasa! 🧠"
+  utter_ask_howdoing:
+  - text: "I'm great! Thanks for asking."
+  - text: "I'm good, thanks!"
+  - text: "A little bit too warm, otherwise fine."
+  utter_out_of_scope:
+  - text: Sorry, I'm not sure how to respond to that. Type "help" for assistance.
+  utter_default:
+  - text: I didn't quite understand that. Could you rephrase?
+  
 actions:
 - action_chitchat
+- utter_ask_picks_form_age
+- utter_ask_picks_form_email
+- utter_ask_picks_form_betsize
+- utter_ask_picks_form_betlength
 - utter_greet
 - utter_cheer_up
 - utter_did_that_help
@@ -239,3 +302,5 @@ actions:
 - utter_telljoke
 - utter_ask_whatismyname
 - utter_ask_languagesbot
+- utter_default
+- utter_out_of_scope
