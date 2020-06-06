@@ -13,6 +13,7 @@
 - Hey hey!
 - hey hey my man!
 - yo
+- yo yo
 - Hi
 - Hey
 - Hi bot
@@ -28,6 +29,43 @@
 - hello is anybody there
 - hello robot
 - hey robot
+
+
+## intent:greet_name
+- Hello! My name is [Jason](name)
+- Hey! My name is [Amanda](name)
+- Howdy! I'm [Jared](name)!
+- hey! I'm [Jessica](name)!
+- hello! My name is [Paul](name)
+- hi my name is [Jeff](name)
+- good morning! My name is [Erika](name)
+- good afternoon! My name is [Drew](name)
+- good evening! My name is [Brandon](name)
+- hey there! My name is [Latoyia](name)
+- Hey man! My name is [Joey](name)
+- well hello there! My name is [Mila](name)
+- what up! My name is [Aaron](name)
+- Howdy!! My name is [Jacob](name)
+- what's good! My name is [Whitney](name)
+- Hey hey!! My name is [Amanda](name)
+- hey hey my man!! My name is [Natalee](name)
+- yo! My name is [Jody](name)
+- yo yo! My name is [Jake](name)
+- Hi! I'm [Courtney](name)!
+- Hey! My name is [Jamie](name)
+- Hi bot! I'm [John](name)!
+- Hey bot! My name is [Linda](name)
+- Hello! I'm [Kyson](name)!
+- hi again! My name is [Tyson](name)
+- hi folks! I'm [Andrew](name)!
+- hi Mister! My name is [Ian](name)
+- hi pal!! I'm [Pat](name)!
+- hi there! My name is [Troy](name)
+- greetings! I'm [Tom](name)!
+- hello everybody! I'm [Megan](name)!
+- hello is anybody there! My name is [Drea](name)
+- hello robot! I'm [Oskar](name)!
+- hey robot! My name is [Dave](name)
 
 ## intent:goodbye
 - bye
@@ -318,22 +356,3 @@
 ## intent:sign_up
 - of course! How can I sign up
 - I want to sign up
-
-## intent:greet_name
-- Hello! My name is [Jason](name)
-- Hey! My name is [Amanda](name)
-- Howdy! I'm [Jared](name)!
-- hey! I'm [Jessica](name)!
-- hello
-- hi
-- good morning
-- good evening
-- hey there
-- Hey man
-- well hello there
-- what up
-- Howdy!
-- what's good
-- Hey hey!
-- hey hey my man!
-- yo
