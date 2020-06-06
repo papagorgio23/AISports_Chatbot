@@ -78,6 +78,9 @@ slots:
   betlength:
     type: unfeaturized
     auto_fill: false
+  parents:
+    type: unfeaturized
+    auto_fill: false
   requested_slot:
     type: unfeaturized
 
@@ -95,6 +98,8 @@ responses:
   - text: What is your typical bet size?
   utter_ask_betlength:
   - text: How many years have you been betting on sports?
+  utter_ask_parents:
+  - text: Would your parents let you bet on sports?
   utter_slots_values:
     - text: "I am going to run this by you to make sure I have everything correct:\n
              - Name: {name}\n
