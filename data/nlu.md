@@ -31,6 +31,7 @@
 - hey robot
 - Hey! What's up
 - Yo Yo what's up
+- hello my good fellow
 
 ## intent:greet_name
 - Hello! My name is [Jason](name)
@@ -70,6 +71,8 @@
 - Yo Yo! I'm PapaG
 - Hey LeBron! My name is [Jason](name)[Jason](name)
 - Hey LeBron! My name is [Jason](name)[Jason](name)
+- My name is [Jason](name)[Jason](name)
+- My name is [PapaG](name)
 
 ## intent:goodbye
 - bye
@@ -268,6 +271,9 @@
 - [10 years](betlength)
 - [Over](age)
 - [Under](age)
+- [1000](betsize)[1000](betsize)
+- $[10000](betsize)
+- my email is [jason@aisportsfirm.com](email)
 
 ## intent:help
 - I need help
@@ -311,6 +317,7 @@
 - I am looking to get some help on who to bet on this weekend
 - I want to bet on some games tonight
 - Who's going to win the [basketball](Sport) game this weekend?
+- can i get some free picks?
 
 ## intent:betting_history
 - What is your betting history?
@@ -332,6 +339,7 @@
 - what does A.I. Sports actually do?
 - Oh that's great! What sports do you guys bet on?
 - Do you bet on any games?
+- What sports do you bet on?
 
 ## intent:nfl
 - Do you bet on [pro football](Sport)?
@@ -516,6 +524,7 @@
 - I'm doing great! How are you?
 - I'm doing pretty good. How are you?
 - I'm doing well, thank you. How are you?
+- I'm doing quite well. And you?
 
 ## intent:apology
 - I'm sorry...
@@ -544,6 +553,8 @@
 - sign up
 - Sign up for your service
 - I'd like to sign up
+- Could I sign up for that?
+- can i sign up with you guys?
 
 ## intent:ask_weather
 - How is the weather today?
