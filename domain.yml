@@ -65,6 +65,10 @@ slots:
     type: unfeaturized
   name:
     type: unfeaturized
+
+forms:
+- picks_form
+
 responses:
   utter_greet:
   - text: Hey! How are you?
