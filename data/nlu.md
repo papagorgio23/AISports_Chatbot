@@ -270,6 +270,18 @@
 
 ## intent:out_of_scope
 - You're going to send me a package of tiger cubs? Isn't that illegal?
+- what is the square root of 5
+- I want to know the weather
+- what is the meaning of life.
+- Fridge Isn't Running
+- my tv isn't working
+- I want a pizza
+- my washing machine isn't working
+- what year is it
+- order a pizza
+- I want to order a pizza
+- what is the weather today
+- what is the weather
 
 ## intent:sign_up
 - of course! How can I sign up
