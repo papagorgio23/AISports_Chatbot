@@ -121,6 +121,7 @@
 - yes please
 - yes plz
 
+
 ## intent:deny
 - no
 - never
@@ -172,6 +173,8 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+- you are a bot right
+- aren't you a bot
 
 ## intent:acknowledge
 - ok
@@ -194,6 +197,32 @@
 - woah! that's [expensive](price)
 - damn man that's rough
 
+## intent:thankyou
+- thank you goodbye
+- okay thank you goodbye
+- thank you bye
+- um okay thank you good bye
+- thank you
+- and thats all thank you and good bye
+- okay thank you
+- thanks
+- thanks goodbye
+- thank you and good bye
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- thanks a lot
+- amazing, thanks
+- cool, thanks
+- cool thank you
+- cool cool
+
 ## intent:inform
 - [Ian](name)
 - [Pat](name)
@@ -205,6 +234,36 @@
 - I live in [California](location)
 - I reside in [Florida](location)
 - I live in [Utah](location)
+- for sunday
+- for friday
+- for tomorrow
+- for saturday
+- today
+- tomorrow
+- next week
+- yesterday
+- for today
+- my email is test@example.com
+- my email is abraham.lincoln@example.com
+- abraham.licoln@example.com
+- it is abraham.licoln@example.com
+- abraham.lincolon@example.com
+- $10
+- 5000
+- 500
+- $100
+- $500
+- 100 dollars
+- 1000 dollars
+
+## intent:help
+- I need help
+- what can you help me with
+- can you help me
+- what can you do
+- I need some help
+- help me
+- can you please help me
 
 ## intent:tools
 - what tools do you have?
@@ -458,21 +517,357 @@
 ## intent:out_of_scope
 - You're going to send me a package of tiger cubs? Isn't that illegal?
 - what is the square root of 5
-- I want to know the weather
 - what is the meaning of life.
 - Fridge Isn't Running
 - my tv isn't working
-- I want a pizza
 - my washing machine isn't working
 - what year is it
-- order a pizza
-- I want to order a pizza
-- what is the weather today
-- what is the weather
+
 
 ## intent:sign_up
 - of course! How can I sign up
 - I want to sign up
+
+
+
+## intent:ask_weather
+- How is the weather today?
+- What's the weather like?
+- How is the weather?
+- What is the weather at your place?
+- Do you have good weather?
+- Is it raining?
+- What's it like out there?
+- Is it hot or cold?
+- Beautiful day, isn't it?
+- What's the weather forecast?
+- Is it quite breezy outside?
+- Will I require my raincoat today?
+- What is the weather for tomorrow?
+- Nice day out today?
+- What is the temperature today?
+- Can we expect any thunderstorms?
+- Will the skies be clear today?
+- Are we in for a scorcher?
+- Looks like a beautiful day hey?
+- Will we build a snowman today?
+- Is it humid out there today?
+- Are there any meteorological changes that I need to be aware of?
+- whats the weather like tomorrow?
+- hows the weather in bot world
+- how is the weather in berlin?
+- what's the weather today?
+- how's the weather?
+- what's the weather like where you are?
+- is the sun out where you are?
+- is it sunny
+- is the sun out where zou are?
+- what"s the weather
+- whats the weather in berlin?
+- how's the weather in berlin
+- excellent - is it hot in Berlin?
+- How is the weather today?
+- how is the weather?
+- weather
+- weather?
+- what's the weather like?
+- how's weather
+- how's the weather ?
+- what is the whether today
+- what is the weather in zurich?
+- what about the weather in Lüneburg
+- what's the weather today
+- what is the wather
+- what is the weather
+- Weather?
+- What's the weather like where I am right now?
+- what is the weatehr
+- temperature?
+- what's the weather like in LA
+- what is the weather like where you are?
+- hows the waether
+- is it hot ?
+- is it hot outside ?
+- how is the weather ?
+- it is cold
+- how is the weather
+- well, if you wish: what about the weather
+- weatger
+- What's the weather like over there?
+- Is it raining
+- what is the temperature
+- How is weather today
+- What is the weather in newyork?
+- the weather today
+- what is the weather like?
+- whats the temperature in delhi?
+- whats the temperature
+- hows the weather today in berlin?
+- what's the weather like
+
+## intent:ask_builder
+- can you share your boss with me?
+- i want to get to know your owner
+- i want to know the company which designed you
+- i want to know the company which generated you
+- i want to know the company which invented you
+- i want to know who invented you
+- May I ask who invented you?
+- please tell me the company who created you
+- please tell me who created you
+- tell me more about your creators
+- tell me more about your founders
+- which company brought you into existence?
+- which company created you?
+- which company invented you?
+- Who's your boss?
+- Who's your builder?
+- Who built you?
+- Who created you?
+- Who is your creator?
+- Who designed you?
+- who do you work for?
+- Who fabricated you?
+- Who generated you?
+- who had the idea to build you?
+- who had the idea to generate you?
+- who had the idea to make you?
+- who is behind all this?
+- Who is the legal owner of you?
+- who is your boss tell me
+- who is your boss?
+- who is your creator?
+- Who is your programmer?
+- Who made you?
+- Who modeled you?
+- Who owns you?
+- Who produced you?
+- Who thought to make you?
+- Who went through the trouble of setting you up?
+- and who built u?
+- who built you?
+- who build yoi
+- who made you?
+- where were you made?
+- why were you made?
+- who created you?
+- tell me more about you
+- who created you
+- who invent you
+- who developed
+- who developed you
+- who made u
+- you are made by who?
+- who built u?
+- who made u?
+- who is your author
+- who made you
+- who is your boss
+- who built you
+- who is your parent?
+- who are your parents
+- who your author are?
+- who are your author?
+- you are working for which company?
+- who is your employer?
+- what is the name of the smart engineer who creted you ?
+- what is the name of the smart engineer who creted you ?
+- who is your father ?
+- who create you ?
+- who create you ?
+- who's builder
+- who is your mom
+- who is your daddy
+- Who created you?
+- Do you know who built you?
+- Who made you?
+- Who is the name of your builder?
+- Who is the name of your creator?
+- Who is the person that invented you?
+- Do you know who made you?
+- Who were you built by?
+- Who were you created by?
+- Who created you?
+- By whom were you built?
+- Who made you?
+- Who developed you?
+- Who were you created by?
+- Who created and built you?
+- Who is the person responsible for building you?
+- Who is it that built you?
+- Who is responsible for making you?
+- Who developed and created you?
+- Who created you?
+- Who was the person that made you?
+- Who put you together?
+- Who was the person that created you?
+- Who was the person who made you?
+- Who was the person that built you?
+- Who was the person who put you together?
+- Who was the one who made you?
+- Who was the one that built you?
+- Do you know who built you?
+- Who is the person who built you?
+- Tell me who built you.
+- Who is your creator?
+- Who created you?
+- Who is the builder of you?
+- Who were you built by?
+- Tell me the name of your creator.
+- What is the name of your builder?
+- Name the person who built you.
+- Who made you?
+- Who created you?
+- Who were you created by?
+- Who designed you?
+- Tell me the name of the person who built you.
+- Who were you made by?
+- Tell me the name of the individual who created you.
+- Can I ask the name of the people who designed you?
+- What person built you?
+- Who were you built by?
+- who is your creator
+
+## intent:ask_restaurant
+- restaurants
+- can i be shown a gluten free restaurant
+- i want a french restaurant
+- i'm looking for a Chinese restaurant
+- I need a new restaurant
+- help me find restaurant
+- I'm gonna need help finding a restaurant
+- Hey help me find a restaurant
+- How can you help me find a restaurant.
+- Where is the restaurant
+- Show me how to find a restaurant
+- I need to find this restaurant
+- Help me with finding this restaurant
+- Hey, can you help me with locating this restaurant.
+- Find me a place to eat
+- Can you recommend a restaurant open right now
+- What's the closest restaurant open near me
+- I am hungry, find me some place to go
+- Suggest me a good restaurant around
+- Show me the closest open restaurant
+- What's a good place to eat nearby
+- Recommend me a restaurant around here.
+- Pick a restaurant for me, please
+- Help me find a restaurant
+- Can you find a restaurant for me?
+- Find a restaurant for me?
+- Would you find me a restaurant?
+- Would you find a restaurant for me?
+- Could you find me a restaurant?
+- Could you find a restaurant for me?
+- Could you find me a restaurant to eat at?
+- Find a restaurant for me to eat at.
+- Find me a restaurant where I can eat.
+- Find a restaurant for me where I can eat.
+- I need a restaurant.
+- Can you find me a restaurant?
+- Where should I eat?
+- Where should I go for dinner?
+- Any good restaurants nearby?
+- Can you find me a burger joint?
+- I'm looking for a Spanish restaurant.
+- What restaurant would you recommend for dinner?
+- Hi, can you give me the nearest fast food place?
+- Find me a fast food restaurant.
+- Do you find me a restaurant?
+- Is there any restaurant?
+- IS there any near by restaurant?
+- Could you find me a restaurant?
+- can you find me a restaurant?
+- Would you find any restaurant?
+- Do you seek me a restaurant?
+- Have you seen me a restaurant?
+- Will you find me a restaurant?
+- will you see any restaurant for me?
+- order a pizza
+- I want to order a pizza
+- I want a pizza
+
+
+## intent:handleinsult
+- you're a loser lmao
+- you are a stupid bot
+- i hate you
+- Stupid
+- fuck you
+- so dumb
+- you are a moron
+- you are an idiot
+- so fucking dumb
+- are you brain dead?
+- how can you be such an idiot?
+- a baby knows more than you
+- i hate your dumb face
+- you are fucking stupid
+- bloody dunce
+- You're an idiot.
+- You are a fool.
+- You're foolish.
+- You are dumb.
+- You have no sense.
+- You are unintelligent.
+- You're a dolt.
+- You're a dunce.
+- You have no brains.
+- You have no intelligence.
+- You are dumb.
+- You are an idiot.
+- You lack intelligence.
+- You are unknowing.
+- You are shortsighted.
+- Your intelligence is laughable.
+- You know nothing.
+- You lack understanding.
+- Your mindset is naive.
+- You brain is dull.
+- you are dumb
+- you're an idiot
+- God you're a moron
+- you're so dumb
+- you are idiotic
+- you're the most moronic person I know
+- I can't believe how dumb you are
+- you are unintelligent
+- you're not smart
+- you are so ignorant
+- you are stupid
+- you're dumb
+- asshole
+- bitch
+- fuck u
+- idiot
+- deal with my ass, you bitch
+- you son of a bitch
+- shut up asshole
+- you asshole
+- are u dump?
+- are u dump?
+- fuck off
+- fuck
+- Fuck
+- Fuck you
+- fuck you machine learning bot
+- Fuck u
+- fuck you
+- what fuck
+- fucking stupid
+- you are fucking stupid guy！
+- go fuck yourself
+- Fuck off
+- Fuck off
+- fuck rasa
+- fuck you!
+- Fuck Off
+- ok fuck you
+- FUCK
+- fucking work
+- ok shut up
+
+
 
 ## intent:telljoke
 - tell me a joke
@@ -802,336 +1197,3 @@
 - What is my full name?
 - What do people call me?
 - What exactly is my name?
-
-## intent:handleinsult
-- you're a loser lmao
-- you are a stupid bot
-- i hate you
-- Stupid
-- fuck you
-- so dumb
-- you are a moron
-- you are an idiot
-- so fucking dumb
-- are you brain dead?
-- how can you be such an idiot?
-- a baby knows more than you
-- i hate your dumb face
-- you are fucking stupid
-- bloody dunce
-- You're an idiot.
-- You are a fool.
-- You're foolish.
-- You are dumb.
-- You have no sense.
-- You are unintelligent.
-- You're a dolt.
-- You're a dunce.
-- You have no brains.
-- You have no intelligence.
-- You are dumb.
-- You are an idiot.
-- You lack intelligence.
-- You are unknowing.
-- You are shortsighted.
-- Your intelligence is laughable.
-- You know nothing.
-- You lack understanding.
-- Your mindset is naive.
-- You brain is dull.
-- you are dumb
-- you're an idiot
-- God you're a moron
-- you're so dumb
-- you are idiotic
-- you're the most moronic person I know
-- I can't believe how dumb you are
-- you are unintelligent
-- you're not smart
-- you are so ignorant
-- you are stupid
-- you're dumb
-- asshole
-- bitch
-- fuck u
-- idiot
-- deal with my ass, you bitch
-- you son of a bitch
-- shut up asshole
-- you asshole
-- are u dump?
-- are u dump?
-- fuck off
-- fuck
-- Fuck
-- Fuck you
-- fuck you machine learning bot
-- Fuck u
-- fuck you
-- what fuck
-- fucking stupid
-- you are fucking stupid guy！
-- go fuck yourself
-- Fuck off
-- Fuck off
-- fuck rasa
-- fuck you!
-- Fuck Off
-- ok fuck you
-- FUCK
-- fucking work
-- ok shut up
-
-## intent:ask_weather
-- How is the weather today?
-- What's the weather like?
-- How is the weather?
-- What is the weather at your place?
-- Do you have good weather?
-- Is it raining?
-- What's it like out there?
-- Is it hot or cold?
-- Beautiful day, isn't it?
-- What's the weather forecast?
-- Is it quite breezy outside?
-- Will I require my raincoat today?
-- What is the weather for tomorrow?
-- Nice day out today?
-- What is the temperature today?
-- Can we expect any thunderstorms?
-- Will the skies be clear today?
-- Are we in for a scorcher?
-- Looks like a beautiful day hey?
-- Will we build a snowman today?
-- Is it humid out there today?
-- Are there any meteorological changes that I need to be aware of?
-- whats the weather like tomorrow?
-- hows the weather in bot world
-- how is the weather in berlin?
-- what's the weather today?
-- how's the weather?
-- what's the weather like where you are?
-- is the sun out where you are?
-- is it sunny
-- is the sun out where zou are?
-- what"s the weather
-- whats the weather in berlin?
-- how's the weather in berlin
-- excellent - is it hot in Berlin?
-- How is the weather today?
-- how is the weather?
-- weather
-- weather?
-- what's the weather like?
-- how's weather
-- how's the weather ?
-- what is the whether today
-- what is the weather in zurich?
-- what about the weather in Lüneburg
-- what's the weather today
-- what is the wather
-- what is the weather
-- Weather?
-- What's the weather like where I am right now?
-- what is the weatehr
-- temperature?
-- what's the weather like in LA
-- what is the weather like where you are?
-- hows the waether
-- is it hot ?
-- is it hot outside ?
-- how is the weather ?
-- it is cold
-- how is the weather
-- well, if you wish: what about the weather
-- weatger
-- What's the weather like over there?
-- Is it raining
-- what is the temperature
-- How is weather today
-- What is the weather in newyork?
-- the weather today
-- what is the weather like?
-- whats the temperature in delhi?
-- whats the temperature
-- hows the weather today in berlin?
-- what's the weather like
-
-## intent:ask_builder
-- can you share your boss with me?
-- i want to get to know your owner
-- i want to know the company which designed you
-- i want to know the company which generated you
-- i want to know the company which invented you
-- i want to know who invented you
-- May I ask who invented you?
-- please tell me the company who created you
-- please tell me who created you
-- tell me more about your creators
-- tell me more about your founders
-- which company brought you into existence?
-- which company created you?
-- which company invented you?
-- Who's your boss?
-- Who's your builder?
-- Who built you?
-- Who created you?
-- Who is your creator?
-- Who designed you?
-- who do you work for?
-- Who fabricated you?
-- Who generated you?
-- who had the idea to build you?
-- who had the idea to generate you?
-- who had the idea to make you?
-- who is behind all this?
-- Who is the legal owner of you?
-- who is your boss tell me
-- who is your boss?
-- who is your creator?
-- Who is your programmer?
-- Who made you?
-- Who modeled you?
-- Who owns you?
-- Who produced you?
-- Who thought to make you?
-- Who went through the trouble of setting you up?
-- and who built u?
-- who built you?
-- who build yoi
-- who made you?
-- where were you made?
-- why were you made?
-- who created you?
-- tell me more about you
-- who created you
-- who invent you
-- who developed
-- who developed you
-- who made u
-- you are made by who?
-- who built u?
-- who made u?
-- who is your author
-- who made you
-- who is your boss
-- who built you
-- who is your parent?
-- who are your parents
-- who your author are?
-- who are your author?
-- you are working for which company?
-- who is your employer?
-- what is the name of the smart engineer who creted you ?
-- what is the name of the smart engineer who creted you ?
-- who is your father ?
-- who create you ?
-- who create you ?
-- who's builder
-- who is your mom
-- who is your daddy
-- Who created you?
-- Do you know who built you?
-- Who made you?
-- Who is the name of your builder?
-- Who is the name of your creator?
-- Who is the person that invented you?
-- Do you know who made you?
-- Who were you built by?
-- Who were you created by?
-- Who created you?
-- By whom were you built?
-- Who made you?
-- Who developed you?
-- Who were you created by?
-- Who created and built you?
-- Who is the person responsible for building you?
-- Who is it that built you?
-- Who is responsible for making you?
-- Who developed and created you?
-- Who created you?
-- Who was the person that made you?
-- Who put you together?
-- Who was the person that created you?
-- Who was the person who made you?
-- Who was the person that built you?
-- Who was the person who put you together?
-- Who was the one who made you?
-- Who was the one that built you?
-- Do you know who built you?
-- Who is the person who built you?
-- Tell me who built you.
-- Who is your creator?
-- Who created you?
-- Who is the builder of you?
-- Who were you built by?
-- Tell me the name of your creator.
-- What is the name of your builder?
-- Name the person who built you.
-- Who made you?
-- Who created you?
-- Who were you created by?
-- Who designed you?
-- Tell me the name of the person who built you.
-- Who were you made by?
-- Tell me the name of the individual who created you.
-- Can I ask the name of the people who designed you?
-- What person built you?
-- Who were you built by?
-- who is your creator
-
-## intent:ask_restaurant
-- restaurants
-- can i be shown a gluten free restaurant
-- i want a french restaurant
-- i'm looking for a Chinese restaurant
-- I need a new restaurant
-- help me find restaurant
-- I'm gonna need help finding a restaurant
-- Hey help me find a restaurant
-- How can you help me find a restaurant.
-- Where is the restaurant
-- Show me how to find a restaurant
-- I need to find this restaurant
-- Help me with finding this restaurant
-- Hey, can you help me with locating this restaurant.
-- Find me a place to eat
-- Can you recommend a restaurant open right now
-- What's the closest restaurant open near me
-- I am hungry, find me some place to go
-- Suggest me a good restaurant around
-- Show me the closest open restaurant
-- What's a good place to eat nearby
-- Recommend me a restaurant around here.
-- Pick a restaurant for me, please
-- Help me find a restaurant
-- Can you find a restaurant for me?
-- Find a restaurant for me?
-- Would you find me a restaurant?
-- Would you find a restaurant for me?
-- Could you find me a restaurant?
-- Could you find a restaurant for me?
-- Could you find me a restaurant to eat at?
-- Find a restaurant for me to eat at.
-- Find me a restaurant where I can eat.
-- Find a restaurant for me where I can eat.
-- I need a restaurant.
-- Can you find me a restaurant?
-- Where should I eat?
-- Where should I go for dinner?
-- Any good restaurants nearby?
-- Can you find me a burger joint?
-- I'm looking for a Spanish restaurant.
-- What restaurant would you recommend for dinner?
-- Hi, can you give me the nearest fast food place?
-- Find me a fast food restaurant.
-- Do you find me a restaurant?
-- Is there any restaurant?
-- IS there any near by restaurant?
-- Could you find me a restaurant?
-- can you find me a restaurant?
-- Would you find any restaurant?
-- Do you seek me a restaurant?
-- Have you seen me a restaurant?
-- Will you find me a restaurant?
-- will you see any restaurant for me?
