@@ -73,6 +73,7 @@
 - Hey LeBron! My name is [Jason](name)[Jason](name)
 - My name is [Jason](name)[Jason](name)
 - My name is [PapaG](name)
+- Hey hey! My name is [Jerry](name)[Jerry](name)
 
 ## intent:goodbye
 - bye
@@ -318,6 +319,7 @@
 - I want to bet on some games tonight
 - Who's going to win the [basketball](Sport) game this weekend?
 - can i get some free picks?
+- I want to make some bets on the games this weekend
 
 ## intent:betting_history
 - What is your betting history?
@@ -328,6 +330,8 @@
 - How many units have you guys won?
 - Why should I trust you for betting advice?
 - how is your betting record?
+- That's a lot... Have you done well betting?
+- Why should I trust your picks?
 
 ## intent:sports
 - What sports do you guys bet on?
@@ -340,6 +344,7 @@
 - Oh that's great! What sports do you guys bet on?
 - Do you bet on any games?
 - What sports do you bet on?
+- What different sports do you guys bet on?
 
 ## intent:nfl
 - Do you bet on [pro football](Sport)?
@@ -525,6 +530,7 @@
 - I'm doing pretty good. How are you?
 - I'm doing well, thank you. How are you?
 - I'm doing quite well. And you?
+- I'm doing great. how are you?
 
 ## intent:apology
 - I'm sorry...
@@ -555,6 +561,7 @@
 - I'd like to sign up
 - Could I sign up for that?
 - can i sign up with you guys?
+- that's not too shabby... How can I sign up?
 
 ## intent:ask_weather
 - How is the weather today?
