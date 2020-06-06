@@ -128,6 +128,17 @@
 - don't like that
 - no way
 - not really
+- hell no
+- nope
+- nah
+- not today
+- no thanks
+- no thank you
+- uh no
+- uh nope
+- noope
+- do you have something else
+- no this does not work for me
 
 ## intent:mood_great
 - perfect
