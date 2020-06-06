@@ -717,3 +717,82 @@
 - What is my full name?
 - What do people call me?
 - What exactly is my name?
+
+## intent:handleinsult
+- you're a loser lmao
+- you are a stupid bot
+- i hate you
+- Stupid
+- fuck you
+- so dumb
+- you are a moron
+- you are an idiot
+- so fucking dumb
+- are you brain dead?
+- how can you be such an idiot?
+- a baby knows more than you
+- i hate your dumb face
+- you are fucking stupid
+- bloody dunce
+- You're an idiot.
+- You are a fool.
+- You're foolish.
+- You are dumb.
+- You have no sense.
+- You are unintelligent.
+- You're a dolt.
+- You're a dunce.
+- You have no brains.
+- You have no intelligence.
+- You are dumb.
+- You are an idiot.
+- You lack intelligence.
+- You are unknowing.
+- You are shortsighted.
+- Your intelligence is laughable.
+- You know nothing.
+- You lack understanding.
+- Your mindset is naive.
+- You brain is dull.
+- you are dumb
+- you're an idiot
+- God you're a moron
+- you're so dumb
+- you are idiotic
+- you're the most moronic person I know
+- I can't believe how dumb you are
+- you are unintelligent
+- you're not smart
+- you are so ignorant
+- you are stupid
+- you're dumb
+- asshole
+- bitch
+- fuck u
+- idiot
+- deal with my ass, you bitch
+- you son of a bitch
+- shut up asshole
+- you asshole
+- are u dump?
+- are u dump?
+- fuck off
+- fuck
+- Fuck
+- Fuck you
+- fuck you machine learning bot
+- Fuck u
+- fuck you
+- what fuck
+- fucking stupid
+- you are fucking stupid guy！
+- go fuck yourself
+- Fuck off
+- Fuck off
+- fuck rasa
+- fuck you!
+- Fuck Off
+- ok fuck you
+- FUCK
+- fucking work
+- ok shut up
