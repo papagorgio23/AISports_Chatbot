@@ -69,6 +69,7 @@
 - hey robot! My name is [Dave](name)
 - Yo Yo! I'm PapaG
 - Hey LeBron! My name is [Jason](name)[Jason](name)
+- Hey LeBron! My name is [Jason](name)[Jason](name)
 
 ## intent:goodbye
 - bye
@@ -118,6 +119,7 @@
 - yup
 - yes please
 - yes plz
+- yeah that sounds great!
 
 ## intent:deny
 - no
@@ -187,6 +189,7 @@
 - that makes sense
 - Delayed reaction but ok...
 - It's all good my man
+- kk deal
 
 ## intent:opinion+positive
 - nice!
@@ -248,18 +251,23 @@
 - next week
 - yesterday
 - for today
-- my email is test@example.com
-- my email is abraham.lincoln@example.com
-- abraham.licoln@example.com
-- it is abraham.licoln@example.com
-- abraham.lincolon@example.com
-- $10
-- 5000
-- 500
-- $100
-- $500
-- 100 dollars
-- 1000 dollars
+- my email is [test@example.com](email)
+- my email is [abraham.lincoln@example.com](email)
+- [abraham.licoln@example.com](email)
+- it is [abraham.licoln@example.com](email)
+- [abraham.lincolon@example.com](email)
+- $[10](betsize)
+- [5000](betsize)
+- [500](betsize)
+- $[100](betsize)
+- $[500](betsize)
+- [100](betsize) dollars
+- [1000](betsize) dollars
+- [2 years](betlength)
+- [1½ years](betlength)
+- [10 years](betlength)
+- [Over](age)
+- [Under](age)
 
 ## intent:help
 - I need help
@@ -302,6 +310,7 @@
 - who is the best team to bet?
 - I am looking to get some help on who to bet on this weekend
 - I want to bet on some games tonight
+- Who's going to win the [basketball](Sport) game this weekend?
 
 ## intent:betting_history
 - What is your betting history?
@@ -372,6 +381,7 @@
 - Can I get some help with modeling the [NBA](Sport)?
 - Can I get some help with modeling [pro basketball](Sport)?
 - Can I get some help with modeling [professional basketball](Sport)?
+- Do you bet on any [nba](Sport) games?
 
 ## intent:ncaab
 - Do you bet on [college basketball](Sport)?

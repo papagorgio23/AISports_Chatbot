@@ -92,7 +92,7 @@ responses:
     - payload: '/inform{"age": "under"}'
       title: No
     text: Are you over 21 years old?
-  utter_ask_picks_form_email:
+  utter_ask_email:
   - text: What is your email address?
   utter_ask_betsize:
   - text: What is your typical bet size?
@@ -267,10 +267,6 @@ responses:
       \        - Over 21: {age}\""
 actions:
 - action_chitchat
-- utter_ask_picks_form_age
-- utter_ask_picks_form_email
-- utter_ask_picks_form_betsize
-- utter_ask_picks_form_betlength
 - utter_greet
 - utter_cheer_up
 - utter_did_that_help
@@ -323,5 +319,6 @@ actions:
 - utter_ask_betlength
 - utter_submit
 - utter_slots_values
+- ask_howdoing
 forms:
 - picks_form

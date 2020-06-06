@@ -64,9 +64,9 @@
   - utter_explain_whatspossible
 
 ## rude user
-* insult
+* handleinsult
   - utter_respond_insult
-* insult
+* handleinsult
   - utter_respond_insult2
   - utter_goodbye
 
@@ -74,7 +74,7 @@
 
 * greet
     - utter_greet
-* well_being_ask
+* ask_howdoing
     - utter_well_being
     - utter_help_you
 
@@ -124,7 +124,7 @@
 * inform{"name":"Jason"}
     - slot{"name":"Jason"}
     - utter_greet_name
-* well_being_ask
+* ask_howdoing
     - utter_well_being
     - utter_help_you
 
