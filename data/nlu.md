@@ -278,3 +278,4 @@
 ## intent:greet_name
 - Hello! My name is [Jason](name)[Jason](name)
 - Hey! My name is [Amanda](name)
+- Howdy! I'm Jared!
