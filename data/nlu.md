@@ -508,7 +508,7 @@
 - I'm sorry...
 - I'm sorry
 
-## intent:how_to_help
+## intent:didnt_help
 - uhh... you didn't help me
 - That wasn't helpful
 - Man that didn't really help me.
