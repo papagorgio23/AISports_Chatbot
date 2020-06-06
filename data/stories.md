@@ -130,7 +130,7 @@
 
 ## Not helpful
 
-* how_to_help
+* help
     - utter_help_you
 
 ## Sign up Form 1
@@ -151,3 +151,7 @@
     - utter_slots_values
 * thankyou
     - utter_help_you
+
+## chitchat
+* ask_weather OR ask_builder OR ask_howdoing OR ask_languagesbot OR ask_howold OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR telljoke OR ask_whatismyname
+    - action_chitchat

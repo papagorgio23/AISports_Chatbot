@@ -251,6 +251,9 @@ responses:
   - text: I'm great! Thanks for asking.
   - text: I'm good, thanks!
   - text: A little bit too warm, otherwise fine.
+  - text: I'm great! Thanks for asking.
+  - text: I'm good, thanks!
+  - text: A little bit too warm, otherwise fine.
   utter_out_of_scope:
   - text: Sorry, I'm not sure how to respond to that. Type "help" for assistance.
   utter_default:
