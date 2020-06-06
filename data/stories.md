@@ -1,3 +1,12 @@
+
+## Sign up Form
+* sign_up
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+* affirm
+    - utter_help_you
+
 ## happy path
 * greet
   - utter_greet
