@@ -84,11 +84,10 @@
 - [Jason](name)
 - [Jason Lee](name)
 - [Miles Lee](name)
-- Hello LeBron! My name is [Jason](name)[Jason](name)
 - [Papa Giorgio](name)[Papa](name) Giorgio
 - [Chris Conley](name)[Conley](name)
-- Yo yo my man! My name is [Jason](name)[Jason](name)
 - My name is [Miles Lee](name)[Lee](name)
+- [Chris Conley](name)[Conley](name)
 
 ## intent:inform
 - My email address is [papagtrade@yahoo.com](email)
@@ -151,8 +150,8 @@
 - [650](betsize)
 - I’ve been betting for [4 years](betlength)
 - email is [lebron23@yahoo.com](email)
-- age is [Over](age)
-- [11 years](betlength)
+- age is [Over](name)[Over](age)
+- [11 years](betlength)[11 years](betlength)
 - [1500](betsize)
 - my email is [chrischris@gmail.com](email)
 - [chrischris@gmail.com](email)
@@ -542,7 +541,6 @@
 - Can I get some help with modeling [NCAA football](Sport)?
 - Can I get some help with modeling [college football](Sport)?
 - I really want to learn more about [College football](Sport)[College football](Sport)
-- I really want to learn more about [College football](Sport)[College football](Sport)
 
 ## intent:nba
 - Do you bet on [pro basketball](Sport)?
@@ -560,7 +558,6 @@
 - Can I get some help with modeling [pro basketball](Sport)?
 - Can I get some help with modeling [professional basketball](Sport)?
 - Do you bet on any [nba](Sport) games?
-- I really like [basketball](Sport). Do you have any useful ideas to improve my modeling for the [NBA](Sport)[NBA](Sport)?
 - I really like [basketball](Sport). Do you have any useful ideas to improve my modeling for the [NBA](Sport)[NBA](Sport)?
 
 ## intent:ncaab
