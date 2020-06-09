@@ -45,6 +45,9 @@ intents:
 - ask_whatismyname
 - ask_whatspossible
 entities:
+- amount-of-money
+- time
+- number
 - price
 - date
 - Sport
