@@ -34,6 +34,7 @@
 - hello my good fellow
 - Hello?
 - Hellllloooo
+- Hellllooo
 
 ## intent:greet_name
 - Hello! My name is [Jason](name)
@@ -78,7 +79,7 @@
 - Hello LeBron! My name is [Jason](name)[Jason](name)
 - Hello LeBron! My name is [George](name)
 - My email address is [papagtrade@yahoo.com](email)
-- [Papa Giorgio](name)[Papa](name) Giorgio
+- [Papa](name)[Papa Giorgio](name)
 - Yo yo my man! My name is [Jason](name)[Jason](name)
 - My name is[ Miles Lee](name)[Lee](name)
 - Hello LeBron! My name is [Jason](name)[Jason](name)
@@ -311,6 +312,7 @@
 - Actually, it did!  Thank you!
 - That's impressive!
 - thats not too bad.
+- thats not too bad
 
 ## intent:opinion+negative
 - ugh
@@ -402,8 +404,8 @@
 - [jalee@freedomplus.com](email)
 - [Jason Lee](name)
 - bet size is roughly $[400](betsize)
-- well lets see... I would say my bet size is around $[400](betsize) a game
-- [Miles Lee](name)
+- well lets see... I would say my bet size is around $400 a game
+- Miles Lee
 - [650](betsize)
 
 ## intent:help
@@ -487,6 +489,7 @@
 - what does A.I. Sports actually do?
 - I am interested in your platform. What does A.I. Sports really do?
 - A.I. Sports is a company carefully crafted to exploit inefficiencies in the sports betting markets. We specialize in advanced predictive modeling. Our goal is to help you make more money betting on sports.
+- I am interested in your platform... What does A.I. Sports really do?
 
 ## intent:nfl
 - Do you bet on [pro football](Sport)?
@@ -938,6 +941,8 @@
 - FUCK
 - fucking work
 - ok shut up
+- what the hell man
+- you suck dick
 
 ## intent:telljoke
 - tell me a joke
