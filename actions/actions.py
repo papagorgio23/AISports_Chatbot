@@ -24,26 +24,6 @@ class PicksForm(FormAction):
             return ["name", "age", "email", "betsize", "betlength", "parents"]
         else:
             return ["name", "age", "email", "betsize", "betlength"]
-    
-    def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
-    """A dictionary to map required slots to
-        - an extracted entity
-        - intent: value pairs
-        - a whole message
-        or a list of them, where a first match will be picked"""
-
-    return {
-        "age": [
-            self.from_entity(entity="age"),
-            self.from_intent(intent="affirm", value="Yes"),
-            self.from_intent(intent="deny", value="No"),
-        ],
-        "parents": [
-            self.from_entity(entity="parents"),
-            self.from_intent(intent="affirm", value=True),
-            self.from_intent(intent="deny", value=False),
-        ],
-    }
         
     def submit(
         self,
