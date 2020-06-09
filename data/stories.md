@@ -267,3 +267,99 @@
     - utter_slots_values
 * thankyou
     - utter_help_you
+
+## Fifa 2
+
+* fifa
+    - utter_fifa
+    - utter_sign_up
+* deny
+    - utter_signup_2
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## MLB 2
+
+* mlb
+    - utter_mlb
+    - utter_sign_up
+* deny
+	- utter_signup_2
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## NFL 2
+
+* nfl
+    - utter_nfl
+    - utter_sign_up
+* deny
+	- utter_signup_2
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## NCAAB 2
+
+* ncaab
+    - utter_ncaab
+    - utter_sign_up
+* deny
+	- utter_signup_2
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## NCAAF 2
+
+* ncaaf
+    - utter_ncaaf
+    - utter_sign_up
+* deny
+	- utter_signup_2
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## NBA 2
+
+* nba
+    - utter_nba
+    - utter_sign_up
+* deny
+	- utter_signup_2
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
