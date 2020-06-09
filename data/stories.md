@@ -440,3 +440,40 @@
 * deny
     - utter_signup_deny
     - utter_help_you
+
+## Sign up ChitChat
+* sign_up
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+* chitchat
+    - utter_chitchat
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## Sign up Stop
+* sign_up
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+* stop
+    - utter_ask_continue
+* deny
+    - action_deactivate_form
+    - form{"name": null}
+    - utter_help_you
+
+## Sign up Stop-Go
+* sign_up
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+* stop
+    - utter_ask_continue
+* affirm
+    - picks_form
+    - form{"name": null}
+    - utter_help_you
