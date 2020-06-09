@@ -70,10 +70,11 @@
 - hey robot! My name is [Dave](name)
 - Yo Yo! I'm PapaG
 - Hey LeBron! My name is [Jason](name)[Jason](name)
-- Hey LeBron! My name is [Jason](name)[Jason](name)
 - My name is [Jason](name)[Jason](name)
 - My name is [PapaG](name)
 - Hey hey! My name is [Jerry](name)[Jerry](name)
+- Hello LeBron! My name is [Jason](name)[Jason](name)
+- Hello LeBron! My name is [George](name)
 
 ## intent:goodbye
 - bye
@@ -124,6 +125,7 @@
 - yes please
 - yes plz
 - yeah that sounds great!
+- haha that sounds about right
 
 ## intent:deny
 - no
@@ -161,6 +163,8 @@
 - I'm doing well
 - it's all good in the hood
 - It's a pretty good day
+- I'm doing really well. You?
+- Life is good. No complaints from my point of view.
 
 ## intent:mood_unhappy
 - sad
@@ -184,6 +188,7 @@
 - you are a bot right
 - aren't you a bot
 - are you a robot or something?
+- I feel like you aren't even human
 
 ## intent:acknowledge
 - ok
@@ -275,6 +280,16 @@
 - [1000](betsize)[1000](betsize)
 - $[10000](betsize)
 - my email is [jason@aisportsfirm.com](email)
+- [papagtrade@yahoo.com](name)
+- $[250](betsize)
+- My email address is [papagtrade@yahoo.com](email)
+- [Jason](name)
+- $[25](betsize)
+- I typically bet around $[100](betsize) a game
+- About $[200](betsize)
+- I bet [1000](betsize) each
+- I've been doing this for about [10 years](betlength) now
+- I'd say around [3 years](betlength)
 
 ## intent:help
 - I need help
@@ -320,6 +335,8 @@
 - Who's going to win the [basketball](Sport) game this weekend?
 - can i get some free picks?
 - I want to make some bets on the games this weekend
+- Where can I get these picks?
+- I want to make some bets this weekend
 
 ## intent:betting_history
 - What is your betting history?
@@ -332,6 +349,7 @@
 - how is your betting record?
 - That's a lot... Have you done well betting?
 - Why should I trust your picks?
+- Do you guys make alot of money?
 
 ## intent:sports
 - What sports do you guys bet on?
@@ -562,6 +580,7 @@
 - Could I sign up for that?
 - can i sign up with you guys?
 - that's not too shabby... How can I sign up?
+- I want to sign up for your services
 
 ## intent:ask_weather
 - How is the weather today?
@@ -639,6 +658,7 @@
 - Is it going to rain today?
 - Do you know what the weather is like?
 - What's the weather like today?
+- What's the weather
 
 ## intent:ask_builder
 - can you share your boss with me?
@@ -803,6 +823,7 @@
 - order a pizza
 - I want to order a pizza
 - I want a pizza
+- Do you like ice cream?
 
 ## intent:handleinsult
 - you're a loser lmao
@@ -968,6 +989,7 @@
 - Where are you located?
 - Are you from around here?
 - You live around here?
+- Where are you from?
 
 ## intent:ask_time
 - what is the current time?
@@ -1068,6 +1090,7 @@
 - how old are you
 - How old are you?
 - how old are u
+- how old are you?
 
 ## intent:ask_whoami
 - Who am I?

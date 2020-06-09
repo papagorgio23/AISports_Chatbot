@@ -248,12 +248,9 @@ responses:
   - text: Blue skies and sun shine!
   - text: Let's just say it hasn't rained in weeks ☀️
   utter_ask_builder:
-  - text: The engineers at Rasa 🛠
-  - text: One of the smart engineers at Rasa! 🧠
+  - text: The engineers at A.I. Sports 🛠
+  - text: One of the smart engineers at A.I. Sports! 🧠
   utter_ask_howdoing:
-  - text: I'm great! Thanks for asking.
-  - text: I'm good, thanks!
-  - text: A little bit too warm, otherwise fine.
   - text: I'm great! Thanks for asking.
   - text: I'm good, thanks!
   - text: A little bit too warm, otherwise fine.
@@ -271,6 +268,8 @@ responses:
       n\n           - Name: {name}\\n\n           - Email: {email}\\n\n          \
       \ - Bet Size: {betsize}\\n\n           - Years Betting: {betlength}\\n\n   \
       \        - Over 21: {age}\""
+  utter_ask_name:
+  - text: What is your full name?
 actions:
 - action_chitchat
 - utter_greet
@@ -326,5 +325,6 @@ actions:
 - utter_submit
 - utter_slots_values
 - ask_howdoing
+- utter_ask_name
 forms:
 - picks_form
