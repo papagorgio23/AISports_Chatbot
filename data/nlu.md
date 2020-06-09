@@ -504,6 +504,10 @@
 - I am interested in your platform. What does A.I. Sports really do?
 - A.I. Sports is a company carefully crafted to exploit inefficiencies in the sports betting markets. We specialize in advanced predictive modeling. Our goal is to help you make more money betting on sports.
 - I am interested in your platform... What does A.I. Sports really do?
+- I'm curious about what A.I. Sports really does...
+- A.I. Sports sounds really cool but i'm still confused about what you do
+- I feel like sports betting is really cool and all but what do you guys really do over there?
+- Isn't sports betting illegal? What can A.I. Sports really do?
 
 ## intent:nfl
 - Do you bet on [pro football](Sport)?
