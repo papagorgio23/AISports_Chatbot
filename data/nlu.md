@@ -32,6 +32,7 @@
 - Hey! What's up
 - Yo Yo what's up
 - hello my good fellow
+- Hello?
 
 ## intent:greet_name
 - Hello! My name is [Jason](name)
@@ -75,6 +76,9 @@
 - Hey hey! My name is [Jerry](name)[Jerry](name)
 - Hello LeBron! My name is [Jason](name)[Jason](name)
 - Hello LeBron! My name is [George](name)
+- [Papa](name)[Papa Giorgio](name)
+- Yo yo my man! My name is [Jason](name)[Jason](name)
+- My name is[ Miles Lee](name)[Lee](name)
 
 ## intent:goodbye
 - bye
@@ -165,6 +169,7 @@
 - It's a pretty good day
 - I'm doing really well. You?
 - Life is good. No complaints from my point of view.
+- I’m doing really good my friend
 
 ## intent:mood_unhappy
 - sad
@@ -199,6 +204,7 @@
 - Delayed reaction but ok...
 - It's all good my man
 - kk deal
+- alright
 
 ## intent:opinion+positive
 - nice!
@@ -207,6 +213,7 @@
 - very nice!
 - Actually, it did!  Thank you!
 - That's impressive!
+- thats not too bad.
 
 ## intent:opinion+negative
 - ugh
@@ -290,6 +297,18 @@
 - I bet [1000](betsize) each
 - I've been doing this for about [10 years](betlength) now
 - I'd say around [3 years](betlength)
+- Bet size is $[650](betsize)
+- email is [lebron23@yahoo.com](email)[lebron23@yahoo.com](email)
+- I’ve been betting for [4 years](betlength)[4 years](betlength)
+- [1250](betsize)
+- bet size is $[750](betsize) a game
+- the email address is [jalee@freedomplus.com](email)
+- [jalee@freedomplus.com](email)
+- [Jason Lee](name)
+- bet size is roughly $[400](betsize)
+- well lets see... I would say my bet size is around $[400](betsize) a game
+- [Miles Lee](name)
+- [650](betsize)
 
 ## intent:help
 - I need help
@@ -337,6 +356,7 @@
 - I want to make some bets on the games this weekend
 - Where can I get these picks?
 - I want to make some bets this weekend
+- do you think that I could get some picks or something?
 
 ## intent:betting_history
 - What is your betting history?
@@ -350,6 +370,8 @@
 - That's a lot... Have you done well betting?
 - Why should I trust your picks?
 - Do you guys make alot of money?
+- Are you guys good at betting?
+- Oh that’s cool. Are you guys good at betting?
 
 ## intent:sports
 - What sports do you guys bet on?
@@ -363,6 +385,7 @@
 - Do you bet on any games?
 - What sports do you bet on?
 - What different sports do you guys bet on?
+- I am interested in your platform. What does A.I. Sports really do?
 
 ## intent:nfl
 - Do you bet on [pro football](Sport)?
@@ -582,6 +605,9 @@
 - can i sign up with you guys?
 - that's not too shabby... How can I sign up?
 - I want to sign up for your services
+- sign up with a.i. sports
+- sign up for A.I. Sports
+- yeah I’d sign up for that
 
 ## intent:ask_weather
 - How is the weather today?
