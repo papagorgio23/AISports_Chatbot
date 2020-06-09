@@ -413,6 +413,7 @@
 - Can I get some help with modeling [pro basketball](Sport)?
 - Can I get some help with modeling [professional basketball](Sport)?
 - Do you bet on any [nba](Sport) games?
+- I really like [basketball](Sport). Do you have any useful ideas to improve my modeling for the [NBA](Sport)[NBA](Sport)?
 
 ## intent:ncaab
 - Do you bet on [college basketball](Sport)?

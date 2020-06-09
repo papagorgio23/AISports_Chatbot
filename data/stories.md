@@ -1,5 +1,6 @@
 ## Sign up Form
 * sign_up
+    - utter_form
     - picks_form
     - form{"name": "picks_form"}
     - form{"name": null}
@@ -89,11 +90,6 @@
 
 ## Full Convo 1
 
-* greet
-    - utter_greet
-* mood_great
-    - utter_good
-    - utter_help_you
 * picks
     - utter_picks
 * sports
@@ -112,6 +108,7 @@
     - utter_fifa
     - utter_sign_up
 * affirm
+    - utter_form
     - picks_form
     - form{"name": "picks_form"}
     - form{"name": null}
@@ -145,6 +142,7 @@
     - utter_good
     - utter_help_you
 * sign_up
+    - utter_form
     - picks_form
     - form{"name": "picks_form"}
     - form{"name": null}
@@ -155,3 +153,117 @@
 ## chitchat
 * ask_weather OR ask_builder OR ask_howdoing OR ask_languagesbot OR ask_howold OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR telljoke OR ask_whatismyname
     - action_chitchat
+
+## NCAAB 1
+
+* ncaab
+    - utter_ncaab
+    - utter_sign_up
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## NCAAF 1
+
+* ncaaf
+    - utter_ncaaf
+    - utter_sign_up
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## NBA 1
+
+* nba
+    - utter_nba
+    - utter_sign_up
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## NFL 1
+
+* nfl
+    - utter_nfl
+    - utter_sign_up
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## MLB 1
+
+* mlb
+    - utter_mlb
+    - utter_sign_up
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## NHL 1
+
+* nhl
+    - utter_nhl
+    - utter_sign_up
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## NHL 2
+
+* nhl
+    - utter_nhl
+    - utter_sign_up
+* deny
+    - utter_signup_2
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## NHL 1
+
+* nhl
+    - utter_nhl
+    - utter_sign_up
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you

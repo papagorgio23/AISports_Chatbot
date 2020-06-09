@@ -2,6 +2,7 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- mlb
 - greet
 - greet_name
 - goodbye
@@ -141,9 +142,9 @@ responses:
   - text: I am a bot, powered by A.I. Sports (the greatest sports bettors I've ever
       met!).
   utter_explain_whatspossible:
-  - text: 'I can help you sign up to receive our weekly bets, provide information
-      about A.I. Sports, provide our historical betting records, or explain the different
-      apps on our website, '
+  - text: I can help you sign up to receive our weekly bets, provide information about
+      A.I. Sports, talk about sports or the weather, provide our historical betting
+      records, or explain the different apps on our website.
   utter_cannot_help:
   - text: I'm really sorry but I can't help you with that...
   - text: Damn... I wish I was able to help with that but I can't...
@@ -158,12 +159,16 @@ responses:
   - text: I know a guy that could help you out! Investing is our game!
   utter_picks:
   - text: We provide between 5-12 free picks on Twitter each weekend for NFL and NCAAF
-      during the fall. We cover other sports privately too.
+      during the fall. You can follow us at @theFirmAISports. We cover other sports
+      privately too if you sign up with us...
   - text: We do give out some free picks. Typically 3-5 NFL games or 5-7 NCAA football
-      games.
+      games. You can follow us at @theFirmAISports to get them... or.... If you sign
+      up to be our betting partner we can really have some fun!
   - text: We do give out picks with our predicted probability of success on Twitter.
-      You can follow us at @theFirmAISports
-  - text: Best way to get our free picks is to follow us on Twitter @theFirmAISports
+      You can follow us at @theFirmAISports. The other way to get our picks is to
+      work with us as a betting partnership.
+  - text: Best way to get our free picks is to follow us on Twitter @theFirmAISports.
+      Or else you could sign up to be our partner.
   utter_betting_history:
   - text: We have documented all of our NFL picks publicly for the last 2 seasons.
       NFL is 302-217-15 (56.6%).
@@ -204,9 +209,9 @@ responses:
   - text: You're in luck! A.I. Sports has been betting on soccer for a few years now.
       We currently have 2 live soccer models ready to go.
   utter_sign_up:
-  - text: Would you like to sign up?
-  - text: Do you want to sign up?
-  - text: Let's make it official! Should we sign you up?
+  - text: Would you like to sign up to be a betting partner of ours? ?
+  - text: Do you want to become our betting partner?
+  - text: Let's make it official! Should we sign you up to be a betting partner?
   utter_form:
   - text: Alright sweet! I just need to collect some information first and then we
       will be set!
@@ -214,8 +219,8 @@ responses:
   - text: Hey {name}! My name is LeBron. It's a pleasure to meet you!
   - text: Hey {name}! I'm LeBron! It's nice to meet you!
   utter_continue:
-  - text: Do you want to continue the healthcare facility search?
-  - text: You are going off topic. Are you still looking for a healthcare provider?
+  - text: Do you want to continue getting some sports betting help?
+  - text: You are going off topic. Are you still looking for some betting advice?
   utter_ask_howold:
   - text: '42'
   - text: Old enough to be a bot
@@ -230,8 +235,9 @@ responses:
   utter_ask_time:
   - text: It is the most wonderful time of the year!
   utter_ask_wherefrom:
-  - text: I was born in Berlin, but I consider myself a citizen of the world.
+  - text: I was born in Las Vegas, but I consider myself a citizen of the world.
   - text: I was born in the coolest city on Earth
+  - text: I was born and raised in Sin City!
   utter_ask_whoami:
   - text: I hope you are being yourself.
   utter_handleinsult:
@@ -264,12 +270,36 @@ responses:
   utter_submit:
   - text: All done!
   utter_slots_values:
-  - text: "\"I am going to run this by you to make sure I have everything correct:\\\
-      n\n           - Name: {name}\\n\n           - Email: {email}\\n\n          \
-      \ - Bet Size: {betsize}\\n\n           - Years Betting: {betlength}\\n\n   \
-      \        - Over 21: {age}\""
+  - text: "\"I am going to run this by you to make sure I have everything correct:\n\
+      \           - Name: {name}\n           - Email: {email}\n           - Bet Size:\
+      \ {betsize}\n           - Years Betting: {betlength}\n           - Over 21:\
+      \ {age}\""
   utter_ask_name:
   - text: What is your full name?
+  utter_ncaab:
+  - text: College basketball is the best! Those kids play with so much heart. We have
+      a model built out specifically for March Madness. You can find the code for
+      our Monte Carlo Simulation at https://github.com/papagorgio23/MarchMadness.
+  utter_ncaaf:
+  - text: Nothing better than spending an entire Saturday on the couch sweating big
+      game after big game . College football my personal favorite. Last year our model
+      gave us  396 spread bets. We cashed 215 of them putting us at 58% on the year.
+      Plenty of extra spending money this season!  You can see every game and the
+      predicted probability at https://docs.google.com/spreadsheets/d/1Ni_FGj8wCqMOsRHjlrr3qpkmA3R2UAdKuIaHCQ9Vd40/edit?usp=sharing.
+  utter_signup_2:
+  - text: Are you sure you don't want to work with us? We provide sophisticated predictive
+      modeling coupled with years of actual betting experience to generate solid returns.
+  utter_nfl:
+  - text: The NFL is the hardest market to beat! However, we have a documented 302-217-15
+      (56.6%) over the last 2 seasons betting against the spread. Not a bad ROI.
+  utter_nhl:
+  - text: We here at A.I. Sports have a soft spot in our hearts for hockey. Several
+      of our team members used to play back in the day. We have a model and some talented
+      analysts helping us make our NHL bets.
+  utter_mlb:
+  - text: Baseball.... They say it's America's past time but we thing the time has
+      run up on this sport... Only half kidding. We still make some bets here and
+      there and dabble in the Daily Fantasy MLB Leagues.
 actions:
 - action_chitchat
 - utter_greet
@@ -326,5 +356,11 @@ actions:
 - utter_slots_values
 - ask_howdoing
 - utter_ask_name
+- utter_ncaab
+- utter_ncaaf
+- utter_signup_2
+- utter_nfl
+- utter_nhl
+- utter_mlb
 forms:
 - picks_form
