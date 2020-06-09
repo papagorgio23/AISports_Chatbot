@@ -33,6 +33,7 @@
 - Yo Yo what's up
 - hello my good fellow
 - Hello?
+- Hellllloooo
 
 ## intent:greet_name
 - Hello! My name is [Jason](name)
@@ -76,9 +77,11 @@
 - Hey hey! My name is [Jerry](name)[Jerry](name)
 - Hello LeBron! My name is [Jason](name)[Jason](name)
 - Hello LeBron! My name is [George](name)
-- [Papa](name)[Papa Giorgio](name)
+- My email address is [papagtrade@yahoo.com](email)
+- [Papa Giorgio](name)[Papa](name) Giorgio
 - Yo yo my man! My name is [Jason](name)[Jason](name)
 - My name is[ Miles Lee](name)[Lee](name)
+- Hello LeBron! My name is [Jason](name)[Jason](name)
 
 ## intent:goodbye
 - bye
@@ -151,6 +154,7 @@
 - no this does not work for me
 - nah man
 - or nah?
+- uhh... No thanks
 
 ## intent:mood_great
 - perfect
@@ -167,9 +171,102 @@
 - I'm doing well
 - it's all good in the hood
 - It's a pretty good day
-- I'm doing really well. You?
 - Life is good. No complaints from my point of view.
 - I’m doing really good my friend
+
+## intent:ask_howdoing
+- I'm doing really well. You?
+- Ahoy matey how are you?
+- are you alright
+- are you having a good day
+- Are you ok?
+- are you okay
+- Do you feel good?
+- how are things going
+- how are things with you?
+- How are things?
+- how are you
+- how are you doing
+- how are you doing this morning
+- how are you feeling
+- how are you today
+- How are you?
+- how do you do?
+- how have you been
+- how is it going
+- how is your day
+- how is your day going
+- how is your evening
+- How was your day?
+- How's it going
+- How's it hanging?
+- how's life
+- how's life been treating you?
+- How's life treating you friend?
+- how's your day going
+- How've you been?
+- I'm fine and you
+- is everything all right
+- Is everything ok?
+- is everything okay
+- what about your day
+- What's going on?
+- what's good
+- What's new?
+- What's up man
+- What's up
+- how are you?
+- Do you have a great day?
+- how are you doing today my sweet friend
+- how are you doing?
+- how are u
+- nah, I'm good - how are you doing?
+- how are yuo
+- How are you
+- how you doing
+- are you ok
+- How are you today?
+- how are u?
+- okay hi how are you?
+- how r u
+- how r u>
+- and you
+- How are you men?
+- what's up?
+- how are you????
+- how ?
+- how r u ?
+- h r u ?
+- how's it going?
+- hello, how are you?
+- hw r u?
+- what's up
+- wassup>
+- hi how u doing
+- Hi Sara! How are you?
+- how are you ?
+- how are you'
+- how are you doing today?
+- how you doing?
+- How are You?
+- what doing
+- how are xou
+- ¿Qué pasa?
+- hi how are you?
+- hi sara, how are you?
+- Hows it going
+- come stai?
+- How you doing?
+- I'm doing well. How are you?
+- How's it going?
+- you doing alright?
+- you doing ight?
+- I'm doing great! How are you?
+- I'm doing pretty good. How are you?
+- I'm doing well, thank you. How are you?
+- I'm doing quite well. And you?
+- I'm doing great. how are you?
+- good good good. How about you?
 
 ## intent:mood_unhappy
 - sad
@@ -287,9 +384,8 @@
 - [1000](betsize)[1000](betsize)
 - $[10000](betsize)
 - my email is [jason@aisportsfirm.com](email)
-- [papagtrade@yahoo.com](name)
+- [papagtrade@yahoo.com](email)
 - $[250](betsize)
-- My email address is [papagtrade@yahoo.com](email)
 - [Jason](name)
 - $[25](betsize)
 - I typically bet around $[100](betsize) a game
@@ -378,14 +474,19 @@
 - What do you bet?
 - Do you bet year round?
 - Which sports are best?
-- What type of investments do you make?
 - Is there a particular sport you focus on?
-- what does A.I. Sports actually do?
 - Oh that's great! What sports do you guys bet on?
 - Do you bet on any games?
 - What sports do you bet on?
 - What different sports do you guys bet on?
+
+## intent:bet_types
+- What type of investments do you make?
+
+## intent:ai_sports
+- what does A.I. Sports actually do?
 - I am interested in your platform. What does A.I. Sports really do?
+- A.I. Sports is a company carefully crafted to exploit inefficiencies in the sports betting markets. We specialize in advanced predictive modeling. Our goal is to help you make more money betting on sports.
 
 ## intent:nfl
 - Do you bet on [pro football](Sport)?
@@ -419,6 +520,7 @@
 - Is [NCAA football](Sport) a big part of your betting strategy?
 - Can I get some help with modeling [NCAA football](Sport)?
 - Can I get some help with modeling [college football](Sport)?
+- I really want to learn more about [College football](Sport)[College football](Sport)
 
 ## intent:nba
 - Do you bet on [pro basketball](Sport)?
@@ -436,6 +538,7 @@
 - Can I get some help with modeling [pro basketball](Sport)?
 - Can I get some help with modeling [professional basketball](Sport)?
 - Do you bet on any [nba](Sport) games?
+- I really like [basketball](Sport). Do you have any useful ideas to improve my modeling for the [NBA](Sport)[NBA](Sport)?
 - I really like [basketball](Sport). Do you have any useful ideas to improve my modeling for the [NBA](Sport)[NBA](Sport)?
 
 ## intent:ncaab
@@ -482,98 +585,6 @@
 - [Soccer](Sport) is my favorite sport
 - I want to start betting some [FIFA](Sport)
 
-## intent:ask_howdoing
-- Ahoy matey how are you?
-- are you alright
-- are you having a good day
-- Are you ok?
-- are you okay
-- Do you feel good?
-- how are things going
-- how are things with you?
-- How are things?
-- how are you
-- how are you doing
-- how are you doing this morning
-- how are you feeling
-- how are you today
-- How are you?
-- how do you do?
-- how have you been
-- how is it going
-- how is your day
-- how is your day going
-- how is your evening
-- How was your day?
-- How's it going
-- How's it hanging?
-- how's life
-- how's life been treating you?
-- How's life treating you friend?
-- how's your day going
-- How've you been?
-- I'm fine and you
-- is everything all right
-- Is everything ok?
-- is everything okay
-- what about your day
-- What's going on?
-- what's good
-- What's new?
-- What's up man
-- What's up
-- how are you?
-- Do you have a great day?
-- how are you doing today my sweet friend
-- how are you doing?
-- how are u
-- nah, I'm good - how are you doing?
-- how are yuo
-- How are you
-- how you doing
-- are you ok
-- How are you today?
-- how are u?
-- okay hi how are you?
-- how r u
-- how r u>
-- and you
-- How are you men?
-- what's up?
-- how are you????
-- how ?
-- how r u ?
-- h r u ?
-- how's it going?
-- hello, how are you?
-- hw r u?
-- what's up
-- wassup>
-- hi how u doing
-- Hi Sara! How are you?
-- how are you ?
-- how are you'
-- how are you doing today?
-- how you doing?
-- How are You?
-- what doing
-- how are xou
-- ¿Qué pasa?
-- hi how are you?
-- hi sara, how are you?
-- Hows it going
-- come stai?
-- How you doing?
-- I'm doing well. How are you?
-- How's it going?
-- you doing alright?
-- you doing ight?
-- I'm doing great! How are you?
-- I'm doing pretty good. How are you?
-- I'm doing well, thank you. How are you?
-- I'm doing quite well. And you?
-- I'm doing great. how are you?
-
 ## intent:apology
 - I'm sorry...
 - I'm sorry
@@ -608,6 +619,7 @@
 - sign up with a.i. sports
 - sign up for A.I. Sports
 - yeah I’d sign up for that
+- alright then. I want to sign up
 
 ## intent:ask_weather
 - How is the weather today?

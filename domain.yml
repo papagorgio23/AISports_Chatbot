@@ -45,6 +45,9 @@ intents:
 - ask_languagesbot
 - ask_whatismyname
 - ask_whatspossible
+- chitchat
+- stop
+- ai_sports
 entities:
 - amount-of-money
 - time
