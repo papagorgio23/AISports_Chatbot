@@ -300,6 +300,8 @@ responses:
   - text: Baseball.... They say it's America's past time but we thing the time has
       run up on this sport... Only half kidding. We still make some bets here and
       there and dabble in the Daily Fantasy MLB Leagues.
+  utter_signup_deny:
+  - text: Alright I understand... If you ever want to sign up just let me know...
 actions:
 - action_chitchat
 - utter_greet
@@ -362,5 +364,6 @@ actions:
 - utter_nfl
 - utter_nhl
 - utter_mlb
+- utter_signup_deny
 forms:
 - picks_form

@@ -363,3 +363,80 @@
     - utter_slots_values
 * thankyou
     - utter_help_you
+
+## NHL sad
+
+* nhl
+    - utter_nhl
+    - utter_sign_up
+* deny
+    - utter_signup_2
+* deny
+	- utter_signup_deny
+    - utter_help_you
+
+## NBA sad
+
+* nba
+    - utter_nba
+    - utter_sign_up
+* deny
+	- utter_signup_2
+* deny
+    - utter_signup_deny
+    - utter_help_you
+
+## NCAAF sad
+
+* ncaaf
+    - utter_ncaaf
+    - utter_sign_up
+* deny
+	- utter_signup_2
+* deny
+    - utter_signup_deny
+    - utter_help_you
+
+## NCAAB sad
+
+* ncaab
+    - utter_ncaab
+    - utter_sign_up
+* deny
+	- utter_signup_2
+* deny
+    - utter_signup_deny
+    - utter_help_you
+
+## NFL sad
+
+* nfl
+    - utter_nfl
+    - utter_sign_up
+* deny
+	- utter_signup_2
+* deny
+    - utter_signup_deny
+    - utter_help_you
+
+## MLB sad
+
+* mlb
+    - utter_mlb
+    - utter_sign_up
+* deny
+	- utter_signup_2
+* deny
+    - utter_signup_deny
+    - utter_help_you
+
+## Fifa sad
+
+* fifa
+    - utter_fifa
+    - utter_sign_up
+* deny
+    - utter_signup_2
+* deny
+    - utter_signup_deny
+    - utter_help_you
