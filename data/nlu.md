@@ -82,7 +82,6 @@
 - [Papa](name)[Papa Giorgio](name)
 - Yo yo my man! My name is [Jason](name)[Jason](name)
 - My name is[ Miles Lee](name)[Lee](name)
-- Hello LeBron! My name is [Jason](name)[Jason](name)
 
 ## intent:goodbye
 - bye
@@ -542,7 +541,6 @@
 - Can I get some help with modeling [professional basketball](Sport)?
 - Do you bet on any [nba](Sport) games?
 - I really like [basketball](Sport). Do you have any useful ideas to improve my modeling for the [NBA](Sport)[NBA](Sport)?
-- I really like [basketball](Sport). Do you have any useful ideas to improve my modeling for the [NBA](Sport)[NBA](Sport)?
 
 ## intent:ncaab
 - Do you bet on [college basketball](Sport)?
@@ -623,6 +621,7 @@
 - sign up for A.I. Sports
 - yeah I’d sign up for that
 - alright then. I want to sign up
+- i need to sign up
 
 ## intent:ask_weather
 - How is the weather today?
