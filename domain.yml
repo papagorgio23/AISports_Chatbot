@@ -62,6 +62,7 @@ entities:
 - email
 - betsize
 - betlength
+- parents
 slots:
   Sport:
     type: unfeaturized
@@ -89,8 +90,10 @@ slots:
     auto_fill: false
   price:
     type: unfeaturized
+    auto_fill: false
   requested_slot:
     type: unfeaturized
+    auto_fill: false
 responses:
   utter_ask_age:
   - text: Are you over the age of 21?
@@ -310,6 +313,8 @@ responses:
   - text: A.I. Sports is a company carefully crafted to exploit inefficiencies in
       the sports betting markets. We specialize in advanced predictive modeling. Our
       goal is to help you make more money betting on sports.
+  utter_ask_parents:
+  - text: Do you think your parents would let you bet on sports?
 actions:
 - action_chitchat
 - utter_greet
@@ -374,5 +379,6 @@ actions:
 - utter_mlb
 - utter_signup_deny
 - utter_ai_sports
+- utter_ask_parents
 forms:
 - picks_form

@@ -155,6 +155,7 @@
 - [1500](betsize)
 - my email is [chrischris@gmail.com](email)
 - [chrischris@gmail.com](email)
+- My [parents](parents) for sure would let me bet on sports!
 
 ## intent:goodbye
 - bye
