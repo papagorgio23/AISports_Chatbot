@@ -78,10 +78,84 @@
 - Hey hey! My name is [Jerry](name)[Jerry](name)
 - Hello LeBron! My name is [Jason](name)[Jason](name)
 - Hello LeBron! My name is [George](name)
-- My email address is [papagtrade@yahoo.com](email)
 - [Papa](name)[Papa Giorgio](name)
 - Yo yo my man! My name is [Jason](name)[Jason](name)
 - My name is[ Miles Lee](name)[Lee](name)
+- [Jason](name)
+- [Jason Lee](name)
+- [Miles Lee](name)
+- Hello LeBron! My name is [Jason](name)[Jason](name)
+- [Papa Giorgio](name)[Papa](name) Giorgio
+- [Chris Conley](name)[Conley](name)
+- Yo yo my man! My name is [Jason](name)[Jason](name)
+- My name is [Miles Lee](name)[Lee](name)
+
+## intent:inform
+- My email address is [papagtrade@yahoo.com](email)
+- [Ian](name)
+- [Pat](name)
+- [Jerry](name)
+- it is [Jason](name)
+- my names is [Amanda](name)
+- it is on [Sunday](date)
+- The game is [Saturday](date)
+- I live in [California](location)
+- I reside in [Florida](location)
+- I live in [Utah](location)
+- for sunday
+- for friday
+- for tomorrow
+- for saturday
+- today
+- tomorrow
+- next week
+- yesterday
+- for today
+- my email is [test@example.com](email)
+- my email is [abraham.lincoln@example.com](email)
+- [abraham.licoln@example.com](email)
+- it is [abraham.licoln@example.com](email)
+- [abraham.lincolon@example.com](email)
+- $[10](betsize)
+- [5000](betsize)
+- [500](betsize)
+- $[100](betsize)
+- $[500](betsize)
+- [100](betsize) dollars
+- [1000](betsize) dollars
+- [2 years](betlength)
+- [1½ years](betlength)
+- [10 years](betlength)
+- [Over](age)[Over](age)
+- [Under](age)
+- [1000](betsize)[1000](betsize)
+- $[10000](betsize)
+- my email is [jason@aisportsfirm.com](email)
+- [papagtrade@yahoo.com](email)
+- $[250](betsize)
+- $[25](betsize)
+- I typically bet around $[100](betsize) a game
+- About $[200](betsize)
+- I bet [1000](betsize) each
+- I've been doing this for about [10 years](betlength) now
+- I'd say around [3 years](betlength)
+- Bet size is $[650](betsize)
+- email is [lebron23@yahoo.com](email)[lebron23@yahoo.com](email)
+- I’ve been betting for [4 years](betlength)[4 years](betlength)
+- [1250](betsize)
+- bet size is $[750](betsize) a game
+- the email address is [jalee@freedomplus.com](email)
+- [jalee@freedomplus.com](email)
+- bet size is roughly $[400](betsize)
+- well lets see... I would say my bet size is around $[400](betsize) a game
+- [650](betsize)
+- I’ve been betting for [4 years](betlength)
+- email is [lebron23@yahoo.com](email)
+- age is [Over](age)
+- [11 years](betlength)
+- [1500](betsize)
+- my email is [chrischris@gmail.com](email)
+- [chrischris@gmail.com](email)
 
 ## intent:goodbye
 - bye
@@ -312,6 +386,7 @@
 - That's impressive!
 - thats not too bad.
 - thats not too bad
+- that's perfect
 
 ## intent:opinion+negative
 - ugh
@@ -345,68 +420,6 @@
 - cool thank you
 - cool cool
 
-## intent:inform
-- [Ian](name)
-- [Pat](name)
-- [Jerry](name)
-- it is [Jason](name)
-- my names is [Amanda](name)
-- it is on [Sunday](date)
-- The game is [Saturday](date)
-- I live in [California](location)
-- I reside in [Florida](location)
-- I live in [Utah](location)
-- for sunday
-- for friday
-- for tomorrow
-- for saturday
-- today
-- tomorrow
-- next week
-- yesterday
-- for today
-- my email is [test@example.com](email)
-- my email is [abraham.lincoln@example.com](email)
-- [abraham.licoln@example.com](email)
-- it is [abraham.licoln@example.com](email)
-- [abraham.lincolon@example.com](email)
-- $[10](betsize)
-- [5000](betsize)
-- [500](betsize)
-- $[100](betsize)
-- $[500](betsize)
-- [100](betsize) dollars
-- [1000](betsize) dollars
-- [2 years](betlength)
-- [1½ years](betlength)
-- [10 years](betlength)
-- [Over](age)
-- [Under](age)
-- [1000](betsize)[1000](betsize)
-- $[10000](betsize)
-- my email is [jason@aisportsfirm.com](email)
-- [papagtrade@yahoo.com](email)
-- $[250](betsize)
-- [Jason](name)
-- $[25](betsize)
-- I typically bet around $[100](betsize) a game
-- About $[200](betsize)
-- I bet [1000](betsize) each
-- I've been doing this for about [10 years](betlength) now
-- I'd say around [3 years](betlength)
-- Bet size is $[650](betsize)
-- email is [lebron23@yahoo.com](email)[lebron23@yahoo.com](email)
-- I’ve been betting for [4 years](betlength)[4 years](betlength)
-- [1250](betsize)
-- bet size is $[750](betsize) a game
-- the email address is [jalee@freedomplus.com](email)
-- [jalee@freedomplus.com](email)
-- [Jason Lee](name)
-- bet size is roughly $[400](betsize)
-- well lets see... I would say my bet size is around $400 a game
-- Miles Lee
-- [650](betsize)
-
 ## intent:help
 - I need help
 - what can you help me with
@@ -425,6 +438,7 @@
 - How do you guys do what you do?
 - Do you use any specialized tools or anything like that?
 - well I'm wanting to make some more money. I'm currently betting alot of sports but not winning as much as I would like... Do you have anything to help improve my process?
+- I want to get better at sports betting
 
 ## intent:invest
 - How can I invest with you guys?
@@ -437,6 +451,7 @@
 - What type of investment opportunities are there?
 - I need to make money
 - i'm fine... I need help making some money
+- I feel like I want to invest with you guys
 
 ## intent:picks
 - do you give out free picks?
@@ -523,6 +538,7 @@
 - Can I get some help with modeling [NCAA football](Sport)?
 - Can I get some help with modeling [college football](Sport)?
 - I really want to learn more about [College football](Sport)[College football](Sport)
+- I really want to learn more about [College football](Sport)[College football](Sport)
 
 ## intent:nba
 - Do you bet on [pro basketball](Sport)?
@@ -540,6 +556,7 @@
 - Can I get some help with modeling [pro basketball](Sport)?
 - Can I get some help with modeling [professional basketball](Sport)?
 - Do you bet on any [nba](Sport) games?
+- I really like [basketball](Sport). Do you have any useful ideas to improve my modeling for the [NBA](Sport)[NBA](Sport)?
 - I really like [basketball](Sport). Do you have any useful ideas to improve my modeling for the [NBA](Sport)[NBA](Sport)?
 
 ## intent:ncaab
@@ -622,6 +639,8 @@
 - yeah I’d sign up for that
 - alright then. I want to sign up
 - i need to sign up
+- sign up for a.i. sports stuff
+- sign up for your info
 
 ## intent:ask_weather
 - How is the weather today?
@@ -700,6 +719,8 @@
 - Do you know what the weather is like?
 - What's the weather like today?
 - What's the weather
+- what's the weather like tomorrow?
+- what's the weather going to be like on Thursday?
 
 ## intent:ask_builder
 - can you share your boss with me?
