@@ -87,7 +87,6 @@
 - [Papa Giorgio](name)[Papa](name) Giorgio
 - [Chris Conley](name)[Conley](name)
 - My name is [Miles Lee](name)[Lee](name)
-- [Chris Conley](name)[Conley](name)
 
 ## intent:inform
 - My email address is [papagtrade@yahoo.com](email)
