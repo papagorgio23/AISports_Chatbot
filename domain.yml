@@ -2,6 +2,7 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- bet_types
 - mlb
 - greet
 - greet_name
@@ -300,11 +301,15 @@ responses:
       of our team members used to play back in the day. We have a model and some talented
       analysts helping us make our NHL bets.
   utter_mlb:
-  - text: Baseball.... They say it's America's past time but we thing the time has
-      run up on this sport... Only half kidding. We still make some bets here and
+  - text: Baseball.... They say it's America's past time but we think the time has
+      run out on this sport... Only half kidding. We still make some bets here and
       there and dabble in the Daily Fantasy MLB Leagues.
   utter_signup_deny:
   - text: Alright I understand... If you ever want to sign up just let me know...
+  utter_ai_sports:
+  - text: A.I. Sports is a company carefully crafted to exploit inefficiencies in
+      the sports betting markets. We specialize in advanced predictive modeling. Our
+      goal is to help you make more money betting on sports.
 actions:
 - action_chitchat
 - utter_greet
@@ -368,5 +373,6 @@ actions:
 - utter_nhl
 - utter_mlb
 - utter_signup_deny
+- utter_ai_sports
 forms:
 - picks_form
