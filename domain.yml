@@ -98,17 +98,18 @@ responses:
   utter_ask_age:
   - text: Are you over the age of 21?
   - buttons:
-    - payload: '/inform{"age": "over"}'
+    - payload: '/inform{"age": "Over"}'
       title: Yes
-    - payload: '/inform{"age": "under"}'
+    - payload: '/inform{"age": "Under"}'
       title: No
-    text: Are you over 21 years old?
   utter_ask_email:
   - text: What is your email address?
   utter_ask_betsize:
   - text: What is your typical bet size?
   utter_ask_betlength:
   - text: How long have you been betting on sports?
+  utter_ask_parents:
+  - text: Do you think your parents would let you bet on sports?
   utter_greet:
   - text: Hey! How are you?
   - text: Howdy! How are you?
@@ -139,9 +140,8 @@ responses:
   - text: We offer great value when you consider what you are getting in this package.
   - text: When you consider the risk/reward tradeoff, A.I. Sports offers great value!
   utter_ask_continue:
-  - text: Would you like to hear more?
+  - text: Would you like to continue?
   - text: Does this interest you at all?
-  - text: Want to know more?
   utter_positive_feedback_reaction:
   - text: Glad you think so! We believe this package will generate longterm income
       for you.
@@ -298,7 +298,8 @@ responses:
       modeling coupled with years of actual betting experience to generate solid returns.
   utter_nfl:
   - text: The NFL is the hardest market to beat! However, we have a documented 302-217-15
-      (56.6%) over the last 2 seasons betting against the spread. Not a bad ROI.
+      (56.6%) over the last 2 seasons betting against the spread. Not a bad ROI if you ask me.
+      Our 2nd half bets against the spread had a hit rate closer to 70%!
   utter_nhl:
   - text: We here at A.I. Sports have a soft spot in our hearts for hockey. Several
       of our team members used to play back in the day. We have a model and some talented
