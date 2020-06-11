@@ -306,8 +306,6 @@ responses:
   - text: A.I. Sports is a company carefully crafted to exploit inefficiencies in
       the sports betting markets. We specialize in advanced predictive modeling. Our
       goal is to help you make more money betting on sports.
-  utter_ask_parents:
-  - text: Do you think your parents would let you bet on sports?
 actions:
 - action_chitchat
 - utter_greet
@@ -362,7 +360,6 @@ actions:
 - utter_ask_betlength
 - utter_submit
 - utter_slots_values
-- ask_howdoing
 - utter_ask_name
 - utter_ncaab
 - utter_ncaaf
