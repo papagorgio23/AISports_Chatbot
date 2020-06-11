@@ -269,10 +269,12 @@ responses:
   utter_submit:
   - text: All done!
   utter_slots_values:
-  - text: "\"I am going to run this by you to make sure I have everything correct:\n\
-      \           - Name: {name}\n           - Email: {email}\n           - Bet Size:\
-      \ {betsize}\n           - Years Betting: {betlength}\n           - Over 21:\
-      \ {age}\""
+  - text: "I am going to run this by you to make sure I have everything correct:\n
+           - Name: {name}\n
+           - Email: {email}\n
+           - Bet Size: {betsize}\n
+           - Years Betting: {betlength}\n
+           - Over 21: {age}"
   utter_ask_name:
   - text: What is your full name?
   utter_ncaab:
