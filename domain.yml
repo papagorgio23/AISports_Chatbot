@@ -68,32 +68,24 @@ slots:
     type: unfeaturized
   age:
     type: unfeaturized
-    auto_fill: false
   betlength:
     type: unfeaturized
-    auto_fill: false
   betsize:
     type: unfeaturized
-    auto_fill: false
   date:
     type: unfeaturized
   email:
     type: unfeaturized
-    auto_fill: false
   location:
     type: unfeaturized
   name:
     type: unfeaturized
-    auto_fill: false
   parents:
     type: unfeaturized
-    auto_fill: false
   price:
     type: unfeaturized
-    auto_fill: false
   requested_slot:
     type: unfeaturized
-    auto_fill: false
 responses:
   utter_ask_age:
   - text: Are you over the age of 21?
