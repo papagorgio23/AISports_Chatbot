@@ -7,6 +7,14 @@
     - utter_slots_values
 * thankyou
     - utter_help_you
+    
+## Greet with Name
+* inform{"name":"Jason"}
+    - slot{"name":"Jason"}
+    - utter_greet_name
+* ask_howdoing
+    - utter_well_being
+    - utter_help_you
 
 ## happy path
 * greet
@@ -72,7 +80,6 @@
   - utter_goodbye
 
 ## Start Help
-
 * greet
     - utter_greet
 * ask_howdoing
@@ -80,7 +87,6 @@
     - utter_help_you
 
 ## Pleasant Intro
-
 * greet
     - utter_pleasant_greet
     - utter_how_are_you
@@ -88,50 +94,11 @@
     - utter_good
     - utter_help_you
 
-## Full Convo 1
-
-* picks
-    - utter_picks
-* sports
-    - utter_sports
-* betting_history
-    - utter_betting_history
-* opinion+positive
-    - utter_thanks
-    - utter_anything_else
-* goodbye
-    - utter_goodbye
-
-## Fifa 1
-
-* fifa
-    - utter_fifa
-    - utter_sign_up
-* affirm
-    - utter_form
-    - picks_form
-    - form{"name": "picks_form"}
-    - form{"name": null}
-    - utter_slots_values
-* thankyou
-    - utter_help_you
-
-## Greet with Name
-
-* inform{"name":"Jason"}
-    - slot{"name":"Jason"}
-    - utter_greet_name
-* ask_howdoing
-    - utter_well_being
-    - utter_help_you
-
 ## Not helpful
-
 * help
     - utter_help_you
 
 ## Sign up Form 1
-
 * greet_name
     - utter_pleasant_greet
     - utter_how_are_you
@@ -154,110 +121,9 @@
 * ask_weather OR ask_builder OR ask_howdoing OR ask_languagesbot OR ask_howold OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR telljoke OR ask_whatismyname
     - action_chitchat
 
-## NCAAB 1
-
-* ncaab
-    - utter_ncaab
-    - utter_sign_up
-* affirm
-    - utter_form
-    - picks_form
-    - form{"name": "picks_form"}
-    - form{"name": null}
-    - utter_slots_values
-* thankyou
-    - utter_help_you
-
-## NCAAF 1
-
-* ncaaf
-    - utter_ncaaf
-    - utter_sign_up
-* affirm
-    - utter_form
-    - picks_form
-    - form{"name": "picks_form"}
-    - form{"name": null}
-    - utter_slots_values
-* thankyou
-    - utter_help_you
-
-## NBA 1
-
-* nba
-    - utter_nba
-    - utter_sign_up
-* affirm
-    - utter_form
-    - picks_form
-    - form{"name": "picks_form"}
-    - form{"name": null}
-    - utter_slots_values
-* thankyou
-    - utter_help_you
-
-## NFL 1
-
-* nfl
-    - utter_nfl
-    - utter_sign_up
-* affirm
-    - utter_form
-    - picks_form
-    - form{"name": "picks_form"}
-    - form{"name": null}
-    - utter_slots_values
-* thankyou
-    - utter_help_you
-
-## MLB 1
-
-* mlb
-    - utter_mlb
-    - utter_sign_up
-* affirm
-    - utter_form
-    - picks_form
-    - form{"name": "picks_form"}
-    - form{"name": null}
-    - utter_slots_values
-* thankyou
-    - utter_help_you
-
-## NHL 1
-
-* nhl
-    - utter_nhl
-    - utter_sign_up
-* affirm
-    - utter_form
-    - picks_form
-    - form{"name": "picks_form"}
-    - form{"name": null}
-    - utter_slots_values
-* thankyou
-    - utter_help_you
-
-## NHL 2
-
-* nhl
-    - utter_nhl
-    - utter_sign_up
-* deny
-    - utter_signup_2
-* affirm
-    - utter_form
-    - picks_form
-    - form{"name": "picks_form"}
-    - form{"name": null}
-    - utter_slots_values
-* thankyou
-    - utter_help_you
-
-## NHL 1
-
-* nhl
-    - utter_nhl
+## Fifa 1
+* fifa
+    - utter_fifa
     - utter_sign_up
 * affirm
     - utter_form
@@ -269,7 +135,6 @@
     - utter_help_you
 
 ## Fifa 2
-
 * fifa
     - utter_fifa
     - utter_sign_up
@@ -284,29 +149,20 @@
 * thankyou
     - utter_help_you
 
-## MLB 2
-
-* mlb
-    - utter_mlb
+## Fifa sad
+* fifa
+    - utter_fifa
     - utter_sign_up
 * deny
-	- utter_signup_2
-* affirm
-    - utter_form
-    - picks_form
-    - form{"name": "picks_form"}
-    - form{"name": null}
-    - utter_slots_values
-* thankyou
+    - utter_signup_2
+* deny
+    - utter_signup_deny
     - utter_help_you
-
-## NFL 2
-
-* nfl
-    - utter_nfl
+    
+## NCAAB 1
+* ncaab
+    - utter_ncaab
     - utter_sign_up
-* deny
-	- utter_signup_2
 * affirm
     - utter_form
     - picks_form
@@ -317,12 +173,34 @@
     - utter_help_you
 
 ## NCAAB 2
-
 * ncaab
     - utter_ncaab
     - utter_sign_up
 * deny
-	- utter_signup_2
+    - utter_signup_2
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## NCAAB sad
+* ncaab
+    - utter_ncaab
+    - utter_sign_up
+* deny
+    - utter_signup_2
+* deny
+    - utter_signup_deny
+    - utter_help_you
+    
+## NCAAF 1
+* ncaaf
+    - utter_ncaaf
+    - utter_sign_up
 * affirm
     - utter_form
     - picks_form
@@ -333,12 +211,34 @@
     - utter_help_you
 
 ## NCAAF 2
-
 * ncaaf
     - utter_ncaaf
     - utter_sign_up
 * deny
-	- utter_signup_2
+    - utter_signup_2
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## NCAAF sad
+* ncaaf
+    - utter_ncaaf
+    - utter_sign_up
+* deny
+    - utter_signup_2
+* deny
+    - utter_signup_deny
+    - utter_help_you
+    
+## NBA 1
+* nba
+    - utter_nba
+    - utter_sign_up
 * affirm
     - utter_form
     - picks_form
@@ -349,12 +249,125 @@
     - utter_help_you
 
 ## NBA 2
-
 * nba
     - utter_nba
     - utter_sign_up
 * deny
-	- utter_signup_2
+    - utter_signup_2
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## NBA sad
+* nba
+    - utter_nba
+    - utter_sign_up
+* deny
+    - utter_signup_2
+* deny
+    - utter_signup_deny
+    - utter_help_you
+
+## NFL 1
+* nfl
+    - utter_nfl
+    - utter_sign_up
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## NFL 2
+* nfl
+    - utter_nfl
+    - utter_sign_up
+* deny
+    - utter_signup_2
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## NFL sad
+* nfl
+    - utter_nfl
+    - utter_sign_up
+* deny
+    - utter_signup_2
+* deny
+    - utter_signup_deny
+    - utter_help_you
+
+## MLB 1
+* mlb
+    - utter_mlb
+    - utter_sign_up
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## MLB 2
+* mlb
+    - utter_mlb
+    - utter_sign_up
+* deny
+    - utter_signup_2
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+
+## MLB sad
+* mlb
+    - utter_mlb
+    - utter_sign_up
+* deny
+    - utter_signup_2
+* deny
+    - utter_signup_deny
+    - utter_help_you
+    
+## NHL 1
+* nhl
+    - utter_nhl
+    - utter_sign_up
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name": "picks_form"}
+    - form{"name": null}
+    - utter_slots_values
+* thankyou
+    - utter_help_you
+    
+## NHL 2
+* nhl
+    - utter_nhl
+    - utter_sign_up
+* deny
+    - utter_signup_2
 * affirm
     - utter_form
     - picks_form
@@ -365,75 +378,8 @@
     - utter_help_you
 
 ## NHL sad
-
 * nhl
     - utter_nhl
-    - utter_sign_up
-* deny
-    - utter_signup_2
-* deny
-	- utter_signup_deny
-    - utter_help_you
-
-## NBA sad
-
-* nba
-    - utter_nba
-    - utter_sign_up
-* deny
-	- utter_signup_2
-* deny
-    - utter_signup_deny
-    - utter_help_you
-
-## NCAAF sad
-
-* ncaaf
-    - utter_ncaaf
-    - utter_sign_up
-* deny
-	- utter_signup_2
-* deny
-    - utter_signup_deny
-    - utter_help_you
-
-## NCAAB sad
-
-* ncaab
-    - utter_ncaab
-    - utter_sign_up
-* deny
-	- utter_signup_2
-* deny
-    - utter_signup_deny
-    - utter_help_you
-
-## NFL sad
-
-* nfl
-    - utter_nfl
-    - utter_sign_up
-* deny
-	- utter_signup_2
-* deny
-    - utter_signup_deny
-    - utter_help_you
-
-## MLB sad
-
-* mlb
-    - utter_mlb
-    - utter_sign_up
-* deny
-	- utter_signup_2
-* deny
-    - utter_signup_deny
-    - utter_help_you
-
-## Fifa sad
-
-* fifa
-    - utter_fifa
     - utter_sign_up
 * deny
     - utter_signup_2
