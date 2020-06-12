@@ -6,7 +6,7 @@
     - form{"name": null}
     - utter_slots_values
 * thankyou
-    - utter_help_you
+    - utter_anything_else
     
 ## Greet with Name
 * inform{"name":"Jason"}
@@ -129,7 +129,7 @@
     - form{"name": null}
     - utter_slots_values
 * thankyou
-    - utter_help_you
+    - utter_anything_else
 
 ## chitchat
 * ask_weather OR ask_builder OR ask_howdoing OR ask_languagesbot OR ask_howold OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR telljoke OR ask_whatismyname
@@ -147,7 +147,7 @@
     - form{"name": null}
     - utter_slots_values
 * thankyou
-    - utter_help_you
+    - utter_anything_else
 
 ## Fifa 2
 * fifa
@@ -162,7 +162,7 @@
     - form{"name": null}
     - utter_slots_values
 * thankyou
-    - utter_help_you
+    - utter_anything_else
 
 ## Fifa sad
 * fifa
@@ -172,7 +172,7 @@
     - utter_signup_2
 * deny
     - utter_signup_deny
-    - utter_help_you
+    - utter_anything_else
     
 ## NCAAB 1
 * ncaab
@@ -185,7 +185,7 @@
     - form{"name": null}
     - utter_slots_values
 * thankyou
-    - utter_help_you
+    - utter_anything_else
 
 ## NCAAB 2
 * ncaab
@@ -200,7 +200,7 @@
     - form{"name": null}
     - utter_slots_values
 * thankyou
-    - utter_help_you
+    - utter_anything_else
 
 ## NCAAB sad
 * ncaab
@@ -210,7 +210,7 @@
     - utter_signup_2
 * deny
     - utter_signup_deny
-    - utter_help_you
+    - utter_anything_else
     
 ## NCAAF 1
 * ncaaf
@@ -223,7 +223,7 @@
     - form{"name": null}
     - utter_slots_values
 * thankyou
-    - utter_help_you
+    - utter_anything_else
 
 ## NCAAF 2
 * ncaaf
@@ -238,7 +238,7 @@
     - form{"name": null}
     - utter_slots_values
 * thankyou
-    - utter_help_you
+    - utter_anything_else
 
 ## NCAAF sad
 * ncaaf
@@ -248,7 +248,7 @@
     - utter_signup_2
 * deny
     - utter_signup_deny
-    - utter_help_you
+    - utter_anything_else
     
 ## NBA 1
 * nba
@@ -261,7 +261,7 @@
     - form{"name": null}
     - utter_slots_values
 * thankyou
-    - utter_help_you
+    - utter_anything_else
 
 ## NBA 2
 * nba
@@ -276,7 +276,7 @@
     - form{"name": null}
     - utter_slots_values
 * thankyou
-    - utter_help_you
+    - utter_anything_else
 
 ## NBA sad
 * nba
@@ -286,7 +286,7 @@
     - utter_signup_2
 * deny
     - utter_signup_deny
-    - utter_help_you
+    - utter_anything_else
 
 ## NFL 1
 * nfl
@@ -299,7 +299,7 @@
     - form{"name": null}
     - utter_slots_values
 * thankyou
-    - utter_help_you
+    - utter_anything_else
 
 ## NFL 2
 * nfl
@@ -314,7 +314,7 @@
     - form{"name": null}
     - utter_slots_values
 * thankyou
-    - utter_help_you
+    - utter_anything_else
 
 ## NFL sad
 * nfl
@@ -324,7 +324,7 @@
     - utter_signup_2
 * deny
     - utter_signup_deny
-    - utter_help_you
+    - utter_anything_else
 
 ## MLB 1
 * mlb
@@ -337,7 +337,7 @@
     - form{"name": null}
     - utter_slots_values
 * thankyou
-    - utter_help_you
+    - utter_anything_else
 
 ## MLB 2
 * mlb
@@ -352,7 +352,7 @@
     - form{"name": null}
     - utter_slots_values
 * thankyou
-    - utter_help_you
+    - utter_anything_else
 
 ## MLB sad
 * mlb
@@ -362,7 +362,7 @@
     - utter_signup_2
 * deny
     - utter_signup_deny
-    - utter_help_you
+    - utter_anything_else
     
 ## NHL 1
 * nhl
@@ -375,7 +375,7 @@
     - form{"name": null}
     - utter_slots_values
 * thankyou
-    - utter_help_you
+    - utter_anything_else
     
 ## NHL 2
 * nhl
@@ -390,7 +390,7 @@
     - form{"name": null}
     - utter_slots_values
 * thankyou
-    - utter_help_you
+    - utter_anything_else
 
 ## NHL sad
 * nhl
@@ -400,7 +400,7 @@
     - utter_signup_2
 * deny
     - utter_signup_deny
-    - utter_help_you
+    - utter_anything_else
 
 ## Sign up ChitChat
 * sign_up
@@ -413,7 +413,7 @@
     - form{"name": null}
     - utter_slots_values
 * thankyou
-    - utter_help_you
+    - utter_anything_else
 
 ## Sign up Stop
 * sign_up
@@ -425,7 +425,7 @@
 * deny
     - action_deactivate_form
     - form{"name": null}
-    - utter_help_you
+    - utter_anything_else
 
 ## Sign up Stop-Go
 * sign_up
@@ -437,7 +437,7 @@
 * affirm
     - picks_form
     - form{"name": null}
-    - utter_help_you
+    - utter_anything_else
 
 ## A.I. Sports
 * ai_sports
