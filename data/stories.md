@@ -13,7 +13,12 @@
     - slot{"name":"Jason"}
     - utter_greet_name
 * ask_howdoing
-    - utter_well_being
+    - utter_ask_howdoing
+    - utter_help_you
+
+## How doing
+* ask_howdoing
+    - utter_ask_howdoing
     - utter_help_you
 
 ## Name Greeting
@@ -40,6 +45,7 @@
   - utter_did_that_help
 * affirm
   - utter_happy
+  - utter_help_you
 
 ## sad path 2
 * greet
@@ -48,7 +54,8 @@
   - utter_cheer_up
   - utter_did_that_help
 * deny
-  - utter_goodbye
+  - utter_cannot_help
+  - utter_ai_sports
 
 ## say goodbye
 * goodbye
@@ -65,7 +72,7 @@
   - utter_ask_why_leaving
 
 ## price reaction
-* opinion+negative{"price": "expensive"}
+* opinion+negative
   - utter_good_value
   - utter_ask_continue
 
@@ -82,18 +89,15 @@
   - utter_cannot_help
   - utter_explain_whatspossible
 
-## rude user
-* handleinsult
-  - utter_respond_insult
-* handleinsult
-  - utter_respond_insult2
-  - utter_goodbye
+## Apologize
+* apology
+  - utter_ok
 
 ## Start Help
 * greet
     - utter_greet
 * ask_howdoing
-    - utter_well_being
+    - utter_ask_howdoing
     - utter_help_you
 
 ## Pleasant Intro
@@ -130,6 +134,7 @@
 ## chitchat
 * ask_weather OR ask_builder OR ask_howdoing OR ask_languagesbot OR ask_howold OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR telljoke OR ask_whatismyname
     - action_chitchat
+    - utter_help_you
 
 ## Fifa 1
 * fifa
@@ -437,3 +442,37 @@
 ## A.I. Sports
 * ai_sports
   - utter_ai_sports
+  - utter_sign_up
+
+## A.I. Sports
+* ai_sports
+  - utter_ai_sports
+* opinion+positive
+  - utter_sign_up
+
+## Tools
+* tools
+  - utter_ai_sports
+  - utter_tools
+* opinion+positive
+  - utter_sign_up
+
+## Invest
+* invest
+  - utter_invest
+  - utter_sign_up
+
+## Picks Positive
+* picks
+  - utter_ai_sports
+  - utter_picks
+* opinion+positive
+  - utter_sign_up
+
+## Picks Negative
+* picks
+  - utter_ai_sports
+  - utter_picks
+* opinion+negative
+  - utter_good_value
+  - utter_sign_up

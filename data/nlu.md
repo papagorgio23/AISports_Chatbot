@@ -653,6 +653,16 @@
 - you didn't even help me
 - That did not help
 
+## intent:ask_whatspossible
+- What can you do LeBron?
+- How can you help me?
+- What do you do?
+- What can you do?
+- What can you even do?
+- What can a chatbot even do?
+- What can a chatbot do?
+- Do you do anything?
+
 ## intent:out_of_scope
 - You're going to send me a package of tiger cubs? Isn't that illegal?
 - what is the square root of 5
