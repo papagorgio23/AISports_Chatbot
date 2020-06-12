@@ -392,8 +392,8 @@
     - utter_form
     - picks_form
     - form{"name": "picks_form"}
-* chitchat
-    - utter_chitchat
+* ask_weather OR ask_builder OR ask_howdoing OR ask_languagesbot OR ask_howold OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR telljoke OR ask_whatismyname
+    - action_chitchat
     - form{"name": "picks_form"}
     - form{"name": null}
     - utter_slots_values
