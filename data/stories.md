@@ -16,6 +16,16 @@
     - utter_well_being
     - utter_help_you
 
+## Name Greeting
+* greet_name{"name":"Johnny"}
+    - slot{"name":"Johnny"}
+    - utter_greet_name
+    - utter_how_are_you
+* mood_great
+    - utter_happy
+    - slot{"name":"Johnny"}
+    - utter_help_you
+
 ## happy path
 * greet
   - utter_greet

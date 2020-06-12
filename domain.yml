@@ -21,7 +21,8 @@ intents:
 - tools
 - invest
 - picks
-- betting_history
+- betting_history:
+  triggers: utter_betting_history
 - sports
 - nfl
 - ncaaf
@@ -31,7 +32,8 @@ intents:
 - fifa
 - ask_howdoing
 - apology
-- didnt_help
+- didnt_help:
+  triggers: utter_help_you
 - out_of_scope
 - sign_up
 - ask_weather
@@ -49,10 +51,6 @@ intents:
 - stop
 - ai_sports
 entities:
-- amount-of-money
-- time
-- number
-- price
 - date
 - Sport
 - location
@@ -62,6 +60,7 @@ entities:
 - betsize
 - betlength
 - parents
+- price
 slots:
   Sport:
     type: unfeaturized
@@ -81,18 +80,11 @@ slots:
     type: unfeaturized
   parents:
     type: unfeaturized
-  price:
-    type: unfeaturized
   requested_slot:
     type: unfeaturized
 responses:
   utter_ask_age:
   - text: Are you over the age of 21?
-  - buttons:
-    - payload: '/inform{"age": "Over"}'
-      title: Yes
-    - payload: '/inform{"age": "Under"}'
-      title: No
   utter_ask_email:
   - text: What is your email address?
   utter_ask_betsize:
@@ -268,12 +260,9 @@ responses:
   utter_submit:
   - text: All done!
   utter_slots_values:
-  - text: "I am going to run this by you to make sure I have everything correct:\n
-           - Name: {name}\n
-           - Email: {email}\n
-           - Bet Size: {betsize}\n
-           - Years Betting: {betlength}\n
-           - Over 21: {age}"
+  - text: "I am going to run this by you to make sure I have everything correct:\n\
+      \ - Name: {name}\n - Email: {email}\n - Bet Size: {betsize}\n - Years Betting:\
+      \ {betlength}\n - Over 21: {age}"
   utter_ask_name:
   - text: What is your full name?
   utter_ncaab:
@@ -291,8 +280,8 @@ responses:
       modeling coupled with years of actual betting experience to generate solid returns.
   utter_nfl:
   - text: The NFL is the hardest market to beat! However, we have a documented 302-217-15
-      (56.6%) over the last 2 seasons betting against the spread. Not a bad ROI if you ask me.
-      Our 2nd half bets against the spread had a hit rate closer to 70%!
+      (56.6%) over the last 2 seasons betting against the spread. Not a bad ROI if
+      you ask me. Our 2nd half bets against the spread had a hit rate closer to 70%!
   utter_nhl:
   - text: We here at A.I. Sports have a soft spot in our hearts for hockey. Several
       of our team members used to play back in the day. We have a model and some talented
@@ -309,6 +298,67 @@ responses:
       goal is to help you make more money betting on sports.
 actions:
 - action_chitchat
-
+- utter_ask_age
+- utter_ask_email
+- utter_ask_betsize
+- utter_ask_betlength
+- utter_ask_parents
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_respond_insult
+- utter_respond_insult2
+- utter_ask_why_leaving
+- utter_good_value
+- utter_ask_continue
+- utter_positive_feedback_reaction
+- utter_iamabot
+- utter_explain_whatspossible
+- utter_cannot_help
+- utter_tools
+- utter_invest
+- utter_picks
+- utter_betting_history
+- utter_sports
+- utter_pleasant_greet
+- utter_well_being
+- utter_help_you
+- utter_how_are_you
+- utter_good
+- utter_thanks
+- utter_anything_else
+- utter_fifa
+- utter_sign_up
+- utter_form
+- utter_greet_name
+- utter_continue
+- utter_ask_howold
+- utter_ask_languagesbot
+- utter_ask_restaurant
+- utter_ask_time
+- utter_ask_wherefrom
+- utter_ask_whoami
+- utter_handleinsult
+- utter_telljoke
+- utter_ask_whatismyname
+- utter_ask_weather
+- utter_ask_builder
+- utter_ask_howdoing
+- utter_out_of_scope
+- utter_default
+- utter_nba
+- utter_submit
+- utter_slots_values
+- utter_ask_name
+- utter_ncaab
+- utter_ncaaf
+- utter_signup_2
+- utter_nfl
+- utter_nhl
+- utter_mlb
+- utter_signup_deny
+- utter_ai_sports
 forms:
 - picks_form

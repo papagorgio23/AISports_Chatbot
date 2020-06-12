@@ -72,21 +72,23 @@
 - hello robot! I'm [Oskar](name)!
 - hey robot! My name is [Dave](name)
 - Yo Yo! I'm PapaG
-- Hey LeBron! My name is [Jason](name)[Jason](name)
-- My name is [Jason](name)[Jason](name)
+- Hey LeBron! My name is [Jason](name)
+- My name is [Jason](name)
 - My name is [PapaG](name)
-- Hey hey! My name is [Jerry](name)[Jerry](name)
-- Hello LeBron! My name is [Jason](name)[Jason](name)
+- Hey hey! My name is [Jerry](name)
+- Hello LeBron! My name is [Jason](name)
 - Hello LeBron! My name is [George](name)
-- [Papa](name)[Papa Giorgio](name)
-- Yo yo my man! My name is [Jason](name)[Jason](name)
-- My name is[ Miles Lee](name)[Lee](name)
+- [Papa Giorgio](name)
+- Yo yo my man! My name is [Jason](name)
+- My name is[ Miles Lee](name)
 - [Jason](name)
 - [Jason Lee](name)
 - [Miles Lee](name)
-- [Papa Giorgio](name)[Papa](name) Giorgio
-- [Chris Conley](name)[Conley](name)
-- My name is [Miles Lee](name)[Lee](name)
+- [Papa Giorgio](name)
+- [Chris Conley](name)
+- my names is [Amanda](name)
+- Hey! I'm [Johnny](name)
+- Hello LeBron! My name is [JR Smith](name)
 
 ## intent:inform
 - My email address is [papagtrade@yahoo.com](email)
@@ -94,7 +96,6 @@
 - [Pat](name)
 - [Jerry](name)
 - it is [Jason](name)
-- my names is [Amanda](name)
 - it is on [Sunday](date)
 - The game is [Saturday](date)
 - I live in [California](location)
@@ -114,11 +115,11 @@
 - [abraham.licoln@example.com](email)
 - it is [abraham.licoln@example.com](email)
 - [abraham.lincolon@example.com](email)
-- $[10](betsize)
-- [5000](betsize)
-- [500](betsize)
-- $[100](betsize)
-- $[500](betsize)
+- [$10](betsize)
+- [$5000](betsize)
+- [$500](betsize)
+- [$100](betsize)
+- [$500](betsize)
 - [100](betsize) dollars
 - [1000](betsize) dollars
 - [2 years](betlength)
@@ -126,26 +127,26 @@
 - [10 years](betlength)
 - [Over](age)[Over](age)
 - [Under](age)
-- [1000](betsize)[1000](betsize)
-- $[10000](betsize)
+- [$1000](betsize)[1000](betsize)
+- [$10000](betsize)
 - my email is [jason@aisportsfirm.com](email)
 - [papagtrade@yahoo.com](email)
-- $[250](betsize)
-- $[25](betsize)
-- I typically bet around $[100](betsize) a game
-- About $[200](betsize)
-- I bet [1000](betsize) each
+- [$250](betsize)
+- [$25](betsize)
+- I typically bet around [$100](betsize) a game
+- About [$200](betsize)
+- I bet [$1000](betsize) each
 - I've been doing this for about [10 years](betlength) now
 - I'd say around [3 years](betlength)
-- Bet size is $[650](betsize)
+- Bet size is [$650](betsize)
 - email is [lebron23@yahoo.com](email)[lebron23@yahoo.com](email)
 - I’ve been betting for [4 years](betlength)[4 years](betlength)
 - [1250](betsize)
-- bet size is $[750](betsize) a game
+- bet size is [$750](betsize) a game
 - the email address is [jalee@freedomplus.com](email)
 - [jalee@freedomplus.com](email)
-- bet size is roughly $[400](betsize)
-- well lets see... I would say my bet size is around $[400](betsize) a game
+- bet size is roughly [$400](betsize)
+- well lets see... I would say my bet size is around [$400](betsize) a game
 - [650](betsize)
 - I’ve been betting for [4 years](betlength)
 - email is [lebron23@yahoo.com](email)
@@ -155,6 +156,8 @@
 - my email is [chrischris@gmail.com](email)
 - [chrischris@gmail.com](email)
 - My [parents](parents) for sure would let me bet on sports!
+- I believe my [parents](parents) would want me to make some bets
+- Of course my [parents](parents) say yes!
 
 ## intent:goodbye
 - bye
@@ -246,6 +249,7 @@
 - It's a pretty good day
 - Life is good. No complaints from my point of view.
 - I’m doing really good my friend
+- It's going really good
 
 ## intent:ask_howdoing
 - I'm doing really well. You?
@@ -340,6 +344,7 @@
 - I'm doing quite well. And you?
 - I'm doing great. how are you?
 - good good good. How about you?
+- I'm doing well my friend. How are you doing?
 
 ## intent:mood_unhappy
 - sad
@@ -354,6 +359,10 @@
 - so sad
 - i'm sad
 - Terrible.  My life is in shambles.
+- Life sucks
+- It's not going good at all...
+- I want to die
+- I want to cry
 
 ## intent:bot_challenge
 - are you a bot?
@@ -390,8 +399,13 @@
 ## intent:opinion+negative
 - ugh
 - that sucks
-- woah! that's [expensive](price)
+- woah! that's expensive
 - damn man that's rough
+- That's horrible!
+- I don't like that at all
+- Man that's terrible
+- Shit that sucks
+- that's shitty
 
 ## intent:thankyou
 - thank you goodbye
@@ -483,6 +497,11 @@
 - Do you guys make alot of money?
 - Are you guys good at betting?
 - Oh that’s cool. Are you guys good at betting?
+- Why should I trust you guys for betting advice?
+- Do you guys have a documented history betting?
+- What's your betting history?
+- I want to see your betting history
+- betting history
 
 ## intent:sports
 - What sports do you guys bet on?
@@ -497,6 +516,17 @@
 
 ## intent:bet_types
 - What type of investments do you make?
+- What bets do you make?
+- Do you only bet against the spread?
+- What bet types do you guys make?
+- Do you bet the moneyline?
+- Do you bet against the spread?
+- Do you bet first half?
+- Do you bet second half?
+- Are you guys making total bets?
+- Do you do any prop bets?
+- Would you ever recommend betting parlays?
+- Do you do parlay bets?
 
 ## intent:ai_sports
 - what does A.I. Sports actually do?
@@ -507,6 +537,7 @@
 - A.I. Sports sounds really cool but i'm still confused about what you do
 - I feel like sports betting is really cool and all but what do you guys really do over there?
 - Isn't sports betting illegal? What can A.I. Sports really do?
+- What does A.I. Sports even do?
 
 ## intent:nfl
 - Do you bet on [pro football](Sport)?
@@ -607,6 +638,12 @@
 ## intent:apology
 - I'm sorry...
 - I'm sorry
+- I'm really sorry
+- my bad
+- my bad man. We good?
+- I feel really bad. I'm sorry
+- Sorry
+- Sorry bro
 
 ## intent:didnt_help
 - uhh... you didn't help me
@@ -614,6 +651,7 @@
 - Man that didn't really help me.
 - That wasn't very helpful
 - you didn't even help me
+- That did not help
 
 ## intent:out_of_scope
 - You're going to send me a package of tiger cubs? Isn't that illegal?
