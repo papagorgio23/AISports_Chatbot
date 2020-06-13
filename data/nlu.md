@@ -242,6 +242,7 @@
 - sure
 - that’s what my totally real drivers license says
 - i suppose
+- Yes! It would cheer me up more if I had 6 of them
 
 ## intent:deny
 - no
@@ -266,6 +267,7 @@
 - uhh... No thanks
 - nah bro
 - no thanks my mna
+- No
 
 ## intent:mood_great
 - perfect
@@ -403,6 +405,8 @@
 - I want to die
 - I want to cry
 - I'm really sad
+- suicidal
+- I’m depressed
 
 ## intent:bot_challenge
 - are you a bot?
@@ -508,6 +512,7 @@
 - i'm fine... I need help making some money
 - I feel like I want to invest with you guys
 - Yes! Make me a millionaire!
+- i like making more money. How can I get in on this?
 
 ## intent:picks
 - do you give out free picks?
