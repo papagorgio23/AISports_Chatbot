@@ -92,6 +92,7 @@
 - Hello LeBron! My name is [JR Smith](name)
 - Hello friend! My name is [Colston](name)
 - [Joey Tunes](name)
+- Hey! This is [Tom](name)[Tom](name)
 
 ## intent:inform
 - My email address is [papagtrade@yahoo.com](email)
@@ -163,6 +164,10 @@
 - I've been doing this for [18 years](betlength) now
 - [joeytunes@yahoo.com](email)
 - [Over](age)
+- my [parents](parents)[parents](parents) would let me bet
+- [12 years](betlength)
+- [$750](betsize)
+- [tommyboy@gmail.com](email)
 
 ## intent:goodbye
 - bye
@@ -215,6 +220,9 @@
 - yeah that sounds great!
 - haha that sounds about right
 - probably
+- yeah let's do it
+- Yes
+- well... now that you ask... Yes I want to
 
 ## intent:deny
 - no
@@ -237,6 +245,8 @@
 - nah man
 - or nah?
 - uhh... No thanks
+- nah bro
+- no thanks my mna
 
 ## intent:mood_great
 - perfect
@@ -353,6 +363,7 @@
 - I'm doing well my friend. How are you doing?
 - It's going well enough. How are you doing?
 - I'm doing really good actually.... how are you?
+- Life is good my friend! How are things for you?
 
 ## intent:mood_unhappy
 - sad
@@ -371,6 +382,7 @@
 - It's not going good at all...
 - I want to die
 - I want to cry
+- I'm really sad
 
 ## intent:bot_challenge
 - are you a bot?
@@ -491,6 +503,7 @@
 - Where can I get these picks?
 - I want to make some bets this weekend
 - do you think that I could get some picks or something?
+- Who should I bet on tonight?
 
 ## intent:betting_history
 - What is your betting history?
@@ -522,6 +535,10 @@
 - Do you bet on any games?
 - What sports do you bet on?
 - What different sports do you guys bet on?
+- do you bet on any baseball games?
+- what do you bet on?
+- What sports does A.I. Sports bet on?
+- What sports do you bet on
 
 ## intent:bet_types
 - What type of investments do you make?
@@ -547,6 +564,7 @@
 - I feel like sports betting is really cool and all but what do you guys really do over there?
 - Isn't sports betting illegal? What can A.I. Sports really do?
 - What does A.I. Sports even do?
+- What does A.I. Sports do for people?
 
 ## intent:nfl
 - Do you bet on [pro football](Sport)?
@@ -568,6 +586,7 @@
 - [Pro football](Sport) is my favorite sport
 - Do you bet on football?
 - Do you know how is going to win the [football](Sport) game?
+- Do you bet on any [professional football](Sport)[professional football](Sport) games?
 
 ## intent:ncaaf
 - Do you bet on [college football](Sport)?
@@ -599,6 +618,7 @@
 - Can I get some help with modeling [professional basketball](Sport)?
 - Do you bet on any [nba](Sport) games?
 - I really like [basketball](Sport). Do you have any useful ideas to improve my modeling for the [NBA](Sport)[NBA](Sport)?
+- Do you do any bets on the [NBA](Sport)[NBA](Sport)?
 
 ## intent:ncaab
 - Do you bet on [college basketball](Sport)?
@@ -611,6 +631,7 @@
 - Is [NCAA basketball](Sport) a big part of your betting strategy?
 - Can I get some help with modeling [NCAA basketball](Sport)?
 - Can I get some help with modeling [college basketball](Sport)?
+- Do you bet on [college basketball](Sport)[college basketball](Sport) games?
 
 ## intent:nhl
 - Do you bet on [pro hockey](Sport)?
@@ -627,6 +648,7 @@
 - Can I get some help with modeling the [NHL](Sport)?
 - Can I get some help with modeling [pro hockey](Sport)?
 - Can I get some help with modeling [professional hockey](Sport)?
+- do you make any [hockey](Sport) bets?
 
 ## intent:fifa
 - Do you bet on [soccer](Sport)?
@@ -643,6 +665,7 @@
 - I have an interest in [soccer](Sport)
 - [Soccer](Sport) is my favorite sport
 - I want to start betting some [FIFA](Sport)
+- Do you do any [FIFA](Sport) bets?
 
 ## intent:apology
 - I'm sorry...
@@ -702,6 +725,8 @@
 - I want to sign up for A.I. Sports betting advice
 - sign up for your stuff
 - Sign up for your shit
+- i do want to sign up
+- Sign up
 
 ## intent:ask_weather
 - How is the weather today?
@@ -889,6 +914,7 @@
 - Can I ask the name of the people who designed you?
 - What person built you?
 - who is your creator
+- Where were you made?
 
 ## intent:ask_restaurant
 - restaurants
@@ -948,6 +974,7 @@
 - I want to order a pizza
 - I want a pizza
 - Do you like ice cream?
+- what should I eat tonight?
 
 ## intent:handleinsult
 - you're a loser lmao
@@ -1025,6 +1052,7 @@
 - ok shut up
 - what the hell man
 - you suck dick
+- you fuckin suck bro
 
 ## intent:telljoke
 - tell me a joke
@@ -1067,6 +1095,7 @@
 - make me laugh with a bad joke
 - give me a good joke
 - you can say a jok
+- Do you know any good jokes?
 
 ## intent:ask_wherefrom
 - where do you live?
@@ -1296,6 +1325,7 @@
 - can you speak in italian?
 - do you speak german?
 - Do you speak german?
+- what language do you know?
 
 ## intent:ask_whatismyname
 - what is my name?
@@ -1334,3 +1364,8 @@
 - What is my first name?
 - What is my full name?
 - What exactly is my name?
+
+## intent:mlb
+- Do you guys do any bets on [professional baseball](Sport)[professional](Sport) baseball?
+- Do you bet on the MLB?
+- Do you bet on baseball?
