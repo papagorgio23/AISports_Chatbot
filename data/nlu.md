@@ -95,6 +95,10 @@
 - Hey! This is [Tom](name)[Tom](name)
 - [Jared Lee](name)
 - [jessica mario lee](name)
+- [Spanky Jr](name).
+- what's up my man! My name is [Jason](name)[Jason](name)
+- Hey! My name is Pups!
+- My name is [jason](name)[jason](name)
 
 ## intent:inform
 - My email address is [papagtrade@yahoo.com](email)
@@ -183,6 +187,9 @@
 - [ober](age)
 - i am [24](age)
 - I am [over](age) [21](age)
+- [30 years](betlength)
+- I normally bet around [$10k](betsize)
+- [spankydude@aol.com](email)
 
 ## intent:goodbye
 - bye
@@ -243,6 +250,7 @@
 - that’s what my totally real drivers license says
 - i suppose
 - Yes! It would cheer me up more if I had 6 of them
+- yeah that helped!
 
 ## intent:deny
 - no
@@ -287,6 +295,7 @@
 - Life is good. No complaints from my point of view.
 - I’m doing really good my friend
 - It's going really good
+- Good
 
 ## intent:ask_howdoing
 - I'm doing really well. You?
@@ -407,6 +416,7 @@
 - I'm really sad
 - suicidal
 - I’m depressed
+- well to be honest... I'm kinda bummed
 
 ## intent:bot_challenge
 - are you a bot?
@@ -762,6 +772,7 @@
 - Sign up
 - Am I signed up?
 - how do I sign up?
+- i need to sign up for the goods!
 
 ## intent:ask_weather
 - How is the weather today?

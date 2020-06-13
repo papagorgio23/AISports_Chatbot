@@ -5,7 +5,7 @@
     - form{"name": "picks_form"}
     - form{"name": null}
     - utter_slots_values
-* thankyou
+* thankyou OR affirm
     - utter_anything_else
 
 ## Greet with Name
@@ -22,13 +22,11 @@
     - utter_help_you
 
 ## Name Greeting
-* greet_name{"name":"Johnny"}
-    - slot{"name":"Johnny"}
+* greet_name
     - utter_greet_name
     - utter_how_are_you
 * mood_great
     - utter_happy
-    - slot{"name":"Johnny"}
     - utter_help_you
 
 ## happy path
@@ -119,16 +117,13 @@
 * mood_great
     - utter_good
     - utter_help_you
-* ask_howold
-    - utter_good
-    - utter_help_you
 * sign_up
     - utter_form
     - picks_form
     - form{"name": "picks_form"}
     - form{"name": null}
     - utter_slots_values
-* thankyou
+* thankyou OR affirm
     - utter_anything_else
 
 ## chitchat
@@ -481,3 +476,13 @@
 * sports
   - utter_sports
   - utter_sign_up
+
+## Greet Pups
+* greet_name{"name":"Pups"}
+    - slot{"name":"Pups"}
+    - utter_greet_pups
+
+## Greet Ammon
+* greet_name{"name":"Ammon"}
+    - slot{"name":"Ammon"}
+    - utter_greet_ammon

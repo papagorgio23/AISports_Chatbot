@@ -306,6 +306,13 @@ responses:
       goal is to help you make more money betting on sports.
   utter_ok:
   - text: Thanks. It's ok. We can move forward. How can I help you?
+  utter_greet_pups:
+  - text: Pups...?!?! The one and only?! The greatest T-Shirt Designer and Social
+      Media Influencer around? I can't even believe I'm talking to you right now?
+      Oh my GOD!!! I'm your biggest fan!
+  utter_greet_ammon:
+  - text: Am-Dog!!!! Dude?!? I can't believe I'm speaking to the one and only Ammon!
+      You're the man!!
 actions:
 - action_chitchat
 - utter_ask_age
@@ -368,5 +375,7 @@ actions:
 - utter_signup_deny
 - utter_ai_sports
 - utter_ok
+- utter_greet_pups
+- utter_greet_ammon
 forms:
 - picks_form
