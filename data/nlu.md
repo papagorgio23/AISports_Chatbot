@@ -97,8 +97,9 @@
 - [jessica mario lee](name)
 - [Spanky Jr](name).
 - what's up my man! My name is [Jason](name)[Jason](name)
-- Hey! My name is Pups!
+- Hey! My name is [Pups](name)!
 - My name is [jason](name)[jason](name)
+- Hey! My name is [Ammon](name)
 
 ## intent:inform
 - My email address is [papagtrade@yahoo.com](email)
