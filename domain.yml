@@ -22,7 +22,7 @@ intents:
 - invest
 - picks
 - betting_history:
-  triggers: utter_betting_history
+    triggers: utter_betting_history
 - sports
 - nfl
 - ncaaf
@@ -33,7 +33,7 @@ intents:
 - ask_howdoing
 - apology
 - didnt_help:
-  triggers: utter_help_you
+    triggers: utter_help_you
 - out_of_scope
 - sign_up
 - ask_weather
@@ -60,7 +60,6 @@ entities:
 - betsize
 - betlength
 - parents
-- price
 slots:
   Sport:
     type: unfeaturized
