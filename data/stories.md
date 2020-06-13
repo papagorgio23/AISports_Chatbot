@@ -486,3 +486,18 @@
 * greet_name{"name":"Ammon"}
     - slot{"name":"Ammon"}
     - utter_greet_ammon
+
+## Betting Partner 1
+* bet_partner
+    - utter_bet_partner
+    - utter_sign_up
+* affirm
+    - utter_form
+    - picks_form
+    - form{"name":"picks_form"}
+    - slot{"requested_slot":"name"}
+
+## Betting Partner
+* bet_partner
+    - utter_bet_partner
+    - utter_sign_up

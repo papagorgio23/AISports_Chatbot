@@ -50,6 +50,7 @@ intents:
 - ask_whatspossible
 - stop
 - ai_sports
+- bet_partner
 entities:
 - date
 - Sport
@@ -313,6 +314,9 @@ responses:
   utter_greet_ammon:
   - text: Am-Dog!!!! Dude?!? I can't believe I'm speaking to the one and only Ammon!
       You're the man!!
+  utter_bet_partner:
+  - text: A betting partner is someone we trust. It's someone who wants to make money.
+      An A.I. Sports betting partner is a friend for life!
 actions:
 - action_chitchat
 - utter_ask_age
@@ -377,5 +381,6 @@ actions:
 - utter_ok
 - utter_greet_pups
 - utter_greet_ammon
+- utter_bet_partner
 forms:
 - picks_form

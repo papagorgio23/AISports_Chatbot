@@ -37,6 +37,7 @@
 - Hellllooo
 - hello....
 - hey whats up
+- hello...
 
 ## intent:greet_name
 - Hello! My name is [Jason](name)
@@ -100,6 +101,13 @@
 - Hey! My name is [Pups](name)!
 - My name is [jason](name)[jason](name)
 - Hey! My name is [Ammon](name)
+- hey Lebron! my name is [Jason Lee](name)[Jason Lee](name)
+- Hello.. my name is [Jason](name)[Jason](name)
+- Hey! My name is [Jason](name)[Jason](name)
+- My name is [Pups](name)[Pups](name)
+- My name is [Ammon](name)
+- Hey hey! I’m [Ammon](name)!
+- Hey LeBron! My name is [Pups](name)[Pups](name)!
 
 ## intent:inform
 - My email address is [papagtrade@yahoo.com](email)
@@ -252,6 +260,7 @@
 - i suppose
 - Yes! It would cheer me up more if I had 6 of them
 - yeah that helped!
+- Of course!
 
 ## intent:deny
 - no
@@ -396,6 +405,8 @@
 - I'm doing really good actually.... how are you?
 - Life is good my friend! How are things for you?
 - I’m good, how about you?
+- anyone home..?
+- Hey hey my man! How’s it going?
 
 ## intent:mood_unhappy
 - sad
@@ -543,6 +554,7 @@
 - do you think that I could get some picks or something?
 - Who should I bet on tonight?
 - when do you send out your picks?
+- I would like to know what games I should be betting this weekend
 
 ## intent:betting_history
 - What is your betting history?
@@ -1413,9 +1425,18 @@
 - What exactly is my name?
 
 ## intent:mlb
-- Do you guys do any bets on [professional baseball](Sport)[professional](Sport) baseball?
+- Do you guys do any bets on [professional](Sport)[professional baseball](Sport)?
 - Do you bet on the MLB?
 - Do you bet on baseball?
 - What do you think about [baseball](Sport)?
 - Do you know how is going to win the [MLB](Sport) game?
 - I want some help modeling [baseball](Sport)
+
+## intent:bet_partner
+- What does it mean to become a betting partner?
+- What do you mean betting partner?
+- tell me more about being a betting partner
+- Well... I don't know what a bet partner is
+- I don't even know what a betting partner does..
+- what's does a betting partner do?
+- Betting partner?
