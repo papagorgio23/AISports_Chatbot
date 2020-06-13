@@ -35,6 +35,7 @@
 - Hello?
 - Hellllloooo
 - Hellllooo
+- hello....
 
 ## intent:greet_name
 - Hello! My name is [Jason](name)
@@ -80,15 +81,15 @@
 - Hello LeBron! My name is [George](name)
 - [Papa Giorgio](name)
 - Yo yo my man! My name is [Jason](name)
-- My name is[ Miles Lee](name)
+- My name is [Miles Lee](name)
 - [Jason](name)
 - [Jason Lee](name)
 - [Miles Lee](name)
-- [Papa Giorgio](name)
 - [Chris Conley](name)
 - my names is [Amanda](name)
 - Hey! I'm [Johnny](name)
 - Hello LeBron! My name is [JR Smith](name)
+- Hello friend! My name is [Colston](name)
 
 ## intent:inform
 - My email address is [papagtrade@yahoo.com](email)
@@ -119,7 +120,6 @@
 - [$5000](betsize)
 - [$500](betsize)
 - [$100](betsize)
-- [$500](betsize)
 - [100](betsize) dollars
 - [1000](betsize) dollars
 - [2 years](betlength)
@@ -345,6 +345,7 @@
 - I'm doing great. how are you?
 - good good good. How about you?
 - I'm doing well my friend. How are you doing?
+- It's going well enough. How are you doing?
 
 ## intent:mood_unhappy
 - sad
@@ -690,6 +691,7 @@
 - i need to sign up
 - sign up for a.i. sports stuff
 - sign up for your info
+- I want to sign up for A.I. Sports betting advice
 
 ## intent:ask_weather
 - How is the weather today?
@@ -770,6 +772,7 @@
 - What's the weather
 - what's the weather like tomorrow?
 - what's the weather going to be like on Thursday?
+- what's the weather like now
 
 ## intent:ask_builder
 - can you share your boss with me?
