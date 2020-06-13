@@ -36,6 +36,7 @@
 - Hellllloooo
 - Hellllooo
 - hello....
+- hey whats up
 
 ## intent:greet_name
 - Hello! My name is [Jason](name)
@@ -90,6 +91,7 @@
 - Hey! I'm [Johnny](name)
 - Hello LeBron! My name is [JR Smith](name)
 - Hello friend! My name is [Colston](name)
+- [Joey Tunes](name)
 
 ## intent:inform
 - My email address is [papagtrade@yahoo.com](email)
@@ -158,6 +160,9 @@
 - My [parents](parents) for sure would let me bet on sports!
 - I believe my [parents](parents) would want me to make some bets
 - Of course my [parents](parents) say yes!
+- I've been doing this for [18 years](betlength) now
+- [joeytunes@yahoo.com](email)
+- [Over](age)
 
 ## intent:goodbye
 - bye
@@ -209,6 +214,7 @@
 - yes plz
 - yeah that sounds great!
 - haha that sounds about right
+- probably
 
 ## intent:deny
 - no
@@ -346,6 +352,7 @@
 - good good good. How about you?
 - I'm doing well my friend. How are you doing?
 - It's going well enough. How are you doing?
+- I'm doing really good actually.... how are you?
 
 ## intent:mood_unhappy
 - sad
@@ -433,6 +440,7 @@
 - cool, thanks
 - cool thank you
 - cool cool
+- That's correct. Thanks
 
 ## intent:help
 - I need help
@@ -692,6 +700,8 @@
 - sign up for a.i. sports stuff
 - sign up for your info
 - I want to sign up for A.I. Sports betting advice
+- sign up for your stuff
+- Sign up for your shit
 
 ## intent:ask_weather
 - How is the weather today?
