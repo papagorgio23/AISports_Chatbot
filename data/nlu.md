@@ -93,6 +93,8 @@
 - Hello friend! My name is [Colston](name)
 - [Joey Tunes](name)
 - Hey! This is [Tom](name)[Tom](name)
+- [Jared Lee](name)
+- [jessica mario lee](name)
 
 ## intent:inform
 - My email address is [papagtrade@yahoo.com](email)
@@ -168,6 +170,19 @@
 - [12 years](betlength)
 - [$750](betsize)
 - [tommyboy@gmail.com](email)
+- [1 year](betlength)
+- about [a year](betlength)
+- [$200](betsize)
+- [13jaredlee@gmail.com](email)
+- Yes, I’m [over](age) 21
+- i don’t think they would be proud but yes my [parents](parents) would let me
+- [10](betlength)
+- [10](betlength)?
+- [Jessijo16@yahoo.com](email)
+- [over](age)
+- [ober](age)
+- i am [24](age)
+- I am [over](age) [21](age)
 
 ## intent:goodbye
 - bye
@@ -196,6 +211,7 @@
 - stop
 - see ya
 - buh bye
+- alright, bye
 
 ## intent:affirm
 - yes
@@ -223,6 +239,9 @@
 - yeah let's do it
 - Yes
 - well... now that you ask... Yes I want to
+- sure
+- that’s what my totally real drivers license says
+- i suppose
 
 ## intent:deny
 - no
@@ -364,6 +383,7 @@
 - It's going well enough. How are you doing?
 - I'm doing really good actually.... how are you?
 - Life is good my friend! How are things for you?
+- I’m good, how about you?
 
 ## intent:mood_unhappy
 - sad
@@ -426,6 +446,7 @@
 - Man that's terrible
 - Shit that sucks
 - that's shitty
+- thats pretty wrong
 
 ## intent:thankyou
 - thank you goodbye
@@ -486,6 +507,7 @@
 - I need to make money
 - i'm fine... I need help making some money
 - I feel like I want to invest with you guys
+- Yes! Make me a millionaire!
 
 ## intent:picks
 - do you give out free picks?
@@ -504,6 +526,7 @@
 - I want to make some bets this weekend
 - do you think that I could get some picks or something?
 - Who should I bet on tonight?
+- when do you send out your picks?
 
 ## intent:betting_history
 - What is your betting history?
@@ -524,6 +547,9 @@
 - What's your betting history?
 - I want to see your betting history
 - betting history
+- sooo you are good at betting...? What’s your record?
+- How good are you guys at betting?
+- The best?
 
 ## intent:sports
 - What sports do you guys bet on?
@@ -694,6 +720,7 @@
 - What can a chatbot even do?
 - What can a chatbot do?
 - Do you do anything?
+- what do you do?
 
 ## intent:out_of_scope
 - You're going to send me a package of tiger cubs? Isn't that illegal?
@@ -703,6 +730,7 @@
 - my tv isn't working
 - my washing machine isn't working
 - what year is it
+- a dog picture?
 
 ## intent:sign_up
 - of course! How can I sign up
@@ -727,6 +755,8 @@
 - Sign up for your shit
 - i do want to sign up
 - Sign up
+- Am I signed up?
+- how do I sign up?
 
 ## intent:ask_weather
 - How is the weather today?
@@ -1369,3 +1399,6 @@
 - Do you guys do any bets on [professional baseball](Sport)[professional](Sport) baseball?
 - Do you bet on the MLB?
 - Do you bet on baseball?
+- What do you think about [baseball](Sport)?
+- Do you know how is going to win the [MLB](Sport) game?
+- I want some help modeling [baseball](Sport)

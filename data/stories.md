@@ -7,7 +7,7 @@
     - utter_slots_values
 * thankyou
     - utter_anything_else
-    
+
 ## Greet with Name
 * inform{"name":"Jason"}
     - slot{"name":"Jason"}
@@ -173,7 +173,7 @@
 * deny
     - utter_signup_deny
     - utter_anything_else
-    
+
 ## NCAAB 1
 * ncaab
     - utter_ncaab
@@ -211,7 +211,7 @@
 * deny
     - utter_signup_deny
     - utter_anything_else
-    
+
 ## NCAAF 1
 * ncaaf
     - utter_ncaaf
@@ -249,7 +249,7 @@
 * deny
     - utter_signup_deny
     - utter_anything_else
-    
+
 ## NBA 1
 * nba
     - utter_nba
@@ -363,7 +363,7 @@
 * deny
     - utter_signup_deny
     - utter_anything_else
-    
+
 ## NHL 1
 * nhl
     - utter_nhl
@@ -376,7 +376,7 @@
     - utter_slots_values
 * thankyou
     - utter_anything_else
-    
+
 ## NHL 2
 * nhl
     - utter_nhl
@@ -444,7 +444,7 @@
   - utter_ai_sports
   - utter_sign_up
 
-## A.I. Sports
+## A.I. Sports 1
 * ai_sports
   - utter_ai_sports
 * opinion+positive
@@ -475,4 +475,9 @@
   - utter_picks
 * opinion+negative
   - utter_good_value
+  - utter_sign_up
+
+## Sports
+* sports
+  - utter_sports
   - utter_sign_up
