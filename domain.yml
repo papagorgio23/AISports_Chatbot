@@ -77,7 +77,7 @@ slots:
   location:
     type: unfeaturized
   name:
-    type: text
+    type: unfeaturized
   parents:
     type: unfeaturized
   requested_slot:

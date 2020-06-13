@@ -477,16 +477,6 @@
   - utter_sports
   - utter_sign_up
 
-## Greet Pups
-* greet_name{"name":"Pups"}
-    - slot{"name":"Pups"}
-    - utter_greet_pups
-
-## Greet Ammon
-* greet_name{"name":"Ammon"}
-    - slot{"name":"Ammon"}
-    - utter_greet_ammon
-
 ## Betting Partner 1
 * bet_partner
     - utter_bet_partner
