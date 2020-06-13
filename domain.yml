@@ -83,7 +83,12 @@ slots:
     type: unfeaturized
 responses:
   utter_ask_age:
-  - text: Are you over the age of 21?
+  - buttons:
+    - payload: /inform{"age":"Over"}
+      title: Over
+    - payload: /inform{"age":"Over"}
+      title: Under
+    text: Are you over 21?
   utter_ask_email:
   - text: What is your email address?
   utter_ask_betsize:
@@ -91,7 +96,14 @@ responses:
   utter_ask_betlength:
   - text: How long have you been betting on sports?
   utter_ask_parents:
-  - text: Do you think your parents would let you bet on sports?
+  - buttons:
+    - payload: /inform{"parents":"Yes"}
+      title: Yes
+    - payload: /inform{"parents":"Yes"}
+      title: Maybe..
+    - payload: /inform{"parents":"No"}
+      title: No
+    text: Do you think your parents would let you bet on sports?
   utter_greet:
   - text: Hey! How are you?
   - text: Howdy! How are you?
