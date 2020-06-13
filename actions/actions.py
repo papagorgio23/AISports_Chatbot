@@ -20,7 +20,7 @@ class PicksForm(FormAction):
         """A list of required slots that the form has to fill"""
 
 
-        if tracker.get_slot('age') != 'Over':
+        if tracker.get_slot('age') == 'Under':
             return ["name", "age", "email", "betsize", "betlength", "parents"]
         else:
             return ["name", "age", "email", "betsize", "betlength"]
