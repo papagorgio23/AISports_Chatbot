@@ -93,21 +93,21 @@
 - Hello LeBron! My name is [JR Smith](name)
 - Hello friend! My name is [Colston](name)
 - [Joey Tunes](name)
-- Hey! This is [Tom](name)[Tom](name)
+- Hey! This is [Tom](name)
 - [Jared Lee](name)
 - [jessica mario lee](name)
 - [Spanky Jr](name).
-- what's up my man! My name is [Jason](name)[Jason](name)
+- what's up my man! My name is [Jason](name)
 - Hey! My name is [Pups](name)!
-- My name is [jason](name)[jason](name)
+- My name is [jason](name)
 - Hey! My name is [Ammon](name)
-- hey Lebron! my name is [Jason Lee](name)[Jason Lee](name)
-- Hello.. my name is [Jason](name)[Jason](name)
-- Hey! My name is [Jason](name)[Jason](name)
-- My name is [Pups](name)[Pups](name)
+- hey Lebron! my name is [Jason Lee](name)
+- Hello.. my name is [Jason](name)
+- Hey! My name is [Jason](name)
+- My name is [Pups](name)
 - My name is [Ammon](name)
 - Hey hey! I’m [Ammon](name)!
-- Hey LeBron! My name is [Pups](name)[Pups](name)!
+- Hey LeBron! My name is [Pups](name)!
 
 ## intent:inform
 - My email address is [papagtrade@yahoo.com](email)
@@ -143,9 +143,9 @@
 - [2 years](betlength)
 - [1½ years](betlength)
 - [10 years](betlength)
-- [Over](age)[Over](age)
+- [Over](age)
 - [Under](age)
-- [$1000](betsize)[1000](betsize)
+- [$1000](betsize)
 - [$10000](betsize)
 - my email is [jason@aisportsfirm.com](email)
 - [papagtrade@yahoo.com](email)
@@ -157,8 +157,8 @@
 - I've been doing this for about [10 years](betlength) now
 - I'd say around [3 years](betlength)
 - Bet size is [$650](betsize)
-- email is [lebron23@yahoo.com](email)[lebron23@yahoo.com](email)
-- I’ve been betting for [4 years](betlength)[4 years](betlength)
+- email is [lebron23@yahoo.com](email)
+- I’ve been betting for [4 years](betlength)
 - [1250](betsize)
 - bet size is [$750](betsize) a game
 - the email address is [jalee@freedomplus.com](email)
@@ -168,8 +168,8 @@
 - [650](betsize)
 - I’ve been betting for [4 years](betlength)
 - email is [lebron23@yahoo.com](email)
-- age is [Over](name)[Over](age)
-- [11 years](betlength)[11 years](betlength)
+- age is [Over](name)
+- [11 years](betlength)
 - [1500](betsize)
 - my email is [chrischris@gmail.com](email)
 - [chrischris@gmail.com](email)
@@ -179,7 +179,7 @@
 - I've been doing this for [18 years](betlength) now
 - [joeytunes@yahoo.com](email)
 - [Over](age)
-- my [parents](parents)[parents](parents) would let me bet
+- my [parents](parents) would let me bet
 - [12 years](betlength)
 - [$750](betsize)
 - [tommyboy@gmail.com](email)
@@ -640,7 +640,7 @@
 - [Pro football](Sport) is my favorite sport
 - Do you bet on football?
 - Do you know how is going to win the [football](Sport) game?
-- Do you bet on any [professional football](Sport)[professional football](Sport) games?
+- Do you bet on any [professional football](Sport) games?
 
 ## intent:ncaaf
 - Do you bet on [college football](Sport)?
@@ -653,7 +653,7 @@
 - Is [NCAA football](Sport) a big part of your betting strategy?
 - Can I get some help with modeling [NCAA football](Sport)?
 - Can I get some help with modeling [college football](Sport)?
-- I really want to learn more about [College football](Sport)[College football](Sport)
+- I really want to learn more about [College football](Sport)
 
 ## intent:nba
 - Do you bet on [pro basketball](Sport)?
@@ -671,8 +671,8 @@
 - Can I get some help with modeling [pro basketball](Sport)?
 - Can I get some help with modeling [professional basketball](Sport)?
 - Do you bet on any [nba](Sport) games?
-- I really like [basketball](Sport). Do you have any useful ideas to improve my modeling for the [NBA](Sport)[NBA](Sport)?
-- Do you do any bets on the [NBA](Sport)[NBA](Sport)?
+- I really like [basketball](Sport). Do you have any useful ideas to improve my modeling for the [NBA](Sport)?
+- Do you do any bets on the [NBA](Sport)?
 
 ## intent:ncaab
 - Do you bet on [college basketball](Sport)?
@@ -685,7 +685,7 @@
 - Is [NCAA basketball](Sport) a big part of your betting strategy?
 - Can I get some help with modeling [NCAA basketball](Sport)?
 - Can I get some help with modeling [college basketball](Sport)?
-- Do you bet on [college basketball](Sport)[college basketball](Sport) games?
+- Do you bet on [college basketball](Sport) games?
 
 ## intent:nhl
 - Do you bet on [pro hockey](Sport)?
@@ -1425,9 +1425,9 @@
 - What exactly is my name?
 
 ## intent:mlb
-- Do you guys do any bets on [professional](Sport)[professional baseball](Sport)?
-- Do you bet on the MLB?
-- Do you bet on baseball?
+- Do you guys do any bets on [professional](Sport)?
+- Do you bet on the [MLB](Sport)?
+- Do you bet on [baseball](Sport)?
 - What do you think about [baseball](Sport)?
 - Do you know how is going to win the [MLB](Sport) game?
 - I want some help modeling [baseball](Sport)
@@ -1440,3 +1440,5 @@
 - I don't even know what a betting partner does..
 - what's does a betting partner do?
 - Betting partner?
+- So uh.. what does a partner do?
+- I feel like I don't know what a parter does
