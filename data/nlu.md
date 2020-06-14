@@ -108,6 +108,8 @@
 - My name is [Ammon](name)
 - Hey hey! I’m [Ammon](name)!
 - Hey LeBron! My name is [Pups](name)!
+- Hello Lebron! My name is [Kate](name)
+- [Kate London](name)
 
 ## intent:inform
 - My email address is [papagtrade@yahoo.com](email)
@@ -166,8 +168,6 @@
 - bet size is roughly [$400](betsize)
 - well lets see... I would say my bet size is around [$400](betsize) a game
 - [650](betsize)
-- I’ve been betting for [4 years](betlength)
-- email is [lebron23@yahoo.com](email)
 - age is [Over](name)
 - [11 years](betlength)
 - [1500](betsize)
@@ -178,7 +178,6 @@
 - Of course my [parents](parents) say yes!
 - I've been doing this for [18 years](betlength) now
 - [joeytunes@yahoo.com](email)
-- [Over](age)
 - my [parents](parents) would let me bet
 - [12 years](betlength)
 - [$750](betsize)
@@ -199,6 +198,11 @@
 - [30 years](betlength)
 - I normally bet around [$10k](betsize)
 - [spankydude@aol.com](email)
+- I normally bet around [$50k](betsize) a game
+- [KateLondon@gmail.com](email)
+- [7 years](betlength)
+- [$35k](betsize)
+- [noneyaBiz@gmail.com](email)
 
 ## intent:goodbye
 - bye
@@ -261,6 +265,7 @@
 - Yes! It would cheer me up more if I had 6 of them
 - yeah that helped!
 - Of course!
+- let's do it!
 
 ## intent:deny
 - no
@@ -407,6 +412,7 @@
 - I’m good, how about you?
 - anyone home..?
 - Hey hey my man! How’s it going?
+- hey hey! how's it going today?
 
 ## intent:mood_unhappy
 - sad
@@ -578,6 +584,7 @@
 - sooo you are good at betting...? What’s your record?
 - How good are you guys at betting?
 - The best?
+- Do you guys have a good betting history?
 
 ## intent:sports
 - What sports do you guys bet on?
@@ -593,6 +600,7 @@
 - what do you bet on?
 - What sports does A.I. Sports bet on?
 - What sports do you bet on
+- what sports do you bet on?
 
 ## intent:bet_types
 - What type of investments do you make?
@@ -720,6 +728,9 @@
 - [Soccer](Sport) is my favorite sport
 - I want to start betting some [FIFA](Sport)
 - Do you do any [FIFA](Sport) bets?
+- tell me about socer
+- how about socer
+- tell me about [soccer](Sport)[soccer](Sport)
 
 ## intent:apology
 - I'm sorry...
@@ -749,6 +760,7 @@
 - What can a chatbot do?
 - Do you do anything?
 - what do you do?
+- what can you do?
 
 ## intent:out_of_scope
 - You're going to send me a package of tiger cubs? Isn't that illegal?
@@ -786,6 +798,7 @@
 - Am I signed up?
 - how do I sign up?
 - i need to sign up for the goods!
+- i would like to sign uo
 
 ## intent:ask_weather
 - How is the weather today?
@@ -867,6 +880,7 @@
 - what's the weather like tomorrow?
 - what's the weather going to be like on Thursday?
 - what's the weather like now
+- how's the weather
 
 ## intent:ask_builder
 - can you share your boss with me?
@@ -1442,3 +1456,11 @@
 - Betting partner?
 - So uh.. what does a partner do?
 - I feel like I don't know what a parter does
+- what is a betting partner?
+
+## intent:ask_when_hired
+- when were you hired
+- How long have you been working here?
+- How long have you been working at A.I. Sports?
+- You been at A.I. Sports for long?
+- When did they hire you?
