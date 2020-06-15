@@ -38,6 +38,7 @@
 - hello....
 - hey whats up
 - hello...
+- You there?
 
 ## intent:greet_name
 - Hello! My name is [Jason](name)
@@ -110,6 +111,9 @@
 - Hey LeBron! My name is [Pups](name)!
 - Hello Lebron! My name is [Kate](name)
 - [Kate London](name)
+- Hey, I’m [Jared](name)
+- my name is [Austin](name) loser [smith](name)
+- [austin loser smith](name)
 
 ## intent:inform
 - My email address is [papagtrade@yahoo.com](email)
@@ -203,6 +207,13 @@
 - [7 years](betlength)
 - [$35k](betsize)
 - [noneyaBiz@gmail.com](email)
+- I'm cheap, [$10](betsize)
+- [ian.shepherd123@gmail.com](email)
+- [Ian Shepherd](name)
+- I've been betting for [18 months](betlength)
+- I like to bet big. I bet [$15k](betsize) a pop
+- I use the email [Ammon@aisportsfirm.com](email)
+- About [a year](betlength)
 
 ## intent:goodbye
 - bye
@@ -266,6 +277,12 @@
 - yeah that helped!
 - Of course!
 - let's do it!
+- Why not!
+- yeah i'm sure
+- that's pretty funny. good one
+- yeah that's correct
+- alright yeah let's do it
+- sure!
 
 ## intent:deny
 - no
@@ -311,6 +328,7 @@
 - I’m doing really good my friend
 - It's going really good
 - Good
+- life is always good!
 
 ## intent:ask_howdoing
 - I'm doing really well. You?
@@ -413,6 +431,7 @@
 - anyone home..?
 - Hey hey my man! How’s it going?
 - hey hey! how's it going today?
+- Hey! How’s it going?
 
 ## intent:mood_unhappy
 - sad
@@ -479,6 +498,7 @@
 - Shit that sucks
 - that's shitty
 - thats pretty wrong
+- interesting...
 
 ## intent:thankyou
 - thank you goodbye
@@ -541,6 +561,8 @@
 - I feel like I want to invest with you guys
 - Yes! Make me a millionaire!
 - i like making more money. How can I get in on this?
+- can i just give you money?
+- well... I would like to invest some money with you guys
 
 ## intent:picks
 - do you give out free picks?
@@ -601,6 +623,7 @@
 - What sports does A.I. Sports bet on?
 - What sports do you bet on
 - what sports do you bet on?
+- what sports do you guys bet on these days?
 
 ## intent:bet_types
 - What type of investments do you make?
@@ -627,6 +650,7 @@
 - Isn't sports betting illegal? What can A.I. Sports really do?
 - What does A.I. Sports even do?
 - What does A.I. Sports do for people?
+- what does a.i. sports do?
 
 ## intent:nfl
 - Do you bet on [pro football](Sport)?
@@ -649,6 +673,7 @@
 - Do you bet on football?
 - Do you know how is going to win the [football](Sport) game?
 - Do you bet on any [professional football](Sport) games?
+- is the [nfl](Sport)[nfl](Sport) model working?
 
 ## intent:ncaaf
 - Do you bet on [college football](Sport)?
@@ -662,6 +687,8 @@
 - Can I get some help with modeling [NCAA football](Sport)?
 - Can I get some help with modeling [college football](Sport)?
 - I really want to learn more about [College football](Sport)
+- [College football](Sport)[College football](Sport) seems like it would be better than anything else
+- do you like [college football](Sport)[college football](Sport) or [college basketball](Sport)[college basketball](Sport) better?
 
 ## intent:nba
 - Do you bet on [pro basketball](Sport)?
@@ -681,6 +708,8 @@
 - Do you bet on any [nba](Sport) games?
 - I really like [basketball](Sport). Do you have any useful ideas to improve my modeling for the [NBA](Sport)?
 - Do you do any bets on the [NBA](Sport)?
+- does  your [nba](Sport) model work?
+- what do you think about the [nba](Sport)[nba](Sport)?
 
 ## intent:ncaab
 - Do you bet on [college basketball](Sport)?
@@ -694,6 +723,7 @@
 - Can I get some help with modeling [NCAA basketball](Sport)?
 - Can I get some help with modeling [college basketball](Sport)?
 - Do you bet on [college basketball](Sport) games?
+- [college bball](Sport) is pretty cool. I like it
 
 ## intent:nhl
 - Do you bet on [pro hockey](Sport)?
@@ -731,6 +761,7 @@
 - tell me about socer
 - how about socer
 - tell me about [soccer](Sport)[soccer](Sport)
+- What do you think about some [FIFA](Sport)[FIFA](Sport)?
 
 ## intent:apology
 - I'm sorry...
@@ -761,6 +792,7 @@
 - Do you do anything?
 - what do you do?
 - what can you do?
+- what can you even do?
 
 ## intent:out_of_scope
 - You're going to send me a package of tiger cubs? Isn't that illegal?
@@ -881,6 +913,7 @@
 - what's the weather going to be like on Thursday?
 - what's the weather like now
 - how's the weather
+- do you know what the weather is going to be like tomorrow?
 
 ## intent:ask_builder
 - can you share your boss with me?
@@ -988,6 +1021,7 @@
 - What person built you?
 - who is your creator
 - Where were you made?
+- Who do you work for?
 
 ## intent:ask_restaurant
 - restaurants
@@ -1169,6 +1203,7 @@
 - give me a good joke
 - you can say a jok
 - Do you know any good jokes?
+- do you know any good jokes?
 
 ## intent:ask_wherefrom
 - where do you live?
@@ -1445,6 +1480,7 @@
 - What do you think about [baseball](Sport)?
 - Do you know how is going to win the [MLB](Sport) game?
 - I want some help modeling [baseball](Sport)
+- do you like [baseball](Sport) at all?
 
 ## intent:bet_partner
 - What does it mean to become a betting partner?
@@ -1457,6 +1493,7 @@
 - So uh.. what does a partner do?
 - I feel like I don't know what a parter does
 - what is a betting partner?
+- what is a betting partner supposed to do?
 
 ## intent:ask_when_hired
 - when were you hired
@@ -1464,3 +1501,13 @@
 - How long have you been working at A.I. Sports?
 - You been at A.I. Sports for long?
 - When did they hire you?
+
+## intent:ask_foundation
+- When was A.I. Sports founded?
+- When did A.I. Sports start?
+- Who founded you?
+
+## intent:ask_whoteam
+- Who are the engineers at A.I. Sports?
+- Who works at A.I. Sports?
+- How many people work at A.I. Sports?
