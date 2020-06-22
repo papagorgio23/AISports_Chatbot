@@ -114,6 +114,7 @@
 - Hey, I’m [Jared](name)
 - my name is [Austin](name) loser [smith](name)
 - [austin loser smith](name)
+- [Brandon Lee](name)
 
 ## intent:inform
 - My email address is [papagtrade@yahoo.com](email)
@@ -214,6 +215,9 @@
 - I like to bet big. I bet [$15k](betsize) a pop
 - I use the email [Ammon@aisportsfirm.com](email)
 - About [a year](betlength)
+- [3 years](betlength)
+- [100](betsize)
+- [brandon@36bydesign.com](email)
 
 ## intent:goodbye
 - bye
@@ -283,6 +287,9 @@
 - yeah that's correct
 - alright yeah let's do it
 - sure!
+- Let's do it, sounds hot
+- Hell yes
+- alright alright. Game on!
 
 ## intent:deny
 - no
@@ -329,6 +336,7 @@
 - It's going really good
 - Good
 - life is always good!
+- everything is good
 
 ## intent:ask_howdoing
 - I'm doing really well. You?
@@ -432,6 +440,8 @@
 - Hey hey my man! How’s it going?
 - hey hey! how's it going today?
 - Hey! How’s it going?
+- What's up LeBron?
+- Sup Lebron
 
 ## intent:mood_unhappy
 - sad
@@ -475,6 +485,7 @@
 - It's all good my man
 - kk deal
 - alright
+- Deal!
 
 ## intent:opinion+positive
 - nice!
@@ -563,6 +574,8 @@
 - i like making more money. How can I get in on this?
 - can i just give you money?
 - well... I would like to invest some money with you guys
+- one million dollars
+- I’m poor
 
 ## intent:picks
 - do you give out free picks?
@@ -624,6 +637,7 @@
 - What sports do you bet on
 - what sports do you bet on?
 - what sports do you guys bet on these days?
+- What do you like to do?
 
 ## intent:bet_types
 - What type of investments do you make?
@@ -638,6 +652,7 @@
 - Do you do any prop bets?
 - Would you ever recommend betting parlays?
 - Do you do parlay bets?
+- What kind of bets does A. I. Sports make?
 
 ## intent:ai_sports
 - what does A.I. Sports actually do?
@@ -710,6 +725,7 @@
 - Do you do any bets on the [NBA](Sport)?
 - does  your [nba](Sport) model work?
 - what do you think about the [nba](Sport)[nba](Sport)?
+- When will the [NBA](Sport)[NBA](Sport) start?
 
 ## intent:ncaab
 - Do you bet on [college basketball](Sport)?
@@ -803,6 +819,9 @@
 - my washing machine isn't working
 - what year is it
 - a dog picture?
+- I want your [boyd](name)
+- what home recipes do you have
+- Can I have an AI dog
 
 ## intent:sign_up
 - of course! How can I sign up
@@ -1082,6 +1101,7 @@
 - I want a pizza
 - Do you like ice cream?
 - what should I eat tonight?
+- ice cream
 
 ## intent:handleinsult
 - you're a loser lmao
@@ -1511,3 +1531,10 @@
 - Who are the engineers at A.I. Sports?
 - Who works at A.I. Sports?
 - How many people work at A.I. Sports?
+
+## intent:meeting
+- Let's have a private meeting...
+
+## intent:incorrect_info
+- Looks like you didn’t capture all of my info
+- you forgot my name, email, bet size, and [years](betlength) betting
