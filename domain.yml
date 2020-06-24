@@ -51,6 +51,11 @@ intents:
 - stop
 - ai_sports
 - bet_partner
+- ask_when_hired
+- ask_foundation
+- ask_whoteam
+- meeting
+- incorrect_info
 entities:
 - date
 - Sport
@@ -317,6 +322,11 @@ responses:
   utter_bet_partner:
   - text: A betting partner is someone we trust. It's someone who wants to make money.
       An A.I. Sports betting partner is a friend for life!
+  utter_bet_types:
+  - text: Most of our bets are full game spread bets. But we definitely search for
+      value anywhere. Quarter, half, full game spreads, moneylines, and totals are
+      all options. We usually stay away from parlays, teasers, and pleasers but every
+      once in a while we hit these.
 actions:
 - action_chitchat
 - utter_ask_age
@@ -382,5 +392,6 @@ actions:
 - utter_greet_pups
 - utter_greet_ammon
 - utter_bet_partner
+- utter_bet_types
 forms:
 - picks_form

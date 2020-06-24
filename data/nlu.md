@@ -638,6 +638,7 @@
 - what sports do you bet on?
 - what sports do you guys bet on these days?
 - What do you like to do?
+- I really like to bet on sports. What sports do you guys bet?
 
 ## intent:bet_types
 - What type of investments do you make?
@@ -653,6 +654,7 @@
 - Would you ever recommend betting parlays?
 - Do you do parlay bets?
 - What kind of bets does A. I. Sports make?
+- what kind of bets do you make?
 
 ## intent:ai_sports
 - what does A.I. Sports actually do?
