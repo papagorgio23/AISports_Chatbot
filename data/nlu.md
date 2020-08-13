@@ -39,6 +39,7 @@
 - hey whats up
 - hello...
 - You there?
+- sup
 
 ## intent:greet_name
 - Hello! My name is [Jason](name)
@@ -115,6 +116,7 @@
 - my name is [Austin](name) loser [smith](name)
 - [austin loser smith](name)
 - [Brandon Lee](name)
+- [JOhn Doe](name)
 
 ## intent:inform
 - My email address is [papagtrade@yahoo.com](email)
@@ -247,6 +249,7 @@
 - see ya
 - buh bye
 - alright, bye
+- have a good day!
 
 ## intent:affirm
 - yes
@@ -474,6 +477,7 @@
 - aren't you a bot
 - are you a robot or something?
 - I feel like you aren't even human
+- are you sentient?
 
 ## intent:acknowledge
 - ok
@@ -668,6 +672,7 @@
 - What does A.I. Sports even do?
 - What does A.I. Sports do for people?
 - what does a.i. sports do?
+- What does A.I. Sports do?
 
 ## intent:nfl
 - Do you bet on [pro football](Sport)?
@@ -691,6 +696,7 @@
 - Do you know how is going to win the [football](Sport) game?
 - Do you bet on any [professional football](Sport) games?
 - is the [nfl](Sport)[nfl](Sport) model working?
+- What kind of [NFL](Sport) bets do you have?
 
 ## intent:ncaaf
 - Do you bet on [college football](Sport)?
@@ -811,6 +817,7 @@
 - what do you do?
 - what can you do?
 - what can you even do?
+- what is your purpose?
 
 ## intent:out_of_scope
 - You're going to send me a package of tiger cubs? Isn't that illegal?
@@ -824,6 +831,8 @@
 - I want your [boyd](name)
 - what home recipes do you have
 - Can I have an AI dog
+- Whats 2+2?
+- what do you think of siri?
 
 ## intent:sign_up
 - of course! How can I sign up
@@ -1043,6 +1052,9 @@
 - who is your creator
 - Where were you made?
 - Who do you work for?
+- who is your maker?
+- Are you still sensitive?
+- are you still sensitive?
 
 ## intent:ask_restaurant
 - restaurants
@@ -1104,6 +1116,7 @@
 - Do you like ice cream?
 - what should I eat tonight?
 - ice cream
+- Tacoooooo Tuesday!!!!
 
 ## intent:handleinsult
 - you're a loser lmao
@@ -1404,6 +1417,7 @@
 - can you tell me what my identity is?
 - can you tell me who I am?
 - who am i
+- Are you alive?
 
 ## intent:ask_languagesbot
 - What languages can you use?
@@ -1494,6 +1508,7 @@
 - What is my first name?
 - What is my full name?
 - What exactly is my name?
+- what's your name?
 
 ## intent:mlb
 - Do you guys do any bets on [professional](Sport)?
@@ -1516,6 +1531,8 @@
 - I feel like I don't know what a parter does
 - what is a betting partner?
 - what is a betting partner supposed to do?
+- I want to be a betting partner?
+- hmmmm I need more info first. What is a betting partner?
 
 ## intent:ask_when_hired
 - when were you hired
